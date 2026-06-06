@@ -1,0 +1,1 @@
+^ people have more [[time to think]] about [[software architecture]] because the [[agents are doing all the actual coding]]

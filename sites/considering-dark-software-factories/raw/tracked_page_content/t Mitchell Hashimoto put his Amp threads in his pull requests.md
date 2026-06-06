@@ -1,0 +1,9 @@
+https://x.com/mitchellh/status/1963277478795026484?s=20
+
+My favorite part about [[project - amp]] is that you can share your whole session globally. PRs with Amp threads attached make me very, very happy as a maintainer. here is one from a bug fix this morning:
+...
+[[person - Mitchell Hashimoto]] puts his [[project - amp]] threads in his [[pull request - PR]]s
+...
+[[putting your coding agent threads in your PRs]]
+...
+[[linking to chat transcript]]

@@ -1,0 +1,1 @@
+The [[company - OpenAI]] thing where you could box up a lot of context

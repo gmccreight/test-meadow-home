@@ -1,0 +1,1 @@
+^ [[project - Claude Code]] in a terminal in [[obsidian]]

@@ -1,0 +1,1 @@
+[[Term -- Molecule|Molecule]] lead to [[dim - resilience -- higher]]

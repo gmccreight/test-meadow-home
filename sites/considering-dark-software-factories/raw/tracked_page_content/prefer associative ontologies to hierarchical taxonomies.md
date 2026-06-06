@@ -1,0 +1,1 @@
+^ prefer [[associative ontology]]s to [[hierarchical taxonomy]]s

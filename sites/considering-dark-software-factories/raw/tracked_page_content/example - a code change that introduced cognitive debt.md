@@ -1,0 +1,11 @@
+To support [[parallel development]] in [[git worktree]]s, we needed to add [[meadow cloud -- local]].
+
+The coding agent very quickly got something that worked and introduced a complex [[diff - meadow cloud -- local vs. meadow cloud -- remote]] where local does not use [[AWS STS - assumed role]] to generate access credentials, because they are not needed to access [[S3 Local]] ([[project - MinIO]])
+
+Not a huge deal but I didn't immediately grok the difference and I know that the difference will be hard to remember over time.  So, it introduced [[cognitive debt]].  Yes, that's a "me" problem.  I could carefully review all changes it makes.  But it's _also_ a systemic problem.
+
+It's also going to get worse.  Right now we're in the driver's seat.  But as [[agentic coding|coding agent]]s get [[dim - level of agency -- higher]], then [[software development with agents will become more bidirectional]] and things like [[continuous background checks can refactor how the system works]].  Will you _want_ your agent to stop making good changes like the one described in this change above, just because you can't keep up?
+
+One fix for this is [[t cognitive debt fix - have the agent write you an entertaining essay to build your intuition]], and maybe that's good enough.  I think even better would be if it could help you maintain your [[documentation context graph]] at a very [[dim - level of abstraction -- high]] that helps you maintain your [[high-level vision of the structure of the system]].  Perhaps it could also maintain a careful [[changelog page]] that you can maintain your "personal" offset on and catch up on.  Feels very similar to [[product -- antigravity]]'s [[agent coordination -- user interface]], but I'd argue that the changelog is _clearly_ not enough, and the high level artifact is _also_ important to keep alive.
+
+If you were to approach this extremely tactically, you could even have the coding agent generate [[spaced repetition]] quiz questions for you that you could use directly inside of obsidian (see [[example - obsidian spaced repetition plugin card for learning about neural networks]])
