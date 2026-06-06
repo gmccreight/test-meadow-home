@@ -1,0 +1,5 @@
+meadowAuthDNSName: auth.dev.meadow-notes.com
+meadowWebDNSName: www.dev.meadow-notes.com
+meadowS3BucketName: meadow-dev-published
+meadowPurchaseDNSName: purchase.dev.meadow-notes.com
+meadowAccountDNSName: account.dev.meadow-notes.com
