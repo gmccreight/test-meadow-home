@@ -1,0 +1,7 @@
+pages:
+  - fileType: md
+    inlinksDepth: 1
+    listType: whitelist
+    outlinksDepth: 3
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories
