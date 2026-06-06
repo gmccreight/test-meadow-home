@@ -1,0 +1,14 @@
+version: 1.0.0
+manageGitAutomatically: true
+generationBreadcrumbsEnabled: true
+generationBacklinksEnabled: true
+generationTagsEnabled: true
+generationHoverPreviewEnabled: false
+generationMarkdownZipEnabled: false
+generationSpacedRepetitionEnabled: false
+generationSpacedRepetitionTags: []
+logRotationIntervalSecs: 86400
+logRetentionSecs: 1209600
+appAutoUpdateCheckEnabled: true
+appAutoUpdateCheckIntervalSecs: 86400
+meadowDeviceGuid: cb85f33b-054d-489b-b052-1f86597aa816
