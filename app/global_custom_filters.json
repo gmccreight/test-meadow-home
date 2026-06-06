@@ -1,0 +1,33 @@
+{
+  "filters": [
+    {
+      "id": "default-daily-notes-sensitive",
+      "name": "Daily Notes (Sensitive)",
+      "note": "Daily notes often contain tasks or content that is sensitive",
+      "scope": "global",
+      "selectors": [
+        {
+          "field": "path",
+          "matchType": "regex",
+          "value": "\\d{4}-\\d{2}-\\d{2}\\.md$",
+          "caseSensitive": false
+        }
+      ],
+      "selectorApplicationCriteria": "union",
+      "actions": [
+        {
+          "type": "highlight",
+          "color": "#ff69b4",
+          "isDashed": true
+        },
+        {
+          "type": "mark_sensitive"
+        }
+      ],
+      "enabled": true,
+      "createdAt": "2026-06-06T22:13:05.658Z",
+      "updatedAt": "2026-06-06T22:13:05.658Z"
+    }
+  ],
+  "version": "1.0.0"
+}
