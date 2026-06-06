@@ -1,0 +1,5 @@
+**Xerox Alto** was a 1973 personal workstation built at <span class="link-not-tracked">link not tracked</span>. It is a canonical example of <span class="link-not-tracked">link not tracked</span>: researchers had access to networked, graphical personal computers years before that pattern was economically practical for normal offices.
+
+The Alto joined together a bitmap display, keyboard, mouse, Ethernet, and a direct-manipulation interface with windows and menus. The important concept is not the exact price; it is that the system was expensive enough to be a lab-scale preview rather than a mass-market product.
+
+This makes the Alto a good anchor for [[you can live in the future if you pay more]]. Xerox could pay enough to let researchers inhabit a future computing environment before the rest of the market could afford it.

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b OpenAI harness engineering 2026-02</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="dark%20software%20factory%20--%20key%20media.html" class="breadcrumb-link">dark software factory -- key media</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">b OpenAI harness engineering 2026-02</span></nav>
+    </header>
+    <main>
+        <h1>b OpenAI harness engineering 2026-02</h1>
+        <p><a href="https://openai.com/index/harness-engineering/" rel="noreferrer noopener" target="_blank">https://openai.com/index/harness-engineering/</a>
+<a id="block-61d16fd" class="block-anchor"></a></p>
+<p>^ <a href="../ai/company%20-%20OpenAI.html">company - OpenAI</a> <a href="agent%20harness.html">agent harness</a> <a href="harness%20engineering.html">harness engineering</a>
+<a id="block-aa432dd" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>Notes:
+<a id="block-9c3befe" class="block-anchor"></a></p>
+<ul>
+<li>this blog post</li>
+<li><a href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html">free recall - Open AI harness blog post - 2026-02</a> (one day later)</li>
+<li><span class="link-not-tracked">link not tracked</span> (three days after that)</li>
+<li><span class="link-not-tracked">link not tracked</span> (throughout)</li>
+</ul>
+<p><a id="block-7f53827" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2-2" class="block-anchor"></a></p>
+<p><a href="../ai/company%20-%20OpenAI.html">company - OpenAI</a>
+<a id="block-99add7c" class="block-anchor"></a></p>
+<p>Throughout the development process, humans never directly contributed any code. This became a core philosophy for the team: <strong>no manually-written code</strong>.
+...
+<a href="no%20human%20--%20coding.html">no human -- coding</a>
+<a id="block-6aad00e" class="block-anchor"></a></p>
+<p>Because the only way to make progress was to get Codex to do the work, human engineers always stepped into the task and asked: “what capability is missing, and how do we make it both legible and enforceable for the agent?” X <a href="fix%20the%20harness%20so%20that%20it%20fixes%20the%20code.html">fix the harness so that it fixes the code</a>
+<a id="block-2f09211" class="block-anchor"></a></p>
+<p>Codex uses our standard development tools directly (gh, local scripts, and repository-embedded skills) to gather context without humans copying and pasting into the CLI. <sup class="block-id">^codex-uses-our-standard-dev-tools</sup>
+<a id="block-307f4ec" class="block-anchor"></a></p>
+<p>Humans may review pull requests, but aren’t required to. Over time, we’ve pushed almost all review effort towards being handled agent-to-agent.
+...
+<a href="no%20human%20--%20code%20review.html">no human -- code review</a>
+<a id="block-35f73d0" class="block-anchor"></a></p>
+<p>As code throughput increased, our bottleneck became human QA capacity. Because the fixed constraint has been human time and attention, we’ve worked to add more capabilities to the agent by making things like the application UI, logs, and app metrics themselves directly legible to Codex.
+...
+<a href="dim%20-%20legibility%20--%20higher.html">dim - legibility -- higher</a>
+...
+<a href="../ai/bottleneck%20-%20human%20reviewers.html">bottleneck - human reviewers</a> in <a href="QA.html">QA</a>
+<a id="block-a3a77d6" class="block-anchor"></a></p>
+<p>For example, we made the app bootable per <a href="git%20worktree.html">git worktree</a>, so Codex could launch and drive one instance per change
+<a id="block-633ce82" class="block-anchor"></a></p>
+<p>We did the same for observability tooling. Logs, metrics, and traces are exposed to Codex via a local observability stack that’s ephemeral for any given worktree. Codex works on a fully isolated version of that app—including its logs and metrics, which get torn down once that task is complete. Agents can query logs with LogQL and metrics with PromQL. With this context available, prompts like “ensure service startup completes in under 800ms” or “no span in these four critical user journeys exceeds two seconds” become tractable.
+...
+<a href="observability%20stack.html">observability stack</a> was directly built-in to <a href="../ai/project%20-%20Codex.html">Codex</a> <sup class="block-id">^observability-stack-built-in-to-codex</sup>
+<a id="block-0971a17" class="block-anchor"></a></p>
+<p>With this context available, prompts like “ensure service startup completes in under 800ms” or “no span in these four critical user journeys exceeds two seconds” become tractable.
+<a id="block-41767f4" class="block-anchor"></a></p>
+<p>We enforce this mechanically. Dedicated linters and CI jobs validate that the knowledge base is up to date, cross-linked, and structured correctly. A recurring “doc-gardening” agent scans for stale or obsolete documentation that does not reflect the real code behavior and opens fix-up pull requests
+...
+<a href="maintenance%20agent.html">maintenance agent</a>s
+<a id="block-e2f67b5" class="block-anchor"></a></p>
+<p>Because the repository is entirely agent-generated, it’s optimized first for <em>Codex’s__legibility</em>. In the same way teams aim to improve navigability of their code for new engineering hires, our human engineers’ goal was making it possible for an agent to reason about the full business domain <strong>directly from the repository itself.</strong>
+...
+<a href="dim%20-%20legibility%20--%20higher.html">dim - legibility -- higher</a>
+<a id="block-bba84b6" class="block-anchor"></a></p>
+<p>Giving Codex more context means organizing and exposing the right information so the agent can reason over it, rather than overwhelming it with ad-hoc instructions. In the same way you would onboard a new teammate on product principles, engineering norms, and team culture (emoji preferences included), giving the agent this information leads to better-aligned output.
+...
+<a href="progressive%20disclosure%20is%20similar%20to%20a%20skill%20tree.html">progressive disclosure is similar to a skill tree</a>
+<a id="block-f1e855a" class="block-anchor"></a></p>
+<p>In some cases, it was cheaper to have the agent reimplement subsets of functionality than to work around opaque upstream behavior from public libraries. For example, rather than pulling in a generic <code class="inline-code">p-limit</code>-style package, we implemented our own map-with-concurrency helper: it’s tightly integrated with our OpenTelemetry instrumentation, has 100% test coverage, and behaves exactly the way our runtime expects
+<a id="block-9e75968" class="block-anchor"></a></p>
+<p>The diagram below shows the rule: within each business domain (e.g. App Settings), code can only depend “forward” through a fixed set of layers (Types → Config → Repo → Service → Runtime → UI). Cross-cutting concerns (auth, connectors, telemetry, feature flags) enter through a single explicit interface: Providers. Anything else is disallowed and enforced mechanically.
+<a id="block-73b5fed" class="block-anchor"></a></p>
+<p>This is the kind of architecture you usually postpone until you have hundreds of engineers. With coding agents, it’s an early prerequisite: the constraints are what allows speed without decay or architectural drift.
+...
+<a href="agentic%20coding%20only%20works%20well%20with%20human%20architectural%20direction%20and%20taste.html">agentic coding only works well with human architectural direction and taste</a>
+<a id="block-b8390ff" class="block-anchor"></a></p>
+<p>Because the lints are custom, we write the error messages to inject remediation instructions into agent context.
+<a id="block-f503083" class="block-anchor"></a></p>
+<p>In a human-first workflow, these rules might feel pedantic or constraining. With agents, they become multipliers: once encoded, they apply everywhere at once.
+<a id="block-0d5c95c" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="dark%20software%20factory%20--%20key%20media.html">dark software factory -- key media</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <ul>
+<li>high level<ul>
+<li><a href="site%20-%20background%20agents%20-%202026-03.html">site - background agents - 2026-03</a><ul>
+<li>A nice high-level overview.  Feels like it&#39;s targeting &quot;decision makers&quot;.</li>
+</ul>
+</li>
+<li><a href="b%20software%20factories%20and%20the%20agentic%20moment%20-%202026-02.html">b software factories and the agentic moment - 2026-02</a><ul>
+<li>A high-level, first-principles consideration of where things are headed</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>more detailed<ul>
+<li><ul>
+<li><span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span><ul>
+<li><strong>exceptional</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="b%20Welcome%20to%20Gas%20Town%20-%202026-01.html">b Welcome to Gas Town - 2026-01</a><ul>
+<li>Very detailed and wild</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                </div>
+                <a class="backlink-see-in-context" href="dark%20software%20factory%20--%20key%20media.html#block-1161ea7"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html">free recall - Open AI harness blog post - 2026-02</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>^ <a href="../ai/free%20recall.html">free recall</a> -  <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html#block-fa82388"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <ul>
+<li><span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></li>
+<li>this free recall</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span> (throughout)</li>
+</ul>
+
+                </div>
+                <a class="backlink-see-in-context" href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html#block-0fcbf91"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="high%20scale%20coding%20agent%20work.html">high scale coding agent work</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="high%20scale%20coding%20agent%20work.html#block-a0f5d7d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html">practice - context right in the repo</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html#block-a0f5d7d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sites/aes/practices/practice%20-%20grill%20with%20docs%20for%20spec%20creation.html">practice - grill with docs for spec creation</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span>, in the section about documentation there is a quote about when everything is important nothing is important.  It also describes how <span class="link-not-tracked">link not tracked</span> is inevitable in a large document because it&#39;s impossible to do things like cross-check links, look at metadata around how recently something was updated, etc.  So they suggest breaking things apart into what I call a <a href="documentation%20context%20graph.html">documentation context graph</a>.  I think that&#39;s probably superior to the <code>CONTEXT.md</code> file being advocated by Matt.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20grill%20with%20docs%20for%20spec%20creation.html#block-9acb41b"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20grill%20with%20docs%20for%20spec%20creation.html#block-a0f5d7d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sites/aes/practices/practice%20-%20observability%20stack%20in%20dev%20and%20test.html">practice - observability stack in dev and test</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span> they talk about how they use <span class="link-not-tracked">link not tracked</span> directly in their <a href="agent%20sandbox.html">agent sandbox</a>es.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20observability%20stack%20in%20dev%20and%20test.html#block-9a8f28d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="project%20-%20Symphony.html">project - Symphony</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Symphony works best in codebases that have adopted harness engineering. Symphony is the next step -- moving from managing coding agents to managing work that needs to get done.
+...
+For harness engineering, it pointed to <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="project%20-%20Symphony.html#block-228e9ab"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="site%20for%20jared%20-%20changelog.html">site for jared - changelog</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Totally amazing OpenAI blog post <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span> (semi-related to another amazing post from earlier in the month <a href="t%20simon's%20notes%20on%20Strong%20DM's%20software%20factory%202026-02.html">t simon's notes on Strong DM's software factory 2026-02</a>)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="site%20for%20jared%20-%20changelog.html#block-27e6a20"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="v%20harness%20engineering%20from%20OpenAI%20-%202026-04.html">v harness engineering from OpenAI - 2026-04</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><a href="harness%20engineering.html">harness engineering</a> <a href="../ai/company%20-%20OpenAI.html">company - OpenAI</a> by the guy who wrote <span class="highlight-do-not-link">b OpenAI harness engineering 2026-02</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="v%20harness%20engineering%20from%20OpenAI%20-%202026-04.html#block-6fa4802"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

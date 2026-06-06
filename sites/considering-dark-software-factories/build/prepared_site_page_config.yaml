@@ -1,0 +1,5495 @@
+pages:
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: 100x-engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: 2026-03 people are starting to prefer CLI over MCP
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: 2026-03 people starting to care much more about design principles and
+      correctness
+    tracked: true
+  - fileType: gif
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: 2026-03-03 14.11.38
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: 2026-05 using HTML instead of markdown
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: 5 why's
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: a PRD-ERD hybrid
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: About this Site
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: abstractions that may survive the bitter lesson
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: actively seeking out disconfirming information
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: actuator
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: adding note links to outlines you maintain
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: adversarial group structure
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent coordination -- user interface
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent fleet
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent harness
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent legibility
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent manager
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent native codebase
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent orchestration in kanban
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: agent problem - a single agent by itself cannot be trusted to reliably
+      perform its job
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent problem - Claude Code is polite and waits for user input
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent problem - sometimes agents don't tie up their work properly at the
+      end
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent problem - worker agents are flaky and need management
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent role
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent router
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent sandbox
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- browser -- navigation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- browser -- work with DOM snapshots
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- browser -- work with screenshots
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- eval-skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- grill me
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill -- update-skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill wrapped
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill wrapped scripts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent skill wrapping everything is the LLM OS
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: agent swarm
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task -- change review app
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task -- trigger type
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task -- trigger type -- cron
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task -- trigger type -- event
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent task scope should be narrow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent waiting for user input
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent workflow orchestration
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent-generated artifact for human review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agent-generated artifact for human review -- video showing changes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: agentic coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agentic coding only works well with human architectural direction and taste
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agentic engineering practice
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes
+    title: agentic engineering scorecard
+    tracked: true
+  - fileType: excalidraw
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/Excalidraw
+    title: agentic engineering scorecard
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agentic manual testing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: agents drive down the cost of refactoring
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: agreeing what to build
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI adoption
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI and jobs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI can make software better and not just faster
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI does really well in a good codebase
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI has arms-race dynamics
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI helps decipher an email into actual action items
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI improvement
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI improvement -- recent news 26-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI says
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI software factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI teaching
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI unit
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI unit - claude
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI unit - claude 4.6 Opus
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI unit -- GPT-5
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI unit -- llama - 3 - 70b
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI unit -- Nano Banana
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI unit as car engine metaphor
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI unit generated material
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI-aided knowledge work virtuosity
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AI-enabled coding generates a huge amount of code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: AI-native
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: alignment
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: an AI with the same smarts, but just way faster than a person is ASI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: an issue tracker doesn't feel like the right place for app specification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Andy Matuschack's Working Notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: Andy's note about evergreen notes functioning like spaced repetition
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: Andy's note about working with the garage door up
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: Andy's working note about evergreen notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: annotated talk blog format
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Annotated version of 'Welcome to Gas Town'
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app things/general app config
+    title: app config
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: app specification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: app specification will be done with agents and markdown
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: app verification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Apple chip -- M4
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Apple chip -- M5
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: application interface -- internal -- standard UI powered by AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Applying coding standards in a Ralph loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AptEdge Performance Benchmark - Challenges
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AptEdge Performance Benchmark - Meetings
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: AptEdge Performance Benchmark - Metrics
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: architectural visualization
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: artifact
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: artifact review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Artificial Super Intelligence - ASI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: asking agents to get creative
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: assimilation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: associative ontology
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: assume AI code is incorrect
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: atomic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: auto-merging PRs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: automatic domain randomization - ADR
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/meadow-cloud/AWS
+    title: AWS STS - assumed role
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: b - the bitter lesson
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b a sufficiently detailed spec is code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b AI will make formal verification go mainstream
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b AI Written, AI Read
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b Anthropic scaling managed agents 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b ARCHITECTURE.md file
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b coding agents in 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b emergent minds year of changes in Claude Code - 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b How an Internal Combustion Engine works
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b managed gas town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b meditations on molach
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b modularity in spec files
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b OpenAI harness engineering 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b OpenAI's Codex execution plans 2025-10
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b parse, don't validate
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: B robot-hand-rubiks-cube
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b slowly, then suddenly (agent orchestration) - 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b software factories and the agentic moment - 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: b the three pillars of AI observability - 2025-11
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: b we passed the Turing test and nobody noticed
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: b welcome to Gas City - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: b Welcome to Gas Town - 2026-01
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: background agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: backstop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Bartosz-style explorable explanation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: bash is all you need
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: behavioral guardrail
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Big Design Up Front - BDUF
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: binary pass or fail evaluation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 1 - What the heck is Gas Town?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 10 - Nondeterministic Idempotence
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 11 - Wisps - Ephemeral Orchestration Beads
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 12 - Patrols
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 13 - Gas Town Plugins
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 14 - Convoys
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 15 - Gas Town Workflow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 16 - Planning in Gas Town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 17 - Comparison to Kubernetes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 2 - Gas Town Was No Secret
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 3 - WARNING DANGER CAUTION
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 4 - Gas Town 101
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 5 - A Note About Mad Max Theming
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 6 - Gastown Universal Propulsion Principle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 7 - The GUPP Nudge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 8 - Talking to your Dead Ancestors
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Blog Post -- Section 9 - Molecular Expression of Work (MEOW)
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: book - A philosophy of software design
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: book - mythical man month
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: book - Practical Object Oriented Design in Ruby - poodr
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: book -- Writing Effective Use Cases
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: bottleneck - human ability to manage many threads
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: bottleneck - human reviewers
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: bottleneck - humans who understand
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: browser use
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: bulk human review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: bullet points can get the point across better than prose
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: bullet points to linear narrative back to bullet points
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: business process automation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: cannot recall
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: carefully providing context so the agent can use it
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: challenge - edge case callouts are hard to manage
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: change review app
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: change-review-app-1
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: change-review-app-2
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: change-review-app-3
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: changelog page
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: chaos monkey
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: chat - dialectic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: check script
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: CI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CI failure routing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: claim - Codex doesn't have access to your local tools
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Claude Code in a terminal in Obsidian
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Claude Code's planning, then context clearing, then implementing
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: claude-asking-user-questions
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: claude-remote-notes-on-phone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: clean-architecture
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2025_12_03__09_18_09
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_02_06__08_16_49
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_02_26__08_37_43
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_02_28__23_21_58
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__10_53_12
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__11_02_52
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__11_09_54
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__13_09_19
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__13_30_18
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_09__13_32_19
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: CleanShot_2026_03_12__15_01_29
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: closed loop improvement with agents
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: cloud agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code interface
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code is cheap
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code is uniquely automatable because it is easy to verify
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code merge queue
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code merge sequencing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code repo
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code-associated specification file
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: code-associated specification files are just a part of the documentation
+      context graph
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: codex sandbox
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agent breaks plan into issues based off of the document context
+      graph and ralph wiggum completes them
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agent operating without external context
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agent-generated artifact
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agents are actually the precursor to a much broader set of
+      knowledge-work skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agents are so high leverage that it makes sense to really lean
+      into what makes them even marginally more effective
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Coding agents means that it makes less sense to use external libraries
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: coding agents work better with well-designed code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: coding concept - guard the edges
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: coding concept -- the happy zone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: coding pattern -- guard the edges so you can code within the happy zone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: cognitive debt
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: cognitive ownership
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Coke can collection
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: collaboration
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: collector
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: combinatorial explosion
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: coming soon - local AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: command line interface - CLI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: communication coordination overhead decreases exponentially as you shrink
+      companies
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: company - Anthropic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company - Cursor
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company - GitHub
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company - Glean
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company - Google
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: company - microsoft
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: company - midjourney
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: company - OpenAI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company - StrongDM
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: company documentation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/company OS/company OS concepts
+    title: company OS files are not necessarily densely linked
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/company OS/company OS concepts
+    title: company OS files are stored in git
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Companys getting leaner because of AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: complex but highly-legible things
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: complex but highly-legible things are very engaging
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: compositional simulation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: compound concept
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: compound engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: compound engineering practices
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: compound system
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: computer use
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: con - cultural evolution prerequisites
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: con - difficult to assess value function
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: con - institutions are already super intelligences with alignment issues
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: con - needing to manage huge code bases at higher levels of abstraction
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Concepts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: connected note
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: connected notes review as spaced repetition
+    tracked: true
+  - fileType: md
+    inlinksDepth: 1
+    listType: whitelist
+    outlinksDepth: 3
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- working area
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: considering testing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context anxiety
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context assembly
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context graph
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context right in the repo
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: context rot
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: context stuffing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: context window
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context window zone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context window zone -- the dumb zone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: context window zone -- the smart zone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: continuous background check -- merging concepts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: continuous background check -- specific formatting
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: continuous background check -- splitting concepts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: continuous background checks can refactor how the system works
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: creative
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Cross agent messaging
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: cross pollination
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: custom developer tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: custom GPTs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: custom linting rule
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: custom model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark artifact factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark factories have windows for observability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark insight factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory -- areas
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory -- challenges
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory -- challenges -- the coding agent makes unintended
+      structural changes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory -- concepts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dark software factory -- key media
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: datacenters in space
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: decision log
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: declarative specification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: declarative test scenario specification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: decomposing work into narrowly scoped work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: decomposing work into narrowly scoped work leads to better reliability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: deep module
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: deep processing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: deep-dives-and-visualizations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: DeepSearch
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: deepsearch-in-claude-code-in-a-terminal-in-obsidian-to-find-page-about-software-concept
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: densely linked
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: design concept
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- local
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- privacy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- publish a huge number of sites
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- reviewability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- self-contained partitions
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- speed
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- static files
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: design motivation -- support large sites
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: design pattern - speculative execution
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: design tree
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: design-plan-code-review-review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: designing environments
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: designing, planning, and coding need to be merged and be iterative
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: desired state
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: desperate who
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: determinism where possible
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: deterministic simulation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: dev tooling stress test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: dev_tools_app
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: developer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: developer tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: diff - agent fleet vs. agent swarm
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: diff - buy vs. build
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: diff - Claude Code vs. Codex
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: diff - meadow cloud -- local vs. meadow cloud -- remote
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: diff - software factory vs. dark software factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: digital cousin
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: digital nomad
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: digital twin
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - agent-pilled amount
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - agent-pilled amount -- more
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - amount of parallelism -- very high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - assimilation depth
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - assimilation depth -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - assimilation depth -- low
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - autonomy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - company size -- bigger
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - coordination quality -- bad
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - inference speed -- fast
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - inference speed -- slow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - iteration speed --high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - legibility
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - legibility -- higher
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - level of abstraction -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - level of agency -- higher
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - level of control
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - level of control -- low
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - level of trust
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - model performance -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - model performance -- low
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - model performance -- same
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - model size -- large
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - model size -- smaller
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - multi-agent scale
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - number of agents -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - number of parameters -- lower
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - number of shots learning -- zero
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - observability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - observability -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: dim - observability -- higher
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - reliability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - reliability -- better
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - reliability -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: dim - resilience -- higher
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - scale -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - speed -- fast
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - speed -- faster
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - task horizon length -- long
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - task horizon length -- longer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - transfer strength -- strong
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - trust -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - verifiability
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - verifiability -- high
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: dim - verifiability -- low
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: directed acyclic graph - DAG
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: do not repeat yourself - DRY
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: do you need to write your own spaced repetition prompts?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: docs - Claude remote control
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: documentation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: documentation context graph
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: documentation context graph -- document
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: documentation context graph may be a better place for specification info
+      than an issue tracker
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: documentation skews from code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: doing things the first time
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Domain driven development - DDD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: domain randomization
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: domain-specific
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: durable append-only log with separate consumers
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: e2e test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: each service in a microservice owns its underlying data
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: elicitation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: embrace something a little too enthusiastically, then learn its limitations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: emphasis on correctness
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: emphasis on design principles
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: encoding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Engineering Requirements Doc - ERD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: environment generation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: evaluation environment
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: event-driven agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: example
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - a code change that introduced cognitive debt
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - Codex asking to run outside the Codex sandbox
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - describe a desired state and have the coding agent reconcile to
+      it
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - meadow e2e tests -- test suite run review tool - logs and other
+      assets synced with automatically-created video
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - obsidian spaced repetition plugin card for learning about
+      neural networks
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: example - screencast - videos filtered by scenario docs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: example - self driving - bike rack with bike on back of car
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: example - using DeepSearch in Claude Code in a terminal in Obsidian to
+      find a page about a software concept
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: example - Will Smith eating pasta
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: myhealth
+    title: example showing my health site and one page in it
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: examples of excellent state validations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: excellent developer tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: executable requirements
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: explorable explanation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: exposing chains of thought in the UI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: externally-generated material
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: fast-tests
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: federated wiki
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: feedback loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: fiduciary responsibility of board members to maximize shareholder profits
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: file over app
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: film-beastie-boys-history
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: fine-tuning
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: first principles
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: fix the harness so that it fixes the code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: focusing on specification and verification in software development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: for simple workflows, smart agents can effectively run them as
+      deterministic workflows
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: forking a test scenario from a specific point
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: free recall
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: free recall - Open AI harness blog post - 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: free recall miss
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/curation
+    title: frontier edge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: functional core, imperative shell
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: future of code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: game theory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Gas Town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Gas Town -- Changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Gas Town Problem Areas
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: generative physics engine
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: git pre-commit hook
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: git pre-commit hook for ensuring a specific commit prefix
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: git worktree
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: github issues
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: gitlab has always stored all its company documentation in git
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Given-when-then
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Glossary
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: golden principle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Gordian Knot
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: graceful system degradation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: graph visualization
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: grokipedia
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: guardrail
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: hand wavy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: hand written notes help students perform better than typed ones
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: hardware type - edge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: harness engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: having LLM judges check for discrete signals
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: hexagonal-architecture
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: hierarchical taxonomy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: high scale coding agent work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: high-level vision of the structure of the system
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: highly recommended
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/generation/generation app config
+    title: hooks config
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: How I use my note processing system - 2025-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: how someone might reasonably keep externally-generated notes in their notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/generation
+    title: html generation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: human
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: human demo
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: human intent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: human reviewer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: humanoid robot
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: I'm getting more bullish on end-to-end testing because of agents
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: if you can ask 'why?' of your connected notes and get an answer, then
+      they are not well-factored
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: if you own the territory, perhaps you should make it easier to map
+    tracked: true
+  - fileType: jpeg
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: IMG_3089
+    tracked: true
+  - fileType: jpeg
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: IMG_4082
+    tracked: true
+  - fileType: jpeg
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: IMG_4083
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: implementation is a learning process
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: improvement number
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: improvisational
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: in-distribution - ID
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: incentives
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: incremental reading
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: infinite canvas
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: information hiding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: information leakage
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: institutional memory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: intelligence layer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Introducing Meadow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: invariant
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: invariant testing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Is Claude Code a dark factory?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: isolation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: issue
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: issue tracker
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: it is not just junior engineers that are being impacted by AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: iterative design, planning, and coding
+    tracked: true
+  - fileType: excalidraw
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/Excalidraw
+    title: iterative designing planning and doing
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: iterative loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: iterative loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: JSON
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Just how dark do dark software factories need to be?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: keep questions and problems in mind
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: keeping externally-generated material directly in your notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: keeping the coding agent fed with work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Kent Beck thought about what he did and distilled principles and
+      practices into the Extreme Programming book
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: key point
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: knowledge schema
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: Knowledge work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: knowledge work is converging on software
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: knowledge work virtuosity
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Kubernetes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: kubernetes-glossary
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: language - Elixer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: lateral thinking
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: law-of-demeter
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: layout generation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: learning science
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: lens -- causes and effects
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: lens -- significance and implications
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: level of intent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: levels of growth
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: linear narrative
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/generation
+    title: link modification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: linting
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: LLM as a judge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: LLM OS
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: LLM wiki
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: local agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: local app challenge -- easy upgrade
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: local app challenge -- identifying and fixing bugs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: local app challenge -- support older versions
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: local code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: local configuration
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: local inference
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: long documents are problematic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: long-running agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: longer-form AI unit generated material
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Mac's built in speech-to-text
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: maintenance agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: managers needs to maintain focus on ensuring things get done
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/curation
+    title: managing changes in the source graph structure over time
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: MarkAgent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: markdown
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown editors
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown extension -- front matter
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown graph
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown graphs and agents
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown graphs and agents are hitting their stride in early 2026
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown is code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: markdown is code only when it is actually thinly veiled code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: Meadow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: meadow agent skill -- e2e
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: meadow AI opportunity
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: meadow change management
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/meadow-cloud
+    title: meadow cloud -- local
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/meadow-cloud
+    title: meadow cloud -- remote -- test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- system test scenario video
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- test suite run
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- test suite run report
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- test suite run report review tool
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- test suite run report review tool -- overview
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: meadow e2e tests -- test suite run report review tool -- per scenario
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: meadow hard problems
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/meadow-cloud
+    title: meadow manual QA
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: meadow parallel development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: Meadow tackles the most important thing head on
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: meadow time travelable application state data
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: meadow_modules
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: mechanisms for making agents more reliable
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting - 2025-09-19 - kriston
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: mental model drift
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: merge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: meta context
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: metacrisis thesis
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: micro VM
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: migration tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: moc - visualizations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Moc framing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: moc software engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: model - o3
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: model agnostic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: model context protocol - MCP
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: molach framework
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: molecules lead to resilience
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: motion generation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: multi site management
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: multi-agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: multi-coding-agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: my hacker news comment about canned prompts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: narrowly scoped work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: natural language is a limited UX
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: needs_processing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: negative sum
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: negative sum game
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: neural physics engine
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: no human
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: no human -- app verification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: no human -- code review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: no human -- coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: non-functional
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: non-functional requirements
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: not every detail is described in an ERD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: not every idea needs to become a linear narrative
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: note deduplication and driving towards a unitary conceptual primitives
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: notes live in a liminal space between the world and your mind
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Objectives and Key Results - OKRs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: observability stack
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: obsidian
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: obsidian plugin -- spaced repetition
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: obsidian-spaced-repetition-plugin-screenshot
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: on-device
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: onboarding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: once you publish a site, you can leave it alone
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: only superstars will be relevant
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: open source
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: orchestrated collaboration model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: orthogonality thesis
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: other fields will look to engineering's practices of specifying things
+      granularly and explicitly enough for a person or AI to execute it
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: outrunning your headlights
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: ownership over the ideas in your notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: p Solving a Million-Step LLM Task with Zero Errors
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: parallel agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: parallel agents in isolated workspaces
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: parallel development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: parallel, multiplicative improvement
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: partial information
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Pasted image 20241101094436
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Pasted image 20241101094728
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315143115
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315150715
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315151532
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315151747
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315152359
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Pasted image 20250315152553
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: people have more time to think about architecture because the agents are
+      doing the actual coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: performance benchmark -- Towers of Hanoi
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Alan Kay
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Andrej Karpathy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Andy Matuschak
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Ari Miller
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Barbara Liskov
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: Person - Bartosz Ciechanowski
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Boris Cherny
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Bret Taylor
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Daniel Schmachtenberger
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Dwarkesh Patel
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Francois Chollet
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Grimes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Hamel Husain
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Ilya Sutskever
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Jim Fan
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Justin Sung
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Liv Boeree
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Matt Pocock
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Michael Nielsen
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Michael Truell
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Nate B Jones
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Ryan Carlson
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Sam Harris
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Sandi Metz
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Scott Alexander
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: person - Simon Willison
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Steve Yegge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: pets vs cattle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: physical AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: physics engine
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Places
+    tracked: true
+  - fileType: excalidraw
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/Excalidraw
+    title: planning reviewing and doing work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: plugin support
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - ad hoc browser use
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - agentic mutation testing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - automated QA
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - background check
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - context right in the repo
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - custom linting rules that inject in-repo documentation as
+      context
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - custom review tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - git worktree parallel development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - goal skill
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - grill with docs for spec creation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - handoff to a prototyping agent then re-integrate findings
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - handoff to cloud agents
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - many-agent development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - observability stack in dev and test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - project-scoped agent skill
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - specialized agent -- code review or eval
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - use autoresearch to improve perf
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - use code quality utilities
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - using other people's skill bundles
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - using vibe coded slop for prototyping
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - voice prompting
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/practices
+    title: practice - work from phone
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: pray-hands
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: prefer associative ontologies to hierarchical taxonomies
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: preprints
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: principle - an agent is a Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: product - get shit done - GSD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: product -- antigravity
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Product Requirements Doc - PRD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: productive tension
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: programs as yet unthought of
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: progressive disclosure
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: progressive disclosure is similar to a skill tree
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - ace
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Agent development kit
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - AptEdge Performance Benchmark
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - AptEdge Performance Benchmark -- changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - autoresearch
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Beads
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - Claude
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - Claude Code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - Codex
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - cucumber
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - Devin
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - dolt
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - gbrain
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Google slides
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - grammarly
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Kiro
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - linear
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - MinIO
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Octive
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - paperclip
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Playwright
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - ralph wiggum
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: project - selenium
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - swiftbar
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Symphony
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: project - TLA plus
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Victoria logs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Victoria metrics
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - wispr flow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - writer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project - Zod
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: project that is a bundle of skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: prompt injection
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: proof of work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: pseudo-code layer on top of the code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: publish any site in less than a minute
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: publisher
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: publishing modality -- blog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: publishing modality -- x.com post (AKA a single tweet)
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: pull request - PR
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site/curation
+    title: pulling in a hub source page but it is only partially applicable
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: QA
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: QA tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: quality gate
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: quality is the new differentiator
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: quickly providing much more context is often more useful than providing
+      less context more carefully
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: race to the bottom
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Ralph loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: real-time collaborative editing of a shared artifact
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: real-time-editing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: reconciliation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Recontextualization
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: ref - statquest recurrent neural networks
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: regenerative agriculture
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: regression test suite
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: reinforcement learning - RL
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: repository-embedded skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: reward circuit
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: RL learning environment
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Role Class -- Worker
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Role Class -- Worker -- Rig Level
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Roles
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: root-level check script
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Rule of Five
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: running meadow e2e tests wrapped by an agent skill
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: running models locally
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: S3 Local
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Saaspocalypse
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: sandbox
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: sandbox as a tool
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd testing
+    title: scenario doc
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: scheduled agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: school -- Alpha
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: screencast
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: script
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block -- code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block -- design
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block -- planning
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block -- review
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: SDLC building block -- test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: seems related
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: sensitivity to accidentally publishing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: simulation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: simulation principle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site
+    title: site
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: site - AI 2027
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: site - AptEdge - page - home
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: site - AptEdge - page - salesforce demo
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site - background agents - 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd misc
+    title: site config
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site Explorable explanations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for jared - changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for jared -- tools
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for kriston
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for mark
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for mark - changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd app area/site
+    title: site state -- archived
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: site-setosa-markov-chains
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: skew
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: skill tree
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: slop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: slop fork
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: slowly then suddenly
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: smart agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: social information fabric
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: software development lifecycle - SDLC
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: software development with agents will become more bidirectional
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: software engineering fundamentals
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: software factory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: solid-principles
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: somewhat general purpose interface
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: source conversion for assimilation of externally-generated material
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd source graph
+    title: source graph
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: spaced repetition
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 1 - What the heck is Gas Town?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 10 - Nondeterministic Idempotence
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 11 - Wisps - Ephemeral
+      Orchestration Beads
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 12 - Patrols
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 13 - Gas Town Plugins
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 14 - Convoys
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 15 - Gas Town Workflow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 16 - Planning in Gas Town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 17 - Comparison to Kubernetes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 2 - Gas Town Was No Secret
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 3 - WARNING DANGER CAUTION
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 4 - Gas Town 101
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 6 - Gastown Universal Propulsion
+      Principle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 7 - The GUPP Nudge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 8 - Talking to your Dead Ancestors
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: spaced repetition prompts - blog section 9 - Molecular Expression of Work
+      (MEOW)
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: spec-driven development - SDD
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: specialized agent -- code merge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: specialized agent -- doc-gardening
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: specific commit prefix
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: specification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: specs are code
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: steerable
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Steve Yegge's AI adoption Chart
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: storing all your company documentation in git
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: storing secret credentials in proxies
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: structured failure modes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: subagent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: superstar
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Symphony spec
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: synthesis of Markdown blocks into proposed improvements
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: System 1 thinking
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: system of record
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: system property - resilient to failures
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: system test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: systems thinking
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t $110 billion fundraise for OpenAI 26-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: t adobe project scenic - 3D camping to image
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t AI coding leads to heavy emphasis on correctness
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Apple M5 macbook has powerful AI capabilities
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: T article the unreasonable effectiveness of HTML - 2027-05
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Boris specific examples of background agent work
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t cognitive debt fix - have the agent write you an entertaining essay to
+      build your intuition
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t compound engineering by OpenAI developer - 2026-05
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t cursor video demos
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Deepseek finds 2x infra improvement - 26-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t design principles needed for AI coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Dwarkesh custom spaced repetition card creation tooling
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t example of qwen running on an M4 chip 26-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t GSD 2.0 system for large coding projects
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t How I Manage 10 Claude Code Agents Without Losing My Mind - 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Karpathy LLM OS specs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Karpathy LLMs as kernel process of a new OS
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Mitchell Hashimoto put his Amp threads in his pull requests
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t multi-agent orchestration kanban as form factor
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Obsidian and Claude Code has hit a turning point in early 2026
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t open source projects are making their test suites private to stop slop
+      forks
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t OpenAi Symphony
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t qa skill allowed parallel scaling - 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Ryan Carlson now uses Devin - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Simon's note on agentic manual testing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t simon's notes on Strong DM's software factory 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: t taalas ASIC that embeds llama 3.1 8b 26-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t the hard part about parallel agents in isolated workspaces
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t uncle bob needs architectural visualization because Codex messed up his
+      code's structure
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t video - Cursor automations 26-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t video of Symphony and Codex and Linear 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tag page
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--band-beastie-boys
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--blog-post
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--book-notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--code-example-good
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--computers
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--consumption-notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--deep-dive
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--deployed-section
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--film
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-1--what-the-heck-is-gas-town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-10--nondeterministic-idempotence
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-11--wisps---ephemeral-orchestration-beads
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-12--patrols
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-13--gas-town-plugins
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-14--convoys
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-15--gas-town-workflow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-16--planning-in-gas-town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-17--comparison-to-kubernetes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-2--gas-town-was-no-secret
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-3--warning-danger-caution
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-4--gas-town-101
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-6--gastown-universal-propulsion-principle
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-7--the-gupp-nudge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-8--talking-to-your-dead-ancestors
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--flashcards--gas-town--section-9--molecular-expression-of-work-meow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--glossary
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--hacker-news
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--machine-learning
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--playground
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--project-kubernetes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--pub-to-codedtested
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--pub-to-fluvial
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--pub-to-kubnotes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--robots
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--site-setosa
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--software-engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--sr-stuff
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--visualizations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: x-tagpages
+    title: tag--well-explained
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: take full advantage of the typechecker
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: task decomposition
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tasks in a Ralph Wiggum loop are narrowly scoped
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: teaching to learn
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: team coding alignment
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: TED talk
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Agent Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Boot the Dog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Convoy
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Dogs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Ephemeral Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Epic
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Formula
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Gas City
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Gas Town Plugin
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Gastown Universal Propulsion Principle - GUPP
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Gate bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Gate state
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- GUPP Nudge
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- guzzoline
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- handoff
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Hook
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Identity Type
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Inbox
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Merge Queue - MQ
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Merge Request - MR
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Messaging
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- mol
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Molecular Expression of Work - MEOW
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Molecule
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- pack
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Patrol
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Pinned Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Polecats
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Protomolecule
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Refinery
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Rigs
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Role Bead
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Seance
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- self-handoff
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Session
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- slinging
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Swarm
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Crew
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Deacon
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Mayor
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Overseer
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Town
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- The Witness
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Town Mail
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Wisp
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: gt
+    title: Term -- Worker
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Terminal Ui - TUI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: test double drift
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: the 'spec' part of a documentation context graph should be at a PRD and
+      light ERD hybrid level
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: the bitter lesson
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: the bitter lesson suggests you should try to reduce inductive bias as
+      much as possible
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/company OS/company OS concepts
+    title: the company OS has embedded agent skills
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd development
+    title: the dev_tools_app makes testing the edge cases easier
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: the Internet is the fossil fuel for AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: the map is not the territory
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: The onboarding a new teammate lens to agent context engineering
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: the spacing effect
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: the spec, the exact coding planning phase, and the code are all necessary
+      context for development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: the whole body control problem
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: thinking in concepts
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: those with a good understanding can rise above the noise
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: thoughts on Symphony Spec and Gas Town 2026-03
+    tracked: true
+  - fileType: png
+    listType: whitelist
+    sourceGraphSubdirectory: sites/aes/images
+    title: thumbs-up
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: TL;DR
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tmux
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tmux session
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: token budget
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tools for thought
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: trace
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: trace span
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: traditional SDLC
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: tragedy of the commons
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: transfer learning
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: transfer performance
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tree of tasks
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Turing test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: tweets are the perfect size for assimilation
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: type refinement
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: frontend_notes
+    title: type-safe
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: type-safe specification - 2026-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: ubiquitous language
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: unintended structural change
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: unit test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: unlocking very parallel development
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: User Acceptance Test - UAT
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: using a faster but dumber model with a slower but smarter model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: using a smaller model with a bigger model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: using AI to find or create conceptual notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: using another model to work with a model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v agents need more than chat - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: v ai and capitalism and the Molach Framing
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v Claude Code vs. Codex - 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: v Code Generation and Maintenance at Scale with Agentic Workflows - 2024-10
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v deflationary AI
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: V Dwarkesh, Sholto, and Trenton in 2024
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v Github researcher on how we should collaborate with agents in teams -
+      2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v harness engineering from OpenAI - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v sam harris TED talk about AI - 2016
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v The church accidentally triggered the industrial revolution
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v the job market is about to split
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: v The physical Turing test
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v why software engineering fundamentals matter more with AI - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: v YC on how to build an AI native company - 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: validation naming is hard
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: validation script
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: velocity vector
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: verifiable domain
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: verifiable result
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: verification
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: vibe coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: video diffusion model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: view model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: vision action language model
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: w Bret Victor's explorable explanations
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: walking and taking notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Ways of doing verification in legal domain
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: weird names can be helpful
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mdpg_export
+    title: well-explained
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: well-factored notes
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: what bothers me about skill bundles?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst/company OS
+    title: what goes into the Company OS and what stays out of it?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: what is an AI company?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: what is the 'spec' in spec-driven development?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: what is up with the meadow name
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: what makes me convinced people would pull from other people's notes?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: what people mean when they say "spec" is unclear
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: mwd/mwd design
+    title: where meadow AI should focus
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: why now?
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: why wisprflow is great for doing agentic coding
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: ai
+    title: Wikipedia's talk pages
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: with claude remote you can interact with your code or notes from your
+      phone, too
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: work with the garage door up
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: worker agent
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: worktree native codebase
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: worktrees and tmux
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: writing to think
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: writing your own prompts may be more beneficial than using canned ones
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: x.com article
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: x.com articles are becoming more popular
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: Xerox Alto
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: yak shaving
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: YAML frontmatter enables dependency-aware specifications
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: you can increase trust with guardrails
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: you can live in the future if you pay more
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: you need mental alignment when working with coding agents
+    tracked: true

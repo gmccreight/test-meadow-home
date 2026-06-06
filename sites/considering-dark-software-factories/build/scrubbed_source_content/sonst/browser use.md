@@ -1,0 +1,1 @@
+<span class="link-not-tracked">link not tracked</span> of the browser type

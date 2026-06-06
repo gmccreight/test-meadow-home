@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spaced repetition prompts - blog section 12 - Patrols</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/considering%20dark%20software%20factories%20--%20working%20area.html" class="breadcrumb-link">considering dark software factories -- working area</a><span class="breadcrumb-separator">→</span><a href="Annotated%20version%20of%20'Welcome%20to%20Gas%20Town'.html" class="breadcrumb-link">Annotated version of 'Welcome to Gas Town'</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">spaced repetition prompts - blog section 12 - Patrols</span></nav>
+    </header>
+    <main>
+        <h1>spaced repetition prompts - blog section 12 - Patrols</h1>
+        <p>^ <a href="spaced%20repetition%20prompts.html">spaced repetition prompts</a> - blog section 12 - Patrols
+<a id="block-8988edc" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<h2><a href="Blog%20Post%20--%20Section%2012%20-%20Patrols.html">Blog Post -- Section 12 - Patrols</a></h2>
+<p><a id="block-b6e6acb" class="block-anchor"></a></p>
+<p>What is a <a href="Term%20--%20Patrol.html">Patrol</a> implemented as?
+?
+An ephemeral (<a href="Term%20--%20Wisp.html">Wisp</a>) workflow that the agent runs in a loop.</p>
+<!--GUID:a1f3c7d829e41-->
+<p><a id="block-ebdad25" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:97e2e5f9b04aa-->
+<p><a id="block-b2be9ed" class="block-anchor"></a></p>
+<p>What happens when a <a href="Term%20--%20Patrol.html">Patrol</a> worker finds no work in its steps?
+?
+Exponential backoff — the agent waits longer and longer before starting the next patrol.</p>
+<!--GUID:b2e4d8f93a052-->
+<p><a id="block-ecc176d" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:1393066bd33b4-->
+<p><a id="block-f09457b" class="block-anchor"></a></p>
+<p>What wakes a sleeping <a href="Term%20--%20Patrol.html">Patrol</a> worker?
+?
+Any mutating <code class="inline-code">gt</code> or <code class="inline-code">bd</code> command will wake the town.</p>
+<!--GUID:c3f5e9a04b163-->
+<p><a id="block-39a10f7" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:c3711b74610ee-->
+<p><a id="block-578c17e" class="block-anchor"></a></p>
+<p>What does the <a href="Term%20--%20Refinery.html">Refinery</a>&#39;s patrol do at its core?
+?
+Processes the <a href="../sonst/code%20merge%20queue.html">Merge Queue</a> until it&#39;s empty or it needs to recycle the session.</p>
+<!--GUID:d4a6fab15c274-->
+<p><a id="block-f53caac" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:253c56a6a16c4-->
+<p><a id="block-75aa1fc" class="block-anchor"></a></p>
+<p>Who does <a href="Term%20--%20The%20Witness.html">The Witness</a> check in on?
+?
+The <a href="Term%20--%20Polecats.html">Polecats</a> and <a href="Term%20--%20Refinery.html">Refinery</a>s — but it also peeks in on <a href="Term%20--%20The%20Deacon.html">The Deacon</a>.</p>
+<!--GUID:e5b7abc26d385-->
+<p><a id="block-830c73d" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:c46838f1f8b03-->
+<p><a id="block-2b792f6" class="block-anchor"></a></p>
+<p>What level of plugins does <a href="Term%20--%20The%20Witness.html">The Witness</a> run?
+?
+<a href="Term%20--%20Rigs.html">Rig</a>-level plugins.</p>
+<!--GUID:f6c8bcd37e496-->
+<p><a id="block-d9b6bdb" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:f9ed90d157c44-->
+<p><a id="block-d9f2c4f" class="block-anchor"></a></p>
+<p>What level of plugins does <a href="Term%20--%20The%20Deacon.html">The Deacon</a> run?
+?
+<a href="Term%20--%20The%20Town.html">Town</a>-level plugins.</p>
+<!--GUID:a7d9cde48f5a7-->
+<p><a id="block-0762121" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:42db3a75a0967-->
+<p><a id="block-49268f1" class="block-anchor"></a></p>
+<p>What is the concern with long-running <a href="Term%20--%20Patrol.html">Patrol</a> steps?
+?
+They interfere with <a href="Term%20--%20Town%20Mail.html">Town Mail</a>, the cooperative, mail-based eventing system.</p>
+<!--GUID:b8eadef59a6b8-->
+<p><a id="block-744e055" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:aeaeacde6f51e-->
+<p><a id="block-ab6ca34" class="block-anchor"></a></p>
+<p>How does <a href="Term%20--%20The%20Deacon.html">The Deacon</a> avoid having long-running <a href="Term%20--%20Patrol.html">Patrol</a> steps?
+?
+He hands them off to <a href="Term%20--%20Dogs.html">Dogs</a> to do.</p>
+<!--GUID:c9fbefa6ab7c9-->
+<p><a id="block-d834eaa" class="block-anchor"></a></p>
+<!--MEADOW_SR_GUID:424ad7634ad5d-->
+<p><a id="block-d52a96d" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2-2" class="block-anchor"></a></p>
+<p><strong>Next section:</strong> <a href="spaced%20repetition%20prompts%20-%20blog%20section%2013%20-%20Gas%20Town%20Plugins.html">section 13 - Gas Town Plugins</a>
+<a id="block-3dd55fd" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2-3" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="Annotated%20version%20of%20'Welcome%20to%20Gas%20Town'.html">Annotated version of 'Welcome to Gas Town'</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">spaced repetition prompts - blog section 12 - Patrols</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="Annotated%20version%20of%20'Welcome%20to%20Gas%20Town'.html#block-8ae7eb0"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="spaced%20repetition%20prompts.html">spaced repetition prompts</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">spaced repetition prompts - blog section 12 - Patrols</span> (9 cards)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="spaced%20repetition%20prompts.html#block-63f5f30"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="spaced%20repetition%20prompts%20-%20blog%20section%2011%20-%20Wisps%20-%20Ephemeral%20Orchestration%20Beads.html">spaced repetition prompts - blog section 11 - Wisps - Ephemeral Orchestration Beads</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><strong>Next section:</strong> <span class="highlight-do-not-link">spaced repetition prompts - blog section 12 - Patrols</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="spaced%20repetition%20prompts%20-%20blog%20section%2011%20-%20Wisps%20-%20Ephemeral%20Orchestration%20Beads.html#block-5779a9b"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

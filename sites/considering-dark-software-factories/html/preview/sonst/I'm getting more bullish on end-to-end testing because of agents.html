@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I&#x27;m getting more bullish on end-to-end testing because of agents</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">I'm getting more bullish on end-to-end testing because of agents</span></nav>
+    </header>
+    <main>
+        <h1>I&#x27;m getting more bullish on end-to-end testing because of agents</h1>
+        <h3>Why I grew to dislike end-to-end tests for UI applications</h3>
+<p><a id="block-8d5eee8" class="block-anchor"></a></p>
+<p>In my many years coding, I&#39;ve created a smattering of CLI and mobile apps, but I&#39;ve mostly developed web applications.
+<a id="block-3279be8" class="block-anchor"></a></p>
+<p>The majority of the applications I&#39;ve written in my career are web-based, with a 
+<a id="block-522d475" class="block-anchor"></a></p>
+<p>One of my favorite ways to &quot;learn a lesson&quot; is to <a href="embrace%20something%20a%20little%20too%20enthusiastically%2C%20then%20learn%20its%20limitations.html">embrace something a little too enthusiastically, then learn its limitations</a>
+<a id="block-3b6e33c" class="block-anchor"></a></p>
+<p><a href="../ai/project%20-%20selenium.html">project - selenium</a> was flaky
+<a id="block-aef74de" class="block-anchor"></a></p>
+<p>DHH was down on system tests recently after having been very into them.
+<a id="block-761257b" class="block-anchor"></a></p>
+<p>The <a href="../ai/combinatorial%20explosion.html">combinatorial explosion</a> problem is still real, and you still want some unit and integration-level tests.
+<a id="block-9bb9840" class="block-anchor"></a></p>
+<h3>How we solved for them</h3>
+<p><a id="block-bf57fcb" class="block-anchor"></a></p>
+<p>We needed <a href="dim%20-%20iteration%20speed%20--high.html">fast iteration speed</a> because a human was waiting for the test suite&#39;s feedback, And when something broke, they would need to fix it.
+<a id="block-cd22719" class="block-anchor"></a></p>
+<p>To get that quick feedback, we adopted more framework-free tests like <a href="view%20model.html">view model</a>s.  They were far faster, and much less flaky.  The problem with the view models was that they still had a problematic seam.  They had to be tied to the actual application somehow.  It was a little bit like the split between <a href="../mdpg_export/functional%20core%2C%20imperative%20shell.html">functional core, imperative shell</a> or <a href="../mdpg_export/hexagonal-architecture.html">hexagonal-architecture</a> or <a href="../mdpg_export/clean-architecture.html">clean-architecture</a>.  Inside the view models you had this beautiful, fast, testable code, but outside was the real world... in the real world matters.  Living in that world, you feel the <a href="test%20double%20drift.html">test double drift</a>.
+<a id="block-bdf2329" class="block-anchor"></a></p>
+<p>One of the benefits of lower level tests, for humans, was that when something broke, it could help point you to some specific part of the implementation that was broken. That helped make the fixes faster.  But this is less important with agents. They can always just figure it out from some higher level, broken test.
+<a id="block-4465055" class="block-anchor"></a></p>
+<p>One of the problems we encountered was that pushing the tests around at scale, often took as long as the bug fix that we were implementing. This was a strong signal that we were ossifying our system in the wrong way.
+<a id="block-6f8d7b0" class="block-anchor"></a></p>
+<h3>non ai improvements</h3>
+<p><a id="block-b2c7aac" class="block-anchor"></a></p>
+<p><a href="project%20-%20Playwright.html">project - Playwright</a> is faster and less flaky than <a href="../ai/project%20-%20selenium.html">project - selenium</a>
+<a id="block-bf794c2" class="block-anchor"></a></p>
+<p>Videos
+<a id="block-56b71e8" class="block-anchor"></a></p>
+<p>Computers are faster and have greater parallelism
+<a id="block-eea4fac" class="block-anchor"></a></p>
+<h3>AI improvements</h3>
+<p><a id="block-d624b35" class="block-anchor"></a></p>
+<p>Temporary flakiness matters less when you can have a background agent ensure non-flaky behavior.
+<a id="block-a74655b" class="block-anchor"></a></p>
+<p>The slow speed matters less when you can have <a href="project%20-%20autoresearch.html">project - autoresearch</a> drive maximal parallelism and speed.  In practice, I have been able to keep the extensive meadow end to end test suite below one minute in maybe 4 hours of cumulative time spent with an agent on performance optimizations.
+<a id="block-3c36447" class="block-anchor"></a></p>
+<h3>The exact code structure matters less, and so do the unit and low-level integration tests</h3>
+<p><a id="block-f298a68" class="block-anchor"></a></p>
+<h3>architectural opinion matters - in the specification!</h3>
+<p><a id="block-af64ed3" class="block-anchor"></a></p>
+<p><a href="project%20-%20cucumber.html">project - cucumber</a> was a very interesting way of describing <a href="Given-when-then.html">Given-when-then</a>, but the scaffolding was a real pain to set up and maintain. I find it&#39;s often better to try to write code that reads like English then to try to write exactly English. And it&#39;s fine if there&#39;s a small translation layer between a completely textual, prompt, and and end code that reads well at the level of abstraction that makes sense to the user.
+<a id="block-0e76bd4" class="block-anchor"></a></p>
+<p>Write the user-facing specs at the <a href="level%20of%20intent.html">level of intent</a>, so a person can easily reason about them.
+<a id="block-f1af404" class="block-anchor"></a></p>
+<h3>How should you specify stuff?</h3>
+<p><a id="block-6340dca" class="block-anchor"></a></p>
+<p>Should it be markdown?  Should it be <a href="type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a>?  Should it be some combination?
+<a id="block-4111c0e" class="block-anchor"></a></p>
+<h3>A review app</h3>
+<p><a id="block-12bc381" class="block-anchor"></a></p>
+<p><a href="agent%20task%20--%20change%20review%20app.html">agent task -- change review app</a>
+<a id="block-012cae6" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="compound%20engineering%20practices.html">compound engineering practices</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">I&#39;m getting more bullish on end-to-end testing because of agents</span> ... and like you run them wrapped so that if there are any issues, it figures them out, and also you have anti-flakes with repeated runs</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="compound%20engineering%20practices.html#block-ceca364"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

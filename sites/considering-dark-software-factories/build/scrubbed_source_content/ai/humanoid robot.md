@@ -1,0 +1,1 @@
+A types of <span class="link-not-tracked">link not tracked</span>

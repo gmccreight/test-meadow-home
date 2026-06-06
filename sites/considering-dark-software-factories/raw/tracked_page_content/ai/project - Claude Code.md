@@ -1,0 +1,3 @@
+[[project - Claude]]
+
+[[smart agent]]

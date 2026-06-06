@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for simple workflows, smart agents can effectively run them as deterministic workflows</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><a href="agent%20skill%20wrapped%20scripts.html" class="breadcrumb-link">agent skill wrapped scripts</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">for simple workflows, smart agents can effectively run them as deterministic workflows</span></nav>
+    </header>
+    <main>
+        <h1>for simple workflows, smart agents can effectively run them as deterministic workflows</h1>
+        <p>^ for <span class="link-not-tracked">link not tracked</span>, <a href="../ai/smart%20agent.html">smart agent</a>s can effectively run them as <span class="link-not-tracked">link not tracked</span>s (<span class="link-not-tracked">link not tracked</span>)
+<a id="block-de4ec38" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>I&#39;ve been thinking about something wrong.<br><a id="block-c60443b" class="block-anchor"></a></p>
+<p>I&#39;ve been thinking: <span class="link-not-tracked">link not tracked</span>
+<a id="block-4d512e1" class="block-anchor"></a></p>
+<p>But that&#39;s not true, actually.  It really depends how hard the workflow is.<br><a id="block-6a5c964" class="block-anchor"></a></p>
+<p>For example, I&#39;m working on a pretty simple workflow right now.  I&#39;m developing an <a href="agent%20skill.html">agent skill</a> that does application releases.  There are a bunch of bash scripts in the <em>project</em> that are used for stuff like compiling the application, syncing it to S3, etc.  To properly do a release, I need to essentially answer all these questions.
+<a id="block-e16537a" class="block-anchor"></a></p>
+<ul>
+<li>should it use the slow (but needed-for-real-customers) Apple notarization process when building the app?</li>
+<li>which destination bucket (dev or prod)</li>
+<li>do I want to include release notes? (I might skip it if I&#39;m just doing a test)</li>
+<li>should it increment the <code class="inline-code">auto-update-version.txt</code> that causes the app to ask the user if it can auto-update?</li>
+</ul>
+<p><a id="block-a12ce21" class="block-anchor"></a></p>
+<p>So, <em>pretty</em> simple stuff.
+<a id="block-d371a77" class="block-anchor"></a></p>
+<p>In the past I <em>absolutely</em> would have created a <code class="inline-code">release</code> shell script that wrapped all the sub-scripts and forced you to answer all those questions at the start.
+<a id="block-508bcad" class="block-anchor"></a></p>
+<p>But then I stepped back and thought about it.  This is simple enough that <a href="../ai/project%20-%20Claude%20Code.html">project - Claude Code</a> running <span class="link-not-tracked">link not tracked</span> is <em>never</em> going to screw it up, and by making it a text-based skill, I can do all sorts of flexible stuff like have <em>it</em> help me draft the release notes, or ask it to name the release something really weird for a very specific purpose.
+<a id="block-1c6580b" class="block-anchor"></a></p>
+<p>The other thing that&#39;s nice is that I can run it with no options and (like shown in <span class="link-not-tracked">link not tracked</span>), it will ask me all those questions...
+<a id="block-2b00a1a" class="block-anchor"></a></p>
+<img src="claude-asking-user-questions.png" style="max-width: 800px" alt="claude-asking-user-questions.png" />
+<a id="block-d3f5486" class="block-anchor"></a>
+
+<p>... but also, I can use <span class="link-not-tracked">link not tracked</span> to just describe what I want beforehand so those questions will be pre-answered.  If I happened to forget to specify a single choice ahead-of-time, it will bug me to answer just that one question.  Fantastic!
+<a id="block-9c5ddfe" class="block-anchor"></a></p>
+<p>So yeah, I think for a workflow like this, Claude Code is <span class="link-not-tracked">link not tracked</span>.  Hmmm... that&#39;s an <span class="link-not-tracked">link not tracked</span>
+<a id="block-3047639" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="agent%20skill%20wrapped%20scripts.html">agent skill wrapped scripts</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Related to <span class="highlight-do-not-link">for simple workflows, smart agents can effectively run them as deterministic workflows</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="agent%20skill%20wrapped%20scripts.html#block-22842ce"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="agent%20workflow%20orchestration.html">agent workflow orchestration</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">for simple workflows, smart agents can effectively run them as deterministic workflows</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="agent%20workflow%20orchestration.html#block-a3a27c6"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

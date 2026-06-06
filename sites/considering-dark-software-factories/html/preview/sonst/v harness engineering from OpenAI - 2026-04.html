@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v harness engineering from OpenAI - 2026-04</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><a href="../sites/aes/practices/practice%20-%20custom%20linting%20rules%20that%20inject%20in-repo%20documentation%20as%20context.html" class="breadcrumb-link">practice - custom linting rules that inject in-repo documentation as context</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">v harness engineering from OpenAI - 2026-04</span></nav>
+    </header>
+    <main>
+        <h1>v harness engineering from OpenAI - 2026-04</h1>
+        <p><a href="https://youtu.be/am_oeAoUhew?si=vvWiUkWRhdzwEeB6" rel="noreferrer noopener" target="_blank">https://youtu.be/am_oeAoUhew?si=vvWiUkWRhdzwEeB6</a>
+<a id="block-45a3057" class="block-anchor"></a></p>
+<p><a href="harness%20engineering.html">harness engineering</a> <a href="../ai/company%20-%20OpenAI.html">company - OpenAI</a> by the guy who wrote <a href="b%20OpenAI%20harness%20engineering%202026-02.html">b OpenAI harness engineering 2026-02</a>
+<a id="block-6fa4802" class="block-anchor"></a></p>
+<h3>Summary</h3>
+<p><a id="block-21cb55a" class="block-anchor"></a></p>
+<p>As the commentators on the YouTube video point out, he is <span class="link-not-tracked">link not tracked</span> with his <span class="link-not-tracked">link not tracked</span>.  That doesn&#39;t mean there isn&#39;t a lot of merit to what he is saying.
+<a id="block-bd06fca" class="block-anchor"></a></p>
+<p>I take the key points to be:
+<a id="block-4b66d6b" class="block-anchor"></a></p>
+<p>Roughly, he is systematically <span class="link-not-tracked">link not tracked</span> by identifying <a href="../ai/structured%20failure%20modes.html">structured failure modes</a> and translating them into <a href="mechanisms%20for%20making%20agents%20more%20reliable.html">mechanisms for making agents more reliable</a>
+<a id="block-5163685" class="block-anchor"></a></p>
+<p>By having <span class="link-not-tracked">link not tracked</span>, it allows the system to run <a href="../ai/dim%20-%20task%20horizon%20length%20--%20longer.html">autonomously for longer</a>.
+<a id="block-c63999c" class="block-anchor"></a></p>
+<p><a href="AI%20can%20make%20software%20better%20and%20not%20just%20faster.html">AI can make software better and not just faster</a>, like <a href="../ai/person%20-%20Simon%20Willison.html">person - Simon Willison</a> says.
+<a id="block-1a8dc29" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>. Treat those areas as <a href="../ai/structured%20failure%20modes.html">structured failure modes</a>.
+<a id="block-03ff006" class="block-anchor"></a></p>
+<p>Tactical suggestion: <a href="../sites/aes/practices/practice%20-%20custom%20linting%20rules%20that%20inject%20in-repo%20documentation%20as%20context.html">practice - custom linting rules that inject in-repo documentation as context</a>
+<a id="block-e5a1b62" class="block-anchor"></a></p>
+<h3>Notes</h3>
+<p><a id="block-4af5ae4" class="block-anchor"></a></p>
+<p>At 5:10 it is not just human attention that is scarce but also <span class="link-not-tracked">link not tracked</span>
+<a id="block-2c5bcbd" class="block-anchor"></a></p>
+<p>At 7:00 <span class="link-not-tracked">link not tracked</span>
+<a id="block-aa340ae" class="block-anchor"></a></p>
+<p>At 7:30 writing things in ways that is native to the agents and structuring them in a way that is respectful of the fact that <span class="link-not-tracked">link not tracked</span>
+<a id="block-784cd1b" class="block-anchor"></a></p>
+<p>At 8:00 there&#39;s a meta epistemological question around <span class="link-not-tracked">link not tracked</span>. We spend years as software engineers learning how to make a code that is flexible, maintainable, reliable, that your teammates can build on top of. The code accrues leverage over time.
+:
+Software engineers have a lot of understanding of what the <a href="non-functional.html">non-functional</a> requirements of a successful systems look like.
+<a id="block-61df6b9" class="block-anchor"></a></p>
+<p>At 11:30 auto compaction has gotten significantly better and so context people don&#39;t start new as much and so context gets paged out, so you have to figure out a way of ensuring that the context remains
+...
+It sounds like he&#39;s saying that we don&#39;t need <a href="Ralph%20loop.html">Ralph loop</a>s as much, anymore, but on the flip-side he says we should be mindful that <span class="link-not-tracked">link not tracked</span>.
+<a id="block-b184c21" class="block-anchor"></a></p>
+<p>At 13:00 he talks about adding <span class="link-not-tracked">link not tracked</span>s that catch specific issues.  For example, on every request, it should always have <span class="link-not-tracked">link not tracked</span>
+:
+Another <span class="link-not-tracked">link not tracked</span> check that he suggests is forcing all of the files to be less than 350 lines because <span class="link-not-tracked">link not tracked</span>.  Feels like the types of constraints you would add with <span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ce449" class="block-anchor"></a></p>
+<p>At 14:30 If you provide context In error messages that will act as prompts.  that can help a lot. For example, there should be no unknown in the middle of the code base because you <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> using <span class="link-not-tracked">link not tracked</span>
+<a id="block-96d9100" class="block-anchor"></a></p>
+<p>At 15:30 the increases in capability that we see are pretty much the combination of the models improving and prompts. Lots of things are prompts. <a href="agent%20skill.html">agent skill</a>s are prompts.  The error lint results are prompts.
+<a id="block-ccae838" class="block-anchor"></a></p>
+<p>At 25:30 he talks about the process of letting the agent try to accomplish the functional requirements and then once it&#39;s done with that, having the system enforce the sort of nonfunctional requirements around code structure or testing philosophy
+...
+<span class="link-not-tracked">link not tracked</span> which is a different phase
+<a id="block-f1c6d15" class="block-anchor"></a></p>
+<p>At 28:40 he describes the <a href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html">practice - context right in the repo</a> documentation inside of the project and get hub as sort of a <span class="link-not-tracked">link not tracked</span> thing.
+<a id="block-82887bc" class="block-anchor"></a></p>
+<p>At 34:45 they sort of pushed towards something like <span class="link-not-tracked">link not tracked</span> and used <span class="link-not-tracked">link not tracked</span>s to ensure that the services were actually being used.  He says that it&#39;s great if you can just look into one directory to be able to make most of the changes that you need to make in order to do what you need to do.
+<a id="block-4812f11" class="block-anchor"></a></p>
+<p>Add 35:20 it&#39;s critically important that you have one way of doing things. So for example, you should have one programming language, and you should have one way of doing bounded concurrency and you should have one way of doing some other thing and by doing that.  One <span class="link-not-tracked">link not tracked</span>
+<a id="block-35ab6c0" class="block-anchor"></a></p>
+<p>At 36:30 somebody asked the question about how do you automate code review and he says that you need to start from the idea that he should <span class="link-not-tracked">link not tracked</span>
+:
+At 37:10 they realize they were spending a lot of time on <span class="link-not-tracked">link not tracked</span>s.  One reason was that they were working on the same code a lot, so that was one of the pushes to <span class="link-not-tracked">link not tracked</span> so there would be greater <span class="link-not-tracked">link not tracked</span>.
+:
+Add 37:20 the reason why another reason why they were merge conflicts is because PR&#39;s stayed open too long. And that&#39;s because they required code review so they were waiting on people.
+<a id="block-847f650" class="block-anchor"></a></p>
+<p>At 37:50 garbage day was Friday where they would look at every piece of slop that made it difficult to merge the PR in the last week and essentially categorize them like <a href="../ai/structured%20failure%20modes.html">structured failure modes</a>, and resolve those.
+:
+At 38:20 how do you prompt inject the agent when it exhibits this bad behavior
+<a id="block-8485819" class="block-anchor"></a></p>
+<p>At 38:30 One purpose of the <a href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html">practice - context right in the repo</a> is that it serves as a centralized way to prompt inject the model for any of the sort of the <a href="../ai/structured%20failure%20modes.html">structured failure modes</a> (like <span class="link-not-tracked">link not tracked</span> or <span class="link-not-tracked">link not tracked</span> violations)
+:
+At 38:50 he had them bucket their feedback into the <span class="link-not-tracked">link not tracked</span> that they were operating as for example, front end engineer.
+<a id="block-be69ccd" class="block-anchor"></a></p>
+<p>At 40:30 he doesn&#39;t use plan mode and believes that he is set up the system in such a way that it should be able to successfully complete tickets without plan mode. He doesn&#39;t read the plans.
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+On reflection, I realize that I read plans because I don&#39;t trust two things: That the model will understand my intent, or that it will translate my intent into a structure that I will agree with.  I realize that both of these could be addressed in a different way. Some people have taken to using a <a href="agent%20skill%20--%20grill%20me.html">agent skill -- grill me</a> skill to ensure that the model understands their intent.  They suggest that they are getting much better results because of it.  Another way of ensuring that the model will understand your intent is for your intent, to be clearly described at a higher level in the <a href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html">practice - context right in the repo</a>.  And secondly, if I have carefully specified architectural guidelines and guard rails, and have a very good testing infrastructure, then I should be less concerned that the model will structure things according to my desires.<br>...
+I&#39;ve been hearing about people <span class="link-not-tracked">link not tracked</span>, but I had a loose mental model that plan mode sort of forced the agent to think more thoroughly before it would actually implement, leading to better results. It&#39;s pretty clear that if you are not forcing plan mode to facilitate a manual review that simply using it to force the model to thank harder as part of a multi step process is an <span class="link-not-tracked">link not tracked</span> that will be <span class="link-not-tracked">link not tracked</span> soon enough, if not already.
+<a id="block-c4290c3" class="block-anchor"></a></p>
+<p>At 40:40 earlier, he was asked how he splits his token usage and he says that he spends 30% of it in CI. That&#39;s interesting to me because he says that your senior engineers are typically very good at giving reviews and so he wants to level up the agents to be more like the senior engineers so they need to be able to give good reviews. I think the thing that&#39;s surprising about that to me is that it&#39;s done at CI time as opposed to being done as part of the end of the feature development, but maybe that&#39;s an arbitrary distinction. He makes the point that since code is no longer the hard part and it can be generated quickly really the challenge is i&#39;m getting that code into the main line so that the value is actually realized.
+<a id="block-4da794d" class="block-anchor"></a></p>
+<p>At 41:50 someone asks <span class="link-not-tracked">link not tracked</span>
+...
+Makes me think of <a href="spec-driven%20development%20-%20SDD.html">spec-driven development - SDD</a> and the <span class="link-not-tracked">link not tracked</span> hypothesis
+:
+At 42:20 all of the context that we provide are essentially constraints and optimization passes about which code is acceptable to be included.  Pretty similar to the <span class="link-not-tracked">link not tracked</span> and optimization passes in <span class="link-not-tracked">link not tracked</span>
+<a id="block-179fcc5" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../sites/aes/practices/practice%20-%20custom%20linting%20rules%20that%20inject%20in-repo%20documentation%20as%20context.html">practice - custom linting rules that inject in-repo documentation as context</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">v harness engineering from OpenAI - 2026-04</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20custom%20linting%20rules%20that%20inject%20in-repo%20documentation%20as%20context.html#block-676c727"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

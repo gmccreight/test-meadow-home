@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pets vs cattle</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><a href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html" class="breadcrumb-link">b Anthropic scaling managed agents 2026-04</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">pets vs cattle</span></nav>
+    </header>
+    <main>
+        <h1>pets vs cattle</h1>
+        <p>Pets vs Cattle
+<a id="block-dc84b06" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>A metaphor from the Kubernetes / cloud-native world. <strong>Pets</strong> are long-lived, individually named, and carefully maintained. <strong>Cattle</strong> are ephemeral, interchangeable, and disposable — if one dies you spin up another.
+<a id="block-fda3787" class="block-anchor"></a></p>
+<p>In Gas Town, <a href="../gt/Term%20--%20Agent.html">agents</a> are pets (persistent identities in <a href="project%20-%20Beads.html">project - Beads</a>) while <a href="../gt/Term%20--%20Session.html">sessions</a> are cattle (ephemeral Claude Code sessions thrown at persistent work).
+<a id="block-3ab543b" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../gt/Annotated%20version%20of%20'Welcome%20to%20Gas%20Town'.html">Annotated version of 'Welcome to Gas Town'</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In Gas Town, an <a href="../gt/Term%20--%20Agent.html">Agent</a> is not a session. <a href="../gt/Term%20--%20Session.html">Session</a>s are ephemeral; they are the “cattle” in the Kubernetes <span class="highlight-do-not-link">pets vs cattle</span> metaphor. Claude Code sessions are the cattle that Gas Town throws at persistent work. That work all lives in <a href="project%20-%20Beads.html">Beads</a>, along with the persistent identities of the workers, and the <a href="../gt/Term%20--%20Town%20Mail.html">Town Mail</a>, the event system, and even the ephemeral orchestration, as we will see.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../gt/Annotated%20version%20of%20'Welcome%20to%20Gas%20Town'.html#block-1ebb2b5"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../gt/Glossary.html">Glossary</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Description</th>
+<th>Kind</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="../gt/Term%20--%20Agent.html">Agent</a></td>
+<td>A persistent <a href="../gt/Term%20--%20Worker.html">worker</a> identity — the &quot;pet&quot; in <span class="highlight-do-not-link">pets vs cattle</span></td>
+<td><a href="../gt/Concepts.html">concept</a></td>
+</tr>
+</tbody></table>
+
+                </div>
+                <a class="backlink-see-in-context" href="../gt/Glossary.html#block-124224d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../gt/Term%20--%20Agent.html">Term -- Agent</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><strong>Agent</strong>: A persistent worker identity in Gas Town. An agent is not a <a href="../gt/Term%20--%20Session.html">session</a> — it is the &quot;pet&quot; in the <span class="highlight-do-not-link">pets vs cattle</span> metaphor. Agents have persistent identities stored as <a href="../gt/Term%20--%20Agent%20Bead.html">Agent Beads</a> in <a href="project%20-%20Beads.html">Beads</a>, and their work, mail, and state all live in Beads too.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../gt/Term%20--%20Agent.html#block-2c1df8d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../gt/Term%20--%20Session.html">Term -- Session</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><strong>Session</strong>: An ephemeral Claude Code session that Gas Town throws at persistent work. Sessions are the &quot;cattle&quot; in the <span class="highlight-do-not-link">pets vs cattle</span> metaphor — disposable and interchangeable. The persistent identity and state belong to the <a href="../gt/Term%20--%20Agent.html">agent</a>, not the session.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../gt/Term%20--%20Session.html#block-fffb8df"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html">b Anthropic scaling managed agents 2026-04</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>But by coupling everything into one container, we ran into an old infrastructure problem: we’d adopted a pet. In the pets-vs-cattle analogy, a pet is a named, hand-tended individual you can’t afford to lose, while cattle are interchangeable. In our case, the server became that pet; if a container failed, the session was lost. If a container was unresponsive, we had to nurse it back to health.
+...
+<span class="highlight-do-not-link">pets vs cattle</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html#block-a7bb718"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../gt/spaced%20repetition%20prompts%20-%20blog%20section%206%20-%20Gastown%20Universal%20Propulsion%20Principle.html">spaced repetition prompts - blog section 6 - Gastown Universal Propulsion Principle</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In Gas Town, which is more enduring... an <a href="../gt/Term%20--%20Agent.html">agent</a> or a <a href="../gt/Term%20--%20Session.html">session</a>?
+?
+The agent.  An agent is the persistent identity (the &quot;pet&quot;); a session is the ephemeral Claude Code process thrown at work (the &quot;cattle&quot;). Sessions come and go, but the agent endures.
+...
+<span class="highlight-do-not-link">pets vs cattle</span></p>
+<!--GUID:fc30644380e50-->
+                </div>
+                <a class="backlink-see-in-context" href="../gt/spaced%20repetition%20prompts%20-%20blog%20section%206%20-%20Gastown%20Universal%20Propulsion%20Principle.html#block-fe293a9"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

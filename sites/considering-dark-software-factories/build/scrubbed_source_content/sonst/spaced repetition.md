@@ -1,0 +1,3 @@
+<span class="link-not-tracked">link not tracked</span>
+
+**From AI:** Spaced repetition is a learning technique that improves long-term memory by reviewing information at increasing time intervals ([[the spacing effect]]). Instead of studying something repeatedly in a short period, you revisit it right before you’re likely to forget it. Each successful recall pushes the next review further into the future, which strengthens the memory and dramatically reduces total study time.

@@ -1,0 +1,1 @@
+Like in <span class="link-not-tracked">link not tracked</span> or <span class="link-not-tracked">link not tracked</span>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fast-tests</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><a href="../sonst/t%20compound%20engineering%20by%20OpenAI%20developer%20-%202026-05.html" class="breadcrumb-link">t compound engineering by OpenAI developer - 2026-05</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">fast-tests</span></nav>
+    </header>
+    <main>
+        <h1>fast-tests</h1>
+        <p>Computers are a <span class="link-not-tracked">link not tracked</span>
+<a id="block-5b09a09" class="block-anchor"></a></p>
+<p>What is fast?  No objective answer, but there is one that works for people.  Fast enough that you don&#39;t notice it.  That&#39;s different for sound than for visual information.
+<a id="block-88e205e" class="block-anchor"></a></p>
+<p>Speed takes and gives.  To achieve it, you have to change how you&#39;re doing things.  Once you have it, it changes how <em>you</em> do things.  It&#39;s transformative.
+<a id="block-099a796" class="block-anchor"></a></p>
+<p>Speed, in order to be achieved, needs to be the primary goal.
+<a id="block-d4b82d5" class="block-anchor"></a></p>
+<ul>
+<li>What you need to change to achieve it<ul>
+<li>decoupling from slow things<ul>
+<li>database</li>
+<li>GUI</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a id="block-8fee12d" class="block-anchor"></a></p>
+<p>You could mock to get all these things, but that&#39;s problematic because of API drift, and the coupling to a specific interface.
+<a id="block-0a89114" class="block-anchor"></a></p>
+<ul>
+<li>What it gives you?<ul>
+<li>&quot;sub-second tests are a huge enabler of flow, and flow is amazing!&quot; - Katrina Owen from <span class="link-not-tracked">link not tracked</span></li>
+<li>Since you can run your tests so easily, you run them all the time.  Running them all the time allows you to rely on your computer to tell</li>
+</ul>
+</li>
+</ul>
+<p><a id="block-e6a6aac" class="block-anchor"></a></p>
+<p>Anyone that has used a static language and has fat-fingered something has had the IDE inform them of the mistake immediately, thought &quot;thanks!&quot;, and been on their merry way.  There&#39;s an opposing, dystopian version of that where you learn about your mistake 5 minutes later, along with several other mistakes, and you&#39;re no longer in the code for any of them.  That dystopian vision describes how many of us write and run our tests, primarily because they are slow.
+<a id="block-8210b7a" class="block-anchor"></a></p>
+<p>They&#39;re slow enough that we feel the need to write more code than we should between each test run, since we don&#39;t want to pay the test-run penalty for a small change.  They&#39;re slow enough that truly incremental refactoring seems tedious and overkill.  &quot;Let&#39;s just use slightly larger refactoring steps so we don&#39;t have to run the tests as often!&quot;  I can tell from personal experience that this sometimes results in the refactoring being scrapped with a &quot;git reset --hard&quot; because it got into a state where debugging the problems that arose from one of the larger-than-advisable refactoring steps just wasn&#39;t worth it.
+<a id="block-1b7ae2a" class="block-anchor"></a></p>
+<p>I was struck, when I read <a href="http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672" rel="noreferrer noopener" target="_blank">Martin Fowler's Refactoring</a> by just <em>how small</em> the steps he took were.  Patience is a virtue, but it&#39;s a virtue I lack.
+<a id="block-a51332e" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../sonst/t%20compound%20engineering%20by%20OpenAI%20developer%20-%202026-05.html">t compound engineering by OpenAI developer - 2026-05</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>The agent feedback loop is also slower in those kinds of environment. If building and running tests is slower it means that the thread will run for longer for iterative changes.
+...
+<span class="highlight-do-not-link">fast-tests</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/t%20compound%20engineering%20by%20OpenAI%20developer%20-%202026-05.html#block-38de4ec"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

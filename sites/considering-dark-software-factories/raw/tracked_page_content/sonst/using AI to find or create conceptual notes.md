@@ -1,0 +1,1 @@
+With any luck the AI will be reasonably successful at [[note deduplication and driving towards a unitary conceptual primitives]]

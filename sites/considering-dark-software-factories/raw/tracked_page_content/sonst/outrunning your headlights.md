@@ -1,0 +1,1 @@
+From [[book - pragmatic programmer]].  Moving too fast

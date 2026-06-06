@@ -1,0 +1,9 @@
+https://x.com/mitchellh/status/1963277478795026484?s=20
+
+My favorite part about <span class="link-not-tracked">link not tracked</span> is that you can share your whole session globally. PRs with Amp threads attached make me very, very happy as a maintainer. here is one from a bug fix this morning:
+...
+<span class="link-not-tracked">link not tracked</span> puts his <span class="link-not-tracked">link not tracked</span> threads in his [[pull request - PR]]s
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+<span class="link-not-tracked">link not tracked</span>
