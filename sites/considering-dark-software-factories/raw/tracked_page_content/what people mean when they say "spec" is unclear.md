@@ -1,1 +1,0 @@
-[[spec-driven development - SDD]]

@@ -1,1 +1,0 @@
-You learn stuff while implementing.  You get much deeper into the problem.  You don't just stick to the [[Engineering Requirements Doc - ERD]], if you find a better way.

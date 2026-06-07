@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check script</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><a href="../mwd/mwd development/dev%20tooling%20stress%20test.html" class="breadcrumb-link">dev tooling stress test</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">check script</span></nav>
+    </header>
+    <main>
+        <h1>check script</h1>
+        <p>check scripts are a type of <a href="validation%20script.html">validation script</a>.
+<a id="block-8ffb72b" class="block-anchor"></a></p>
+<p>There is an executable <code class="inline-code">./check</code> script at the root of the project.  It, in turn, calls nested <code class="inline-code">check</code> scripts, in sub-directories.  It calls those in parallel, then joins back up.
+<a id="block-99851f3" class="block-anchor"></a></p>
+<p>Each of those sub check scripts runs things like a directory structure check first, then the linter, unit tests, system tests in parallel.  Whatever it makes sense to run in those directories.  If there are any failures, they fail with an error.
+<a id="block-f8b1f2c" class="block-anchor"></a></p>
+<p>The sub-check scripts work independently and can report what went wrong, but also they work with their parent check script which gathers up the information from the lower check scripts and outputs its own higher-level report.  The final output is &quot;OK&quot; (green) or &quot;NOT OK&quot; red.  If it was not ok, it provides the details.
+<a id="block-09118ee" class="block-anchor"></a></p>
+<p>The point of this script is to be a relatively comprehensive local check for broken things that the <a href="../ai/agentic%20coding.html">coding agent</a> can easily run and get a lot of feedback about whether it broke something.  That way we can encourage it to always run the check script after making its changes.
+<a id="block-1649e02" class="block-anchor"></a></p>
+<p>We try to keep it really fast so that it doesn&#39;t impact <span class="link-not-tracked">link not tracked</span>, and so a person can also run it whenever they want.
+<a id="block-af59a19" class="block-anchor"></a></p>
+<p>When I fed the above into ChatGPT, it describes this as:
+<a id="block-e9a125b" class="block-anchor"></a></p>
+<blockquote>
+<p>A composite, hierarchical check system — essentially a local CI gate — where each directory owns an independent check contract and the root orchestrates them in parallel with aggregated reporting.
+<a id="block-16d40eb" class="block-anchor"></a></p>
+</blockquote>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../mwd/mwd development/dev%20tooling%20stress%20test.html">dev tooling stress test</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>We have two types of testing.  Our <span class="highlight-do-not-link">check script</span>s do linting and unit tests for the individual parts of the system.  They also invoke some straightforward integrated <a href="../ai/system%20test.html">system test</a>s that involve a few parts of the system.  Then we also have our <a href="../mwd/mwd%20testing/meadow%20e2e%20tests.html">meadow e2e tests</a> that run <em>everything</em>: the full &quot;app&quot; code and also the interface with <a href="../meadow-internal/meadow-cloud/meadow%20cloud%20--%20local.html">meadow cloud -- local</a> that act like remote services, but are local  (I could imagine a future version where we allow them to conditionally interface with <a href="../meadow-internal/meadow-cloud/meadow%20cloud%20--%20remote%20--%20test.html">meadow cloud -- remote -- test</a> but probably from a serially-running <a href="../ai/CI.html">CI</a> and not from a <a href="../ai/dim%20-%20amount%20of%20parallelism%20--%20very%20high.html">dim - amount of parallelism -- very high</a> set of worktrees.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/dev%20tooling%20stress%20test.html#block-83d7734"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>To ensure that isolation between the worktrees works properly, we need have stress test tooling that creates multiple <a href="git%20worktree.html">git worktree</a>s and then (all at the same time), executes the <span class="highlight-do-not-link">check script</span> <code>--e2e</code> and <code>--video</code> in each worktree.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/dev%20tooling%20stress%20test.html#block-0c50963"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sites/aes/practices/practice%20-%20background%20check.html">practice - background check</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>I should have <span class="link-not-tracked">link not tracked</span> doing things like continually double-checking code quality, documentation links, etc.  I <em>do</em> have a <span class="highlight-do-not-link">check script</span> which I force the agent to always run, but it&#39;s much more like a traditional CI script (linting, unit tests, system tests)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sites/aes/practices/practice%20-%20background%20check.html#block-a8d9d2f"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd/mwd development/root-level%20check%20script.html">root-level check script</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>^ root-level <span class="highlight-do-not-link">check script</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/root-level%20check%20script.html#block-6e0c763"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

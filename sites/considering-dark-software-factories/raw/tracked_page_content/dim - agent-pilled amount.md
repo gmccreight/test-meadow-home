@@ -1,1 +1,0 @@
-^ dim - [[agent-pilled]] amount

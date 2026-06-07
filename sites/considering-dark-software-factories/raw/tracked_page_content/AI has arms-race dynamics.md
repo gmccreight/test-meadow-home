@@ -1,1 +1,0 @@
-AI has [[a race dynamic]]

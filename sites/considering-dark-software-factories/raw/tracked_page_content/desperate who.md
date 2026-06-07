@@ -1,1 +1,0 @@
-Basically the people who need the painkiller in [[diff - vitamin vs. painkiller]]

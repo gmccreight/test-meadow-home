@@ -1,3 +1,0 @@
-^ [[documentation context graph]] -- document
-
----

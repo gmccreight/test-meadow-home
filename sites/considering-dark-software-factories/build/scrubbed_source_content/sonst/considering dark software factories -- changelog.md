@@ -40,34 +40,34 @@ Added a page called [[unlocking very parallel development]], since I'm staring t
 
 **2026-03-12**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-12]]
 
 ---
 
 **2026-03-11**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-11]]
 
 
 **2026-03-10**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-10]]
 
 ---
 
 **2026-03-06**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-06]]
 
 ---
 
 **2026-03-05**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-05]]
 
 ---
 
 **2026-03-02**
 
-<span class="link-not-tracked">link not tracked</span>
+![[considering dark software factories -- changelog - 2026-03-02]]
 

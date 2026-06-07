@@ -1,1 +1,0 @@
-^ [[no human]] -- [[app verification]]

@@ -8,4 +8,4 @@
 :
 The Deacon’s patrol got so overloaded with responsibilities that it needed helpers, so I added the Dogs. This keeps the Deacon focused completing on its patrol, rather than getting bogged down and stuck on one of the steps. The Deacon slings work to the Dogs and they handle the grungy details.
 ...
-<span class="link-not-tracked">link not tracked</span>
+[[managers needs to maintain focus on ensuring things get done]]

@@ -1,1 +1,0 @@
-A more abstract version of [[dark software factory]].  The name just makes it clear that it could be _anything_.

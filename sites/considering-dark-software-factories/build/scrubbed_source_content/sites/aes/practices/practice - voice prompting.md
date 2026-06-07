@@ -12,6 +12,6 @@ From <span class="link-not-tracked">link not tracked</span>
 
 That matches how I do it, though I'll occasionally stop and type something very carefully if I want to ensure it is right (like the filename).
 
-I use <span class="link-not-tracked">link not tracked</span> when I'm on my computer.  I just use Apple's voice dictation if I'm [[practice - work from phone|working from my phone]].
+I use [[project - wispr flow]] when I'm on my computer.  I just use Apple's voice dictation if I'm [[practice - work from phone|working from my phone]].
 
 

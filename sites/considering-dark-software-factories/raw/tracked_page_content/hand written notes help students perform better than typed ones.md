@@ -1,1 +1,0 @@
-I wonder if this could have to do with [[dim - assimilation depth]].  Perhaps because we can type so fast, we can simply [[transcribe]] what is being said, without thinking too much, instead of needing to do the quick [[synthesis]] and [[summarization]] that would allow us to write it by hand.

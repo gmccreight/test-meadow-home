@@ -1,1 +1,0 @@
-[[dim - inference speed]]

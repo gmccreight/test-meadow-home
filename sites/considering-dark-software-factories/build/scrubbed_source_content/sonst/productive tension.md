@@ -1,0 +1,1 @@
+A productive tension is like <span class="link-not-tracked">link not tracked</span>.  It's generative and helps you see the problem more clearly.

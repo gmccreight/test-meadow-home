@@ -1,1 +1,0 @@
-[[dim - assimilation depth]]

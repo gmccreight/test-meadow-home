@@ -8,8 +8,8 @@ Notes:
 
 * this blog post
 * [[free recall - Open AI harness blog post - 2026-02]] (one day later)
-* <span class="link-not-tracked">link not tracked</span> (three days after that)
-* <span class="link-not-tracked">link not tracked</span> (throughout)
+* [[review - Open AI harness blog post - 2026-02-22]] (three days after that)
+* [[to remove - Agentic engineering practices - scorecard 2026-04]] (throughout)
 
 ---
 

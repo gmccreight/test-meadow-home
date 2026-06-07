@@ -4,4 +4,4 @@
 ...
 <span class="link-not-tracked">link not tracked</span>
 
-<span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span>
+[[seems related]] to <span class="link-not-tracked">link not tracked</span>

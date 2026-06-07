@@ -1,3 +1,0 @@
-[[framing effect]]
-
-[[reframe]]

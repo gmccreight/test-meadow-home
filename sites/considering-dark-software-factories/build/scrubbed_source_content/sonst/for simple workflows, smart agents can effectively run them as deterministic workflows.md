@@ -19,12 +19,12 @@ So, *pretty* simple stuff.
 
 In the past I _absolutely_ would have created a `release` shell script that wrapped all the sub-scripts and forced you to answer all those questions at the start.
   
-But then I stepped back and thought about it.  This is simple enough that [[project - Claude Code]] running <span class="link-not-tracked">link not tracked</span> is _never_ going to screw it up, and by making it a text-based skill, I can do all sorts of flexible stuff like have _it_ help me draft the release notes, or ask it to name the release something really weird for a very specific purpose.
+But then I stepped back and thought about it.  This is simple enough that [[project - Claude Code]] running [[AI unit - claude 4.6 Opus]] is _never_ going to screw it up, and by making it a text-based skill, I can do all sorts of flexible stuff like have _it_ help me draft the release notes, or ask it to name the release something really weird for a very specific purpose.
 
 The other thing that's nice is that I can run it with no options and (like shown in <span class="link-not-tracked">link not tracked</span>), it will ask me all those questions...
 
 ![[claude-asking-user-questions.png|800]]
 
-... but also, I can use <span class="link-not-tracked">link not tracked</span> to just describe what I want beforehand so those questions will be pre-answered.  If I happened to forget to specify a single choice ahead-of-time, it will bug me to answer just that one question.  Fantastic!
+... but also, I can use [[project - wispr flow]] to just describe what I want beforehand so those questions will be pre-answered.  If I happened to forget to specify a single choice ahead-of-time, it will bug me to answer just that one question.  Fantastic!
 
 So yeah, I think for a workflow like this, Claude Code is <span class="link-not-tracked">link not tracked</span>.  Hmmm... that's an <span class="link-not-tracked">link not tracked</span>

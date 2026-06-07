@@ -1,0 +1,1 @@
+^ [[agentic coding|coding agent]] are <span class="link-not-tracked">link not tracked</span> so it makes sense to really lean into what makes them even marginally more effective

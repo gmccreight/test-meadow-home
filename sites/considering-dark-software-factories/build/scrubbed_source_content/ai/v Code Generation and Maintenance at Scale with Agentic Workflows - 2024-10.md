@@ -4,7 +4,7 @@ https://youtu.be/Ve-akpov78Q?si=HDg6UPXTqBDGafC2
 
 Large enterprises' codebases are extremely hard to manage because they are huge, interdependent, and often highly varied.  They already grow like weeds, but in the near future, they will grow even faster, thanks to AI-enabled development.  New tools need to be developed to allow the enterprises' staff who work on cross-cutting concerns, to manage that more abstract complexity better.
 
-At a narrow scope, tools like <span class="link-not-tracked">link not tracked</span> have shown how AI can aid developers in quickly adding features, but what about when you need something more like a bulldozer, for huge tasks like changing your logging platform, enterprise-wide, across a thousand repos?  For <span class="link-not-tracked">link not tracked</span> in <span class="link-not-tracked">link not tracked</span>
+At a narrow scope, tools like [[company - Cursor]] have shown how AI can aid developers in quickly adding features, but what about when you need something more like a bulldozer, for huge tasks like changing your logging platform, enterprise-wide, across a thousand repos?  For <span class="link-not-tracked">link not tracked</span> in <span class="link-not-tracked">link not tracked</span>
 
 This video explores one solution to that problem, a product called <span class="link-not-tracked">link not tracked</span>, and goes into the technical details about how it uses massively concurrent forking agentic workflows to solve the problem.  I found the section at 14:00 about the use of <span class="link-not-tracked">link not tracked</span> to do fast, exploratory <span class="link-not-tracked">link not tracked</span> (which feels a little like <span class="link-not-tracked">link not tracked</span>) to be particularly intriguing.
 
@@ -16,7 +16,7 @@ At 1:57 <span class="link-not-tracked">link not tracked</span> the product, <spa
 ...
 <span class="link-not-tracked">link not tracked</span>
 
-At 3:20 once more developers start using AI (and the AI becomes more powerful, too) there's gonna be way more code, and we're gonna need tools for managing just tons of code. Rather than single lines, you're gonna be making huge changes across many files. X  [[AI-enabled coding generates a huge amount of code]] <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span>
+At 3:20 once more developers start using AI (and the AI becomes more powerful, too) there's gonna be way more code, and we're gonna need tools for managing just tons of code. Rather than single lines, you're gonna be making huge changes across many files. X  [[AI-enabled coding generates a huge amount of code]] [[con - needing to manage huge code bases at higher levels of abstraction]] <span class="link-not-tracked">link not tracked</span>
 
 At 8:00 when searching to replace the logging for a whole enterprise across thousands of repos, they use their own special SQL that does both static analysis in concert with using LLMs . X Roughly makes me think of <span class="link-not-tracked">link not tracked</span> techniques more generally.
 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>design motivation -- local</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%202026-03-09%20-%20Showing%20Nate%20Meadow.html" class="breadcrumb-link">meeting 2026-03-09 - Showing Nate Meadow</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">design motivation -- local</span></nav>
+    </header>
+    <main>
+        <h1>design motivation -- local</h1>
+        <p><a href="design%20motivation.html">design motivation</a>
+<a id="block-2eded0a" class="block-anchor"></a></p>
+<p>If you buy into the <a href="../../sonst/file%20over%20app.html">file over app</a> idea, then you need direct access to the files in the file system.  So, the code running your publishing process should be local, too.  It is possible to have some kind of local and remote hybrid system, however I think it&#39;s an interesting design constraint to try to do as much of it locally as possible.
+<a id="block-e228bc8" class="block-anchor"></a></p>
+<p>So what happens locally? <a href="../mwd%20misc/local%20code.html">local code</a>, <a href="../mwd%20misc/local%20configuration.html">local configuration</a> and <a href="coming%20soon%20-%20local%20AI.html">coming soon - local AI</a>.
+<a id="block-1cfba14" class="block-anchor"></a></p>
+<p>One driver for local is <a href="design%20motivation%20--%20privacy.html">design motivation -- privacy</a>, which is why we have <em>such</em> a strong emphasis on directly addressing the <a href="sensitivity%20to%20accidentally%20publishing.html">sensitivity to accidentally publishing</a>.
+<a id="block-0f042be" class="block-anchor"></a></p>
+<h3>Challenges with local apps</h3>
+<p><a id="block-af27818" class="block-anchor"></a></p>
+<p><a href="local%20app%20challenge%20--%20easy%20upgrade.html">local app challenge -- easy upgrade</a>.  Can&#39;t just deploy code to production.  Need to get it out to customers.
+<a id="block-6cfb650" class="block-anchor"></a></p>
+<p><a href="local%20app%20challenge%20--%20support%20older%20versions.html">local app challenge -- support older versions</a>.  If the user doesn&#39;t want to upgrade, we shouldn&#39;t force them.
+<a id="block-8777ff4" class="block-anchor"></a></p>
+<p><a href="local%20app%20challenge%20--%20identifying%20and%20fixing%20bugs.html">local app challenge -- identifying and fixing bugs</a>.  Bugs are hard to know about and hard to fix.
+<a id="block-576f7fa" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="design%20motivation.html">design motivation</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">design motivation -- local</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="design%20motivation.html#block-7ba0f85"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="design%20motivation%20--%20privacy.html">design motivation -- privacy</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">design motivation -- local</span> and <a href="sensitivity%20to%20accidentally%20publishing.html">sensitivity to accidentally publishing</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="design%20motivation%20--%20privacy.html#block-0b4bd4a"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="local%20app%20challenge%20--%20easy%20upgrade.html">local app challenge -- easy upgrade</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>One of the challenges of <span class="highlight-do-not-link">design motivation -- local</span> is that the app must be explicitly upgraded (you can&#39;t just deploy a new version).</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="local%20app%20challenge%20--%20easy%20upgrade.html#block-ab36afa"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="local%20app%20challenge%20--%20identifying%20and%20fixing%20bugs.html">local app challenge -- identifying and fixing bugs</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>WIth <span class="highlight-do-not-link">design motivation -- local</span> and <a href="design%20motivation%20--%20privacy.html">design motivation -- privacy</a> that can be much harder.  You won&#39;t even <em>know</em> about an issue unless someone reports it.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="local%20app%20challenge%20--%20identifying%20and%20fixing%20bugs.html#block-1e5c06c"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="local%20app%20challenge%20--%20support%20older%20versions.html">local app challenge -- support older versions</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>One challenge with <span class="highlight-do-not-link">design motivation -- local</span> is if people don&#39;t upgrade.  You need to support older versions.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="local%20app%20challenge%20--%20support%20older%20versions.html#block-4f53699"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/meeting%202026-03-09%20-%20Showing%20Nate%20Meadow.html">meeting 2026-03-09 - Showing Nate Meadow</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">design motivation -- local</span> and <a href="design%20motivation%20--%20support%20large%20sites.html">design motivation -- support large sites</a> and <a href="design%20motivation%20--%20publish%20a%20huge%20number%20of%20sites.html">design motivation -- publish a huge number of sites</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/meeting%202026-03-09%20-%20Showing%20Nate%20Meadow.html#block-a0c1521"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -30,7 +30,7 @@ So, tactically, how can we improve on those steps?
 ![[agentic engineering scorecard.excalidraw|800]]
 
 
-<span class="link-not-tracked">link not tracked</span>
+[[to remove - Agentic engineering practices - scorecard 2026-04]]
 
 How does something like [[Gas Town]] fit into [[iterative design, planning, and coding]]?  Where is the "dark" there?  Will anyone even care about dark when agents are 100x faster, or is looking for dark really just looking to background some work because it's so slow?
 

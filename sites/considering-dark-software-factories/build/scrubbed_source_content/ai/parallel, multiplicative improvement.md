@@ -1,0 +1,1 @@
+another one is <span class="link-not-tracked">link not tracked</span> being something like a <span class="link-not-tracked">link not tracked</span>

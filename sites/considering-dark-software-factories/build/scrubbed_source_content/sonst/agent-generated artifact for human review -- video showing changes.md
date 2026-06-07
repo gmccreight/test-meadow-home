@@ -4,10 +4,10 @@
 
 ### Could be an agent...
 
-Using <span class="link-not-tracked">link not tracked</span>
+Using [[computer use]]
 
 [[dim - level of abstraction -- high]] review.  Part of the [[dark software factory]] approach... the output isn't [[code review]] but rather feature review.
 
 ### ... or just a system test...
 
-Or [[project - Playwright]] creating a <span class="link-not-tracked">link not tracked</span>
+Or [[project - Playwright]] creating a [[meadow e2e tests -- system test scenario video]]

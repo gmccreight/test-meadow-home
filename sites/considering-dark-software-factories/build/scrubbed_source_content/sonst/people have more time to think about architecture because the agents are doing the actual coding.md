@@ -1,0 +1,1 @@
+^ people have more <span class="link-not-tracked">link not tracked</span> about <span class="link-not-tracked">link not tracked</span> because the <span class="link-not-tracked">link not tracked</span>

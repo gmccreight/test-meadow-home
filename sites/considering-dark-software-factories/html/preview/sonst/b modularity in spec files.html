@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b modularity in spec files</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20changelog%20-%202026-03-12.html" class="breadcrumb-link">considering dark software factories -- changelog - 2026-03-12</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">b modularity in spec files</span></nav>
+    </header>
+    <main>
+        <h1>b modularity in spec files</h1>
+        <p><a href="https://codespeak.dev/blog/modularity-20260309" rel="noreferrer noopener" target="_blank">https://codespeak.dev/blog/modularity-20260309</a>
+<a id="block-c6f8b72" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1-2" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>The <code class="inline-code">import</code> directive
+:
+Notice the <a href="markdown%20extension%20--%20front%20matter.html">markdown extension -- front matter</a> at the top of <code class="inline-code">main.cs.md</code>:
+:
+<a id="block-e586087" class="block-anchor"></a></p>
+<pre><code class="fenced-code">---
+import storage.cs.md
+---
+</code></pre>
+<p><a id="block-7f9a575" class="block-anchor"></a></p>
+<p>:
+This tells CodeSpeak that <code class="inline-code">main.cs.md</code> depends on <code class="inline-code">storage.cs.md</code>. When building <code class="inline-code">main.cs.md</code>, CodeSpeak will first build the storage spec, and then build the main spec with full knowledge of what storage provides.
+:
+You can import multiple specs, and imports are transitive — if A imports B and B imports C, CodeSpeak will build all three in the right order.
+......
+<span class="link-not-tracked">link not tracked</span>
+......
+<a href="app%20specification%20will%20be%20done%20with%20agents%20and%20markdown.html">app specification will be done with agents and markdown</a>
+...
+<a href="YAML%20frontmatter%20enables%20dependency-aware%20specifications.html">YAML frontmatter enables dependency-aware specifications</a>
+<a id="block-efcd549" class="block-anchor"></a></p>
+<p>That&#39;s it — one line changed. The main spec stays exactly the same, because it doesn&#39;t care <em>how</em> memos are stored. It only cares that storage exists and provides certain capabilities. This is the payoff of splitting specs: changes to one concern don&#39;t ripple into unrelated specs, making them easier to review and reason about.
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+<a href="code-associated%20specification%20file.html">code-associated specification file</a>
+<a id="block-db72c6f" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="code-associated%20specification%20file.html">code-associated specification file</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>As described in <span class="highlight-do-not-link">b modularity in spec files</span>, these are <span class="link-not-tracked">link not tracked</span> <a href="../ai/app%20specification.html">app specification</a> files that are directly associated with specific generated code files.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="code-associated%20specification%20file.html#block-82739d9"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="considering%20dark%20software%20factories%20--%20changelog%20-%202026-03-12.html">considering dark software factories -- changelog - 2026-03-12</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>From <span class="highlight-do-not-link">b modularity in spec files</span> I find the <a href="code-associated%20specification%20file.html">code-associated specification file</a>s very compelling, but I also think that <a href="code-associated%20specification%20files%20are%20just%20a%20part%20of%20the%20documentation%20context%20graph.html">code-associated specification files are just a part of the documentation context graph</a>.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="considering%20dark%20software%20factories%20--%20changelog%20-%202026-03-12.html#block-78ed964"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 <span class="link-not-tracked">link not tracked</span>.  I like to do the same thing.  That's what this site is.  It's me coming to grips with Gas Town, and with [[dark software factory]] patters more generally, by reading the blog post and working with the concepts.
 
-Also, I consider sites like [[Bartosz-style explorable explanation]]s and <span class="link-not-tracked">link not tracked</span> to be just the peak of awesomeness.  I want to emulate those guys, to the extent I have the fortitude to do so.  They are really next-level.  Check them out if you don't know them.
+Also, I consider sites like [[Bartosz-style explorable explanation]]s and [[Andy Matuschack's Working Notes]] to be just the peak of awesomeness.  I want to emulate those guys, to the extent I have the fortitude to do so.  They are really next-level.  Check them out if you don't know them.
 
 ... and at the bottom of this page I'll come clean with you about my *real* motivation for this site.
 
@@ -26,7 +26,7 @@ You know how people are drawing a contrast between vibe coding and vibe *enginee
 
 Honestly, I'm not sure.  *Maybe you do*?
 
-I consider it in <span class="link-not-tracked">link not tracked</span> and [[how someone might reasonably keep externally-generated notes in their notes]].
+I consider it in [[do you need to write your own spaced repetition prompts?]] and [[how someone might reasonably keep externally-generated notes in their notes]].
 
 ### Show me your work!
 
@@ -36,10 +36,10 @@ Speaking of [[person - Andy Matuschak]], he has also influenced me to [[work wit
 
 I mean, what I said before is really true.  But also...
 
-This site is a great driving use case for the application I'm building.  Check out <span class="link-not-tracked">link not tracked</span>.  
+This site is a great driving use case for the application I'm building.  Check out [[Introducing Meadow]].  
 
 To support what I really want in this site, Meadow has grown support for publishing [[spaced repetition]] cards and hosting the whole site's raw markdown as a downloadable .zip file.  I probably would have arrived at those features eventually, anyhow, but I got there sooner because I realized that those features are what _I_ would want if I was reading a site like this.
 
-I'd *kill* for more of these kind of sites to be in the wild.  I love to be bumping into weird Frankenstein combos of Andy's (there he is again) <span class="link-not-tracked">link not tracked</span>, his <span class="link-not-tracked">link not tracked</span>, with some <span class="link-not-tracked">link not tracked</span> ideas sprinkled in.  In my dreams other people publish little sites like this, so I can pull the stuff locally, re-contextualize the atomic concepts contained within the sites, push them around a bit to make them fit *my* way of thinking, then link them into my existing knowledge graph, and finally publish them as part of _new_ graphs in other compelling ways.  In other... "Meadows".  See?
+I'd *kill* for more of these kind of sites to be in the wild.  I love to be bumping into weird Frankenstein combos of Andy's (there he is again) <span class="link-not-tracked">link not tracked</span>, his [[Andy's working note about evergreen notes|evergreen notes]], with some [[federated wiki]] ideas sprinkled in.  In my dreams other people publish little sites like this, so I can pull the stuff locally, re-contextualize the atomic concepts contained within the sites, push them around a bit to make them fit *my* way of thinking, then link them into my existing knowledge graph, and finally publish them as part of _new_ graphs in other compelling ways.  In other... "Meadows".  See?
 
 The whole space is getting even wilder with [[markdown graphs and agents]].  You really can work with other people's ideas (and even agent generated ones). That's basically what I have in mind for Meadow.  To me, at least, that looks *so beautiful*.  You see it, right?  Right?!?  Hey, where are you going?!?

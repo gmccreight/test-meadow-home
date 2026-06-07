@@ -1,4 +1,4 @@
-^ <span class="link-not-tracked">link not tracked</span> for <span class="link-not-tracked">link not tracked</span>s
+^ [[declarative specification]] for <span class="link-not-tracked">link not tracked</span>s
 
 ---
 

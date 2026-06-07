@@ -24,3 +24,9 @@ Page 109 The first sentence is different: it explains (in high-level terms) why 
 ...
 [[seems related]] to [[exemplary log message (keywords - good great quality)]] where it describes "why was it done?"
 
+Page 134 writing comments first is how you arrive at the best design because it helps you identify good abstractions
+...
+[[high quality code]]
+...
+[[seems related]] to [[designing code for testability]]
+

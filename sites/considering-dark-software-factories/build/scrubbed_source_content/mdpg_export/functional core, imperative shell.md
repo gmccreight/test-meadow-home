@@ -2,7 +2,7 @@
 
 ---
 
-This is a very high-level application of <span class="link-not-tracked">link not tracked</span>
+This is a very high-level application of [[coding pattern -- guard the edges so you can code within the happy zone]]
 
 <span class="link-not-tracked">link not tracked</span>
 

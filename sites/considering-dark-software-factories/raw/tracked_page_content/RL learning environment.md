@@ -1,1 +1,0 @@
-[[automatic domain randomization - ADR]]

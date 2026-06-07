@@ -1,3 +1,0 @@
-^ [[AI unit]] -- nano-banana
-
----

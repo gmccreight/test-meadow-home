@@ -2,7 +2,7 @@
 
 ---
 
-<span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span>
+<span class="link-not-tracked">link not tracked</span> [[verification]] <span class="link-not-tracked">link not tracked</span>
 
 Example: [[AI-enabled coding generates a huge amount of code]] but <span class="link-not-tracked">link not tracked</span>
 

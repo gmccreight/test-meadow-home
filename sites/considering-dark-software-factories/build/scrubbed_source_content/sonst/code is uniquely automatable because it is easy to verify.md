@@ -1,0 +1,3 @@
+[[code]] is uniquely amenable to <span class="link-not-tracked">link not tracked</span> automation because it can be verified with [[linting]], <span class="link-not-tracked">link not tracked</span>, [[unit test]]s, and [[system test]]s [[dim - verifiability -- high]]
+
+<span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span>

@@ -1,0 +1,33 @@
+^ [[supplement table]] -- 2026-03-09
+
+---
+
+This introduces [[supplement - Pylori X]] and [[supplement - Biocidin liquid]] as described in [[h. Pylori overgrowth supplement titration plan]]
+
+### Current supplements
+
+| Supplement                                                                  | Upon rising | With breakfast | Mid-morning | With lunch | Mid-afternoon | With dinner | After dinner | Before bed |
+| --------------------------------------------------------------------------- | ----------- | -------------- | ----------- | ---------- | ------------- | ----------- | ------------ | ---------- |
+| [[supplement -- amino acid fruit punch powder\|amino acids]]                |             | 1 scoop        |             |            |               |             |              |            |
+| [[supplement - creatine\|creatine]]                                         |             | 10 mg          |             |            |               |             |              |            |
+| [[supplement - vitamin D plus K - Klaire Labs - SFI Health\|vitamin D + K]] |             |                | 1 cap       |            |               |             |              |            |
+| [[product - drug - Claritin\|Claritin]]                                     |             |                | 1 dose      |            |               |             |              |            |
+| [[supplement - formula 16\|formula 16]]                                     |             |                |             |            |               |             |              | 1 cap      |
+| [[supplement - formula 11\|formula 11]]                                     |             |                |             |            |               |             |              | 1 cap      |
+| [[supplement - Pylori X\|Pylori X]]                                         |             |                | 1 cap       |            | 1 cap         |             |              | 1 cap      |
+| [[supplement - Biocidin liquid\|Biocidin liquid]]                           |             |                | 10 drops    |            | 10 drops      |             |              | 10 drops   |
+
+### Changes since last time in bold
+
+| Supplement                                                                    | Upon rising | With breakfast      | Mid-morning                                                  | With lunch | Mid-afternoon        | With dinner                                                  | After dinner                                                 | Before bed           |
+| ----------------------------------------------------------------------------- | ----------- | ------------------- | ------------------------------------------------------------ | ---------- | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- |
+| [[supplement - Saccharomyces Boulardii]]                                      |             |                     | ***removed since [[supplement table -- 2025-12\|2025-12]]*** |            |                      |                                                              | ***removed since [[supplement table -- 2025-12\|2025-12]]*** |                      |
+| [[supplement - Digestive Enzymes]]                                            |             |                     |                                                              |            |                      | ***removed since [[supplement table -- 2025-12\|2025-12]]*** |                                                              |                      |
+| [[supplement -- amino acid fruit punch powder\|fruit punch amino acids]]      |             | 1 scoop (**added**) |                                                              |            |                      |                                                              |                                                              |                      |
+| [[supplement - creatine]]                                                     |             | 10 mg               |                                                              |            |                      |                                                              |                                                              |                      |
+| [[supplement - vitamin D plus K - Klaire Labs - SFI Health\|vitamin D and K]] |             |                     | 1 capsule                                                    |            |                      |                                                              |                                                              |                      |
+| [[supplement - formula 16]]                                                   |             |                     |                                                              |            |                      |                                                              |                                                              | 1 capsule            |
+| [[supplement - formula 11]]                                                   |             |                     |                                                              |            |                      |                                                              |                                                              | 1 capsule            |
+| [[product - drug - Claritin]]                                                 |             |                     | 1 dose                                                       |            |                      |                                                              |                                                              |                      |
+| [[supplement - Pylori X\|Pylori X]]                                           |             |                     | 1 cap **(added)**                                            |            | 1 cap **(added)**    |                                                              |                                                              | 1 cap **(added)**    |
+| [[supplement - Biocidin liquid\|Biocidin liquid]]                             |             |                     | 10 drops **(added)**                                         |            | 10 drops **(added)** |                                                              |                                                              | 10 drops **(added)** |

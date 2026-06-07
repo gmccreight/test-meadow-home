@@ -1,5 +1,5 @@
 Yes, <span class="link-not-tracked">link not tracked</span>, but it's not just them.
 
-Even very experienced engineers are reporting <span class="link-not-tracked">link not tracked</span>.
+Even very experienced engineers are reporting [[cognitive debt]].
 
-<span class="link-not-tracked">link not tracked</span>
+[[AI and jobs]]

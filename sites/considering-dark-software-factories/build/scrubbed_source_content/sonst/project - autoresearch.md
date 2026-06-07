@@ -1,5 +1,5 @@
 https://github.com/karpathy/autoresearch
 
-<span class="link-not-tracked">link not tracked</span>
+[[person - Andrej Karpathy]]
 
 <span class="link-not-tracked">link not tracked</span>

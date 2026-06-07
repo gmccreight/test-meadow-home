@@ -1,6 +1,6 @@
 I have been working with a functional medicine specialist on my gut problems for about a year.  I keep notes about it to help orient us and drive my care.
 
-for example, we have a meeting today.  We're going to talk about various things, but also review my current supplementation.  To that end, I shared this with her earlier today in preparation: <span class="link-not-tracked">link not tracked</span>.
+for example, we have a meeting today.  We're going to talk about various things, but also review my current supplementation.  To that end, I shared this with her earlier today in preparation: [[supplement table -- 2026-03-09]].
 
 This is the site that she sees:
 ![[CleanShot_2026_03_09__10_53_12.png|600]]

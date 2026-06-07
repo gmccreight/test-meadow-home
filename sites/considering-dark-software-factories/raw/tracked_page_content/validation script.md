@@ -1,1 +1,0 @@
-A validation script can do [[automatic enforcement]] of various rules in the repository.

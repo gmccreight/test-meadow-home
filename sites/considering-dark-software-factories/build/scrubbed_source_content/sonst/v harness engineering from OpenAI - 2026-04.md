@@ -39,7 +39,7 @@ At 13:00 he talks about adding <span class="link-not-tracked">link not tracked</
 :
 Another <span class="link-not-tracked">link not tracked</span> check that he suggests is forcing all of the files to be less than 350 lines because <span class="link-not-tracked">link not tracked</span>.  Feels like the types of constraints you would add with <span class="link-not-tracked">link not tracked</span>
 
-At 14:30 If you provide context In error messages that will act as prompts.  that can help a lot. For example, there should be no unknown in the middle of the code base because you <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> using <span class="link-not-tracked">link not tracked</span>
+At 14:30 If you provide context In error messages that will act as prompts.  that can help a lot. For example, there should be no unknown in the middle of the code base because you [[coding pattern -- guard the edges so you can code within the happy zone]] <span class="link-not-tracked">link not tracked</span> using [[project - Zod]]
 
 At 15:30 the increases in capability that we see are pretty much the combination of the models improving and prompts. Lots of things are prompts. [[agent skill]]s are prompts.  The error lint results are prompts.
 

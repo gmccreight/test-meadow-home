@@ -1,1 +1,0 @@
-For [[spec-driven development - SDD]], the [[spec]], the [[coding planning]] phase, and the [[code]] are all necessary for context

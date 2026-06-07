@@ -1,0 +1,1 @@
+The <span class="link-not-tracked">link not tracked</span>s right before the <span class="link-not-tracked">link not tracked</span>.  So, still within the <span class="link-not-tracked">link not tracked</span>... but right at the edge.

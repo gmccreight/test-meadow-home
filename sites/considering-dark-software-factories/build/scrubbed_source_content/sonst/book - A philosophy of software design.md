@@ -18,9 +18,15 @@ Page 48 separate general purpose and special purpose code. For example there's a
 
 Page 108 higher level comments are more difficult to write the lower level comments because you must think about the code in a different way. Ask yourself: what is the code trying to do? What is the simplest thing you can say that explains everything in the code? What is the most important thing about this code?
 ...
-<span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span> but for <span class="link-not-tracked">link not tracked</span>
+[[seems related]] to <span class="link-not-tracked">link not tracked</span> but for <span class="link-not-tracked">link not tracked</span>
 
 Page 109 The first sentence is different: it explains (in high-level terms) why the code is executed. Comments of the form "how do we get here" are very helpful for helping people to understand the code.
 ...
-<span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span> where it describes "why was it done?"
+[[seems related]] to <span class="link-not-tracked">link not tracked</span> where it describes "why was it done?"
+
+Page 134 writing comments first is how you arrive at the best design because it helps you identify good abstractions
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+[[seems related]] to <span class="link-not-tracked">link not tracked</span>
 

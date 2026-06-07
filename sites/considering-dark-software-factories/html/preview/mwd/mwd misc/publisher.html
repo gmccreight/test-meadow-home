@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>publisher</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%202026-03-09%20-%20Showing%20Nate%20Meadow.html" class="breadcrumb-link">meeting 2026-03-09 - Showing Nate Meadow</a><span class="breadcrumb-separator">→</span><a href="../mwd design/meadow%20hard%20problems.html" class="breadcrumb-link">meadow hard problems</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">publisher</span></nav>
+    </header>
+    <main>
+        <h1>publisher</h1>
+        <p>The person using Meadow to publish sites
+<a id="block-8570a48" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../mwd design/challenge%20-%20edge%20case%20callouts%20are%20hard%20to%20manage.html">challenge - edge case callouts are hard to manage</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>We have various special app and site states like <span class="link-not-tracked">link not tracked</span> and <span class="link-not-tracked">link not tracked</span> where <span class="highlight-do-not-link">publisher</span>s might be confused about what to do because they are new to the system.  So, we do some <span class="link-not-tracked">link not tracked</span> via <a href="../../sonst/onboarding.html">onboarding</a> prompts or callouts.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd design/challenge%20-%20edge%20case%20callouts%20are%20hard%20to%20manage.html#block-a6f5ff6"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html">diff - meadow cloud -- local vs. meadow cloud -- remote</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In <a href="../../meadow-internal/meadow-cloud/meadow%20cloud%20--%20local.html">meadow cloud -- local</a> we just sync the files directly to <a href="../../sonst/S3%20Local.html">S3 Local</a>, AKA <a href="../../sonst/project%20-%20MinIO.html">project - MinIO</a>
+:
+In <span class="link-not-tracked">link not tracked</span> the <span class="highlight-do-not-link">publisher</span> sends their <span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span> and in AWS, it gets an <a href="../../meadow-internal/meadow-cloud/AWS/AWS%20STS%20-%20assumed%20role.html">AWS STS - assumed role</a>, then returns a set of <span class="link-not-tracked">link not tracked</span> to the <span class="link-not-tracked">link not tracked</span> that the <span class="highlight-do-not-link">publisher</span> uses to publish their site directly to <span class="link-not-tracked">link not tracked</span> (at <span class="link-not-tracked">link not tracked</span>)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html#block-8d72bf7"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd app area/site/curation/managing%20changes%20in%20the%20source%20graph%20structure%20over%20time.html">managing changes in the source graph structure over time</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Sometimes the changes are so dramatic that the <span class="highlight-do-not-link">publisher</span> doesn&#39;t want to break what they have already published.  So they can <span class="link-not-tracked">link not tracked</span>, which leaves the existing version alone, except for optionally</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd app area/site/curation/managing%20changes%20in%20the%20source%20graph%20structure%20over%20time.html#block-0b35d5e"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd design/meadow%20hard%20problems.html">meadow hard problems</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><a href="local%20code.html">local code</a> and <a href="local%20configuration.html">local configuration</a>.  Great for the <span class="highlight-do-not-link">publisher</span>, but means the <a href="../mwd%20development/developer.html">developer</a> need to have very careful <a href="migration%20tooling.html">migration tooling</a> to update from any pre-existing app version and configuration.  If we want to have <a href="../mwd%20design/plugin%20support.html">plugin support</a>, we&#39;ll need to be very careful about defining careful interfaces, too.
+:
+Relatedly, in <a href="../mwd%20app%20area/site/generation/html%20generation.html">html generation</a> we have <a href="../mwd%20app%20area/site/generation/generation%20app%20config/hooks%20config.html">hooks config</a>.  Once we publish those hooks, we will need to support that interface for a <em>long</em> time, so it better be pretty generic (and solid).
+:
+<a href="../mwd%20design/local%20app%20challenge%20--%20easy%20upgrade.html">local app challenge -- easy upgrade</a>
+:
+<a href="../mwd%20design/local%20app%20challenge%20--%20support%20older%20versions.html">local app challenge -- support older versions</a>
+:
+<a href="../mwd%20design/local%20app%20challenge%20--%20identifying%20and%20fixing%20bugs.html">local app challenge -- identifying and fixing bugs</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd design/meadow%20hard%20problems.html#block-c973665"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd design/sensitivity%20to%20accidentally%20publishing.html">sensitivity to accidentally publishing</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>The <span class="highlight-do-not-link">publisher</span> might have <span class="link-not-tracked">link not tracked</span> to accidentally publishing information they do not intend to.  This is particularly true if we automatically do <span class="link-not-tracked">link not tracked</span> within <a href="../mwd%20source%20graph/source%20graph.html">source graph</a>s with material that has both normal and sensitive material.  This can happen because <span class="link-not-tracked">link not tracked</span>.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd design/sensitivity%20to%20accidentally%20publishing.html#block-aad1c7a"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd source graph/source%20graph.html">source graph</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>So In practice the source graph is never directly considered as a whole.  Rather, what the <span class="highlight-do-not-link">publisher</span> interacts with is the <span class="link-not-tracked">link not tracked</span>, which starts from the same point but does <span class="link-not-tracked">link not tracked</span> instead, which often limits its scope significantly.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd source graph/source%20graph.html#block-6ffba4b"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd design/where%20meadow%20AI%20should%20focus.html">where meadow AI should focus</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Second, because of the careful <a href="meadow%20change%20management.html">meadow change management</a> we can focus AI on helping the <span class="highlight-do-not-link">publisher</span> manage change over time.  For example, after publishing a graph, new edges or pages in the <a href="../mwd%20source%20graph/source%20graph.html">source graph</a> could lead to <span class="link-not-tracked">link not tracked</span>.  The AI could help the <span class="highlight-do-not-link">publisher</span> stay on top of the changes, highlighting ones that make sense to include or exclude.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd design/where%20meadow%20AI%20should%20focus.html#block-9c01753"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

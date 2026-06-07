@@ -1,3 +1,0 @@
-^ [[non-functional]] requirements
-
----

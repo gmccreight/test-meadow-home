@@ -1,16 +1,16 @@
 **2026-05-27**
 
-<span class="link-not-tracked">link not tracked</span>
+[[jared walk 2026-05-27]]
 
 **2026-05-16**
 
-<span class="link-not-tracked">link not tracked</span>
+[[jared chat 2026-05-15]]
 
 Also added [[site for jared -- tools]] because he's starting to share interesting tools with me, so I want to catalog and understand them.
 
 **2026-05-09**
 
-<span class="link-not-tracked">link not tracked</span>
+[[hike with Jared - 2026-05-09]]
 
 **2026-03-10**
 
@@ -32,10 +32,10 @@ Totally amazing OpenAI blog post [[b OpenAI harness engineering 2026-02]] (semi-
 
 The OpenAI post was so good I decided I better do my full process, to get [[dim - assimilation depth -- high]]:
 * [[free recall - Open AI harness blog post - 2026-02]]
-* <span class="link-not-tracked">link not tracked</span>
+* [[review - Open AI harness blog post - 2026-02-22]]
 
 And then, given that, consider the delta to my own practices:
-<span class="link-not-tracked">link not tracked</span>
+[[to remove - Agentic engineering practices - scorecard 2026-04]]
 
 
 **older**

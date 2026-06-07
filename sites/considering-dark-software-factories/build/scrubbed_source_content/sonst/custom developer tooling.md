@@ -1,1 +1,1 @@
-^ custom <span class="link-not-tracked">link not tracked</span>
+^ custom [[developer tooling]]

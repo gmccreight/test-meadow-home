@@ -150,6 +150,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: agent skill -- broom
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: agent skill -- browser -- navigation
     tracked: true
   - fileType: md
@@ -1010,6 +1015,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: CMU class -- requirements
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: code
     tracked: true
   - fileType: md
@@ -1313,6 +1323,36 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: considering dark software factories -- changelog
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-02
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-05
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-06
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-10
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-11
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: considering dark software factories -- changelog - 2026-03-12
     tracked: true
   - fileType: md
     listType: whitelist
@@ -2373,6 +2413,11 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: hike with Jared - 2026-05-09
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: mwd/mwd app area/site/generation/generation app config
     title: hooks config
     tracked: true
@@ -2561,6 +2606,16 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: iterative loop
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: jared chat 2026-05-15
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: jared walk 2026-05-27
     tracked: true
   - fileType: md
     listType: whitelist
@@ -2773,6 +2828,11 @@ pages:
     sourceGraphSubdirectory: mwd/mwd app area/site/curation
     title: managing changes in the source graph structure over time
     tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: MarkAgent
+    tracked: true
   - fileType: png
     listType: whitelist
     sourceGraphSubdirectory: sonst
@@ -2915,6 +2975,12 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: meadow-related recent changes in the environment and "why now" in early
+      2026?
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: sonst
     title: mechanisms for making agents more reliable
     tracked: true
@@ -2922,6 +2988,31 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: meeting - 2025-09-19 - kriston
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting - 2026-03-04 - chao
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting - 2026-03-11 - chao
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting - 2026-03-12 - matt
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting - 2026-04-29 - Mike team meeting
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: meeting 2026-03-09 - Showing Nate Meadow
     tracked: true
   - fileType: md
     listType: whitelist
@@ -3364,6 +3455,11 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: person - Nate B Jones
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: person - Ralph Instacart
     tracked: true
   - fileType: md
     listType: whitelist
@@ -3879,6 +3975,11 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: review - Open AI harness blog post - 2026-02-22
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: ai
     title: reward circuit
     tracked: true
@@ -4066,6 +4167,11 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: site for kriston
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: site for kriston - changelog
     tracked: true
   - fileType: md
     listType: whitelist
@@ -4298,6 +4404,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: Stoked about MarkAgent and Meadow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: storing all your company documentation in git
     tracked: true
   - fileType: md
@@ -4319,6 +4430,11 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: superstar
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: myhealth
+    title: supplement table -- 2026-03-09
     tracked: true
   - fileType: md
     listType: whitelist
@@ -4424,12 +4540,22 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: t Greg Isenberg - obsidian and claude code - 2026-02-23
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: t GSD 2.0 system for large coding projects
     tracked: true
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: t How I Manage 10 Claude Code Agents Without Losing My Mind - 2026-03
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: t Karpathy LLM knowledge bases with obsidian - 2026-04-02
     tracked: true
   - fileType: md
     listType: whitelist
@@ -5095,6 +5221,11 @@ pages:
     listType: whitelist
     sourceGraphSubdirectory: sonst
     title: tmux session
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: to remove - Agentic engineering practices - scorecard 2026-04
     tracked: true
   - fileType: md
     listType: whitelist

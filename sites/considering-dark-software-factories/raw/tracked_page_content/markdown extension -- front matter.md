@@ -1,3 +1,0 @@
-^ [[markdown extension]] -- front matter
-
----

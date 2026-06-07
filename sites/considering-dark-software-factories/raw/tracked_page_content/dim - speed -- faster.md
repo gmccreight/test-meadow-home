@@ -1,4 +1,0 @@
-^ [[dim - speed]] -- faster
-
----
-

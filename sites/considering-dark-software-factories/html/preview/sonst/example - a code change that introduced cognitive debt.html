@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example - a code change that introduced cognitive debt</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">example - a code change that introduced cognitive debt</span></nav>
+    </header>
+    <main>
+        <h1>example - a code change that introduced cognitive debt</h1>
+        <p>To support <a href="parallel%20development.html">parallel development</a> in <a href="git%20worktree.html">git worktree</a>s, we needed to add <a href="../meadow-internal/meadow-cloud/meadow%20cloud%20--%20local.html">meadow cloud -- local</a>.
+<a id="block-b882a5c" class="block-anchor"></a></p>
+<p>The coding agent very quickly got something that worked and introduced a complex <a href="diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html">diff - meadow cloud -- local vs. meadow cloud -- remote</a> where local does not use <a href="../meadow-internal/meadow-cloud/AWS/AWS%20STS%20-%20assumed%20role.html">AWS STS - assumed role</a> to generate access credentials, because they are not needed to access <a href="S3%20Local.html">S3 Local</a> (<a href="project%20-%20MinIO.html">project - MinIO</a>)
+<a id="block-68135b6" class="block-anchor"></a></p>
+<p>Not a huge deal but I didn&#39;t immediately grok the difference and I know that the difference will be hard to remember over time.  So, it introduced <a href="cognitive%20debt.html">cognitive debt</a>.  Yes, that&#39;s a &quot;me&quot; problem.  I could carefully review all changes it makes.  But it&#39;s <em>also</em> a systemic problem.
+<a id="block-79ce0d7" class="block-anchor"></a></p>
+<p>It&#39;s also going to get worse.  Right now we&#39;re in the driver&#39;s seat.  But as <a href="../ai/agentic%20coding.html">coding agent</a>s get <a href="../ai/dim%20-%20level%20of%20agency%20--%20higher.html">dim - level of agency -- higher</a>, then <a href="software%20development%20with%20agents%20will%20become%20more%20bidirectional.html">software development with agents will become more bidirectional</a> and things like <a href="continuous%20background%20checks%20can%20refactor%20how%20the%20system%20works.html">continuous background checks can refactor how the system works</a>.  Will you <em>want</em> your agent to stop making good changes like the one described in this change above, just because you can&#39;t keep up?
+<a id="block-1dfae6b" class="block-anchor"></a></p>
+<p>One fix for this is <a href="t%20cognitive%20debt%20fix%20-%20have%20the%20agent%20write%20you%20an%20entertaining%20essay%20to%20build%20your%20intuition.html">t cognitive debt fix - have the agent write you an entertaining essay to build your intuition</a>, and maybe that&#39;s good enough.  I think even better would be if it could help you maintain your <a href="documentation%20context%20graph.html">documentation context graph</a> at a very <a href="../ai/dim%20-%20level%20of%20abstraction%20--%20high.html">dim - level of abstraction -- high</a> that helps you maintain your <a href="high-level%20vision%20of%20the%20structure%20of%20the%20system.html">high-level vision of the structure of the system</a>.  Perhaps it could also maintain a careful <a href="changelog%20page.html">changelog page</a> that you can maintain your &quot;personal&quot; offset on and catch up on.  Feels very similar to <a href="product%20--%20antigravity.html">product -- antigravity</a>&#39;s <a href="agent%20coordination%20--%20user%20interface.html">agent coordination -- user interface</a>, but I&#39;d argue that the changelog is <em>clearly</em> not enough, and the high level artifact is <em>also</em> important to keep alive.
+<a id="block-3f78d40" class="block-anchor"></a></p>
+<p>If you were to approach this extremely tactically, you could even have the coding agent generate <a href="spaced%20repetition.html">spaced repetition</a> quiz questions for you that you could use directly inside of obsidian (see <a href="example%20-%20obsidian%20spaced%20repetition%20plugin%20card%20for%20learning%20about%20neural%20networks.html">example - obsidian spaced repetition plugin card for learning about neural networks</a>)
+<a id="block-f5d16aa" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>cognitive debt: <span class="highlight-do-not-link">example - a code change that introduced cognitive debt</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-03-04%20-%20chao.html#block-1eac5a9"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">example - a code change that introduced cognitive debt</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-03-04%20-%20chao.html#block-a3f0c1a"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

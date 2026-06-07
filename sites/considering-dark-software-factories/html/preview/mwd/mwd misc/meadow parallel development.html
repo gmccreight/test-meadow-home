@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meadow parallel development</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><a href="../../sonst/example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html" class="breadcrumb-link">example - describe a desired state and have the coding agent reconcile to it</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">meadow parallel development</span></nav>
+    </header>
+    <main>
+        <h1>meadow parallel development</h1>
+        <p>^ meadow <a href="../../sonst/parallel%20development.html">parallel development</a>
+<a id="block-f5693e2" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p><em><strong>Note</strong>: this is written as if if already happened so that when the coding changes are complete I can simply remove this line and the rest will be accurate documentation describing how the system works.</em>
+<a id="block-25505d8" class="block-anchor"></a></p>
+<p>Meadow supports <span class="link-not-tracked">link not tracked</span>, where the <a href="../mwd%20development/developer.html">developer</a> can run different <span class="link-not-tracked">link not tracked</span>s of the meadow development environment in different directories at the same time and they don&#39;t conflict (which supports <a href="../../sonst/git%20worktree.html">git worktree</a>s, as well).
+<a id="block-30b6260" class="block-anchor"></a></p>
+<p>In order to support parallel development, there were several challenges we needed to address:
+<a id="block-44b048e" class="block-anchor"></a></p>
+<ul>
+<li>we use many services that underpin the app, and they run on ports, and those ports will potentially conflict unless they have <span class="link-not-tracked">link not tracked</span></li>
+<li>In <span class="link-not-tracked">link not tracked</span> (or as the actual production application), we have standard directories that we use for configuration and logs that would conflict. When running in <span class="link-not-tracked">link not tracked</span>, for each <span class="link-not-tracked">link not tracked</span> we&#39;ll need to make those directories temporary, and distinct from each other.  They are:<ul>
+<li>The <span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>We interact with the <span class="link-not-tracked">link not tracked</span> via our <span class="link-not-tracked">link not tracked</span>s, which store their state in <span class="link-not-tracked">link not tracked</span>.  We have a <span class="link-not-tracked">link not tracked</span> that runs the <span class="link-not-tracked">link not tracked</span>s (and the <span class="link-not-tracked">link not tracked</span> stuff) in the cloud... but there is only one version of that.<ul>
+<li>To support parallel development we run the <span class="link-not-tracked">link not tracked</span>s via <span class="link-not-tracked">link not tracked</span>, and have them interact with <span class="link-not-tracked">link not tracked</span>.  Like the other services, they have <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+</ul>
+<p><a id="block-9fe43a2" class="block-anchor"></a></p>
+<p>With the need to support <span class="link-not-tracked">link not tracked</span> the service discovery is somewhat complicated.  We centralize the service discovery logic into two files:</p>
+<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+<p><a id="block-0430ef1" class="block-anchor"></a></p>
+<p>The local one is created by a <span class="link-not-tracked">link not tracked</span>.
+<a id="block-1c81bcf" class="block-anchor"></a></p>
+<p><em>Note: the affordances for <span class="link-not-tracked">link not tracked</span> also help support <span class="link-not-tracked">link not tracked</span>.</em>
+<a id="block-c0ab692" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../../sonst/example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html">example - describe a desired state and have the coding agent reconcile to it</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>I wanted to move to that parallel development approach.  To do that, I first specified, in my <a href="../../sonst/documentation%20context%20graph.html">documentation context graph</a>, what a system like that would look like in <span class="highlight-do-not-link">meadow parallel development</span>, then I used Meadow to export that sub-graph to a folder in the repo, then I pointed the agent to it.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html#block-516163e"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>The spec is called <span class="highlight-do-not-link">meadow parallel development</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html#block-be81fca"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -1,1 +1,0 @@
-Like in [[project - Kafka]] or [[project - kinesis]]

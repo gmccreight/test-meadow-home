@@ -1,1 +1,0 @@
-^ [[coding pattern]] -- [[coding concept - guard the edges]] so you can code within the [[coding concept -- the happy zone]]

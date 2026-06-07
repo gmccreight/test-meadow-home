@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How I use my note processing system - 2025-03</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">How I use my note processing system - 2025-03</span></nav>
+    </header>
+    <main>
+        <h1>How I use my note processing system - 2025-03</h1>
+        <p>In this note I describe how I take notes on interesting pieces of media, how I use AI to help me process them.  The tooling is very new.  At the end I reflect on both near and long-term challenges with it.
+<a id="block-54c888e" class="block-anchor"></a></p>
+<h3>Taking notes while walking</h3>
+<p><a id="block-c8ac190" class="block-anchor"></a></p>
+<p><a href="../ai/walking%20and%20taking%20notes.html">walking and taking notes</a>
+<a id="block-000e66b" class="block-anchor"></a></p>
+<p>I go for a walk and listen to some interesting podcast or youtube video.
+<a id="block-d874395" class="block-anchor"></a></p>
+<p>In this specific case, the video I was listening to was <a href="v%20The%20church%20accidentally%20triggered%20the%20industrial%20revolution.html">v The church accidentally triggered the industrial revolution</a> on <a href="../ai/person%20-%20Dwarkesh%20Patel.html">person - Dwarkesh Patel</a>&#39;s Youtube channel.
+<a id="block-05110b5" class="block-anchor"></a></p>
+<p>While I&#39;m listening, I&#39;ll stop every once in a while, make note of the time, and dictate what I thought was interesting about what was just said into a note in Obsidian.  I basically follow the <a href="../ai/annotated%20talk%20blog%20format.html">annotated talk blog format</a>.
+<a id="block-224f598" class="block-anchor"></a></p>
+<h3>After the walk</h3>
+<p><a id="block-2cba92a" class="block-anchor"></a></p>
+<p>My notes are all in the same vault, and are <a href="densely%20linked.html">densely linked</a>.  After the walk, I&#39;ll take a look at this new note, and maybe do a little bit of manual linking to other notes.  I might do this in my phone or after I arrive home on my computer.
+<a id="block-174dfb4" class="block-anchor"></a></p>
+<h3>Processing with AI</h3>
+<p><a id="block-fcdecb9" class="block-anchor"></a></p>
+<p>In addition to the manual process, when I&#39;m in front of my computer, I&#39;ll also use AI to help me work through the new note.  I&#39;ll show you my workflow here.
+<a id="block-38d9249" class="block-anchor"></a></p>
+<p>I wanted to make the process as seamless as possible.
+<a id="block-05d5c20" class="block-anchor"></a></p>
+<p>I use a nice tool called <a href="project%20-%20swiftbar.html">project - swiftbar</a> which allows me to add things to the tabbar at the top of my Mac, so I can just select the command like this:
+<a id="block-467b5a6" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315143115.png" alt="Pasted image 20250315143115.png" />
+<a id="block-a8c6463" class="block-anchor"></a>
+
+<p>That runs a shell script that does a couple things.  First, it takes a commit of the current state in the git repo where I keep all my notes.  Then it temporarily disables the automatic commit-and-push script I have running (because we are going to make manual commits while doing the processing).  Second, it opens up Cursor with all the notes that link to the &quot;process&quot; note.
+<a id="block-20c1c38" class="block-anchor"></a></p>
+<p>Here you can see Cursor opened the  <a href="v%20The%20church%20accidentally%20triggered%20the%20industrial%20revolution.html">v The church accidentally triggered the industrial revolution</a> because it linked to the &quot;process&quot; note:
+<a id="block-667e2af" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315150715.png" style="max-width: 800px" alt="Pasted image 20250315150715.png" />
+<a id="block-ffe6eeb" class="block-anchor"></a>
+
+<p>I have a cursor rule called <code class="inline-code">process.mdc</code> (shown in the orange highlight below).... it is essentially a prompt that describes exactly how I&#39;d like Cursor to process the attached note.  Here you can see the beginning of how it processes.
+<a id="block-536ac3f" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315151532.png" style="max-width: 800px" alt="Pasted image 20250315151532.png" />
+<a id="block-8e72f4a" class="block-anchor"></a>
+
+<p>As the processing gets further along, you can see it is creating some new conceptual notes that are relevant to the main note.  I also try to have it find existing notes and link to them.  The new notes show up in git on the left-hand side.  That&#39;s why it was important that the script paused the git processing, earlier, since we want to carefully review this AI-generated content to decide it we want to incorporate it.
+<a id="block-634921f" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315151747.png" style="max-width: 800px" alt="Pasted image 20250315151747.png" />
+<a id="block-36a92d5" class="block-anchor"></a>
+
+<p>Here&#39;s an example of one of the notes it added
+<a id="block-189a946" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315152553.png" style="max-width: 800px" alt="Pasted image 20250315152553.png" />
+<a id="block-2ac4c34" class="block-anchor"></a>
+
+<p>With a few manual tweaks, it became the <a href="con%20-%20cultural%20evolution%20prerequisites.html">con - cultural evolution prerequisites</a> which is now in my notes.
+<a id="block-065f483" class="block-anchor"></a></p>
+<p>After creating all the new notes, the process goes back and updates the main page to add the links to those concepts, like how I&#39;ve shown in the orange highlight below.
+<a id="block-75ac506" class="block-anchor"></a></p>
+<img src="Pasted%20image%2020250315152359.png" style="max-width: 800px" alt="Pasted image 20250315152359.png" />
+<a id="block-f837383" class="block-anchor"></a>
+
+<p>Not every change is an improvement, so I have to think carefully about whether to accept the AI-suggested changes or not.
+<a id="block-4063713" class="block-anchor"></a></p>
+<p>Additionally, one way to review things is to open Obsidian itself and browse around a bit and see how it feels, add new pages, re-arrange things, etc.
+<a id="block-1959777" class="block-anchor"></a></p>
+<p>Once I feel good about the session, I can either walk away and everything will be committed and pushed when the automated system kicks back in about an hour later, or I can manually commit the changes if I want to give them a nice commit message.
+<a id="block-b7999d1" class="block-anchor"></a></p>
+<h3>Reflection - Problems</h3>
+<p><a id="block-a5717c6" class="block-anchor"></a></p>
+<p>There are some problems with this approach.
+<a id="block-90e3c57" class="block-anchor"></a></p>
+<h4>Problem 1: AI doesn&#39;t follow directions perfectly</h4>
+<p><a id="block-49f8765" class="block-anchor"></a></p>
+<p>First, the AI doesn&#39;t always follow the directions very well.  It can be frustrating that you&#39;ve given it very clear instructions, but it simply won&#39;t format things the way you prefer, for example.
+<a id="block-b4af3f8" class="block-anchor"></a></p>
+<p>Sometimes it just deletes things you thought were interesting.
+<a id="block-381889c" class="block-anchor"></a></p>
+<p>I suspect that with some prompt engineering effort, I could guide it towards marginally less objectionable behavior.
+<a id="block-ca80aaa" class="block-anchor"></a></p>
+<p>And then there&#39;s the whole notion that models are improving quickly and pretty soon it will follow directions better, so this may be a short-term pain.
+<a id="block-bdb3c2c" class="block-anchor"></a></p>
+<h4>Problem 2: If AI introduces ideas, can I assume cognitive ownership of them?</h4>
+<p><a id="block-e6b0573" class="block-anchor"></a></p>
+<p>I&#39;m not talking about legal &quot;ownership&quot; here, I&#39;m talking about whether I fully grok the idea in a way that it makes sense to include it in my notes.  If I&#39;m using <a href="writing%20to%20think.html">writing to think</a>, I don&#39;t want to outsource my thinking in a way that I don&#39;t actually learn the material!
+<a id="block-c50817b" class="block-anchor"></a></p>
+<p>For example, I wouldn&#39;t just pull a whole wikipedia article into my notes and think &quot;yep, I fully grok all that and will remember it forever&quot;.  So, is it ok to pull in several paragraphs of AI-generated content, like we did for <a href="con%20-%20cultural%20evolution%20prerequisites.html">con - cultural evolution prerequisites</a> ?
+<a id="block-1fee9ea" class="block-anchor"></a></p>
+<p>I&#39;ve considered the topic in <a href="cognitive%20ownership.html">cognitive ownership</a> and <a href="../ai/ownership%20over%20the%20ideas%20in%20your%20notes.html">ownership over the ideas in your notes</a>, and I <em>think</em> the answer is &quot;it depends&quot;; the length and complexity of the material matters.  So does the level of consideration you gave it, and whether you&#39;ll bump into it again soon (is it <a href="densely%20linked.html">densely linked</a>)?  Of course, you can pull in a short quote that resonated from AI (or from another person) and <a href="Recontextualization.html">recontextualize</a> it in your own notes.
+<a id="block-d0939b6" class="block-anchor"></a></p>
+<p>This isn&#39;t really an AI-specific problem, though.  In <a href="what%20makes%20me%20convinced%20people%20would%20pull%20from%20other%20people's%20notes%3F.html">what makes me convinced people would pull from other people's notes?</a> I basically consider the same problem, but if the notes were created by other people, like they would be in a <a href="federated%20wiki.html">federated wiki</a>.  Or when potentially pulling in ideas from tweets, which is actually pretty compelling because <a href="tweets%20are%20the%20perfect%20size%20for%20assimilation.html">tweets are the perfect size for assimilation</a>.  So, yeah, it&#39;s not really an AI question, but rather a question around the benefits and drawbacks of <a href="keeping%20externally-generated%20material%20directly%20in%20your%20notes.html">keeping externally-generated material directly in your notes</a>.  But if something as subtle as the distinction between hand-writing your notes vs. typing them impacts <a href="dim%20-%20assimilation%20depth.html">dim - assimilation depth</a>... <a href="hand%20written%20notes%20help%20students%20perform%20better%20than%20typed%20ones.html">hand written notes help students perform better than typed ones</a>, then I can only imagine the gap between notes written by yourself and written by someone or something else would be significantly larger.
+<a id="block-5698319" class="block-anchor"></a></p>
+<p>Another, slightly different angle on this is spaced repetition prompts. Like tweets, they are little conceptual nuggets, but formatted to trigger recall.  There is a related notion that <a href="writing%20your%20own%20prompts%20may%20be%20more%20beneficial%20than%20using%20canned%20ones.html">writing your own prompts may be more beneficial than using canned ones</a>.  There has been pushback on that idea from some serious practitioners, though.  In <a href="t%20Dwarkesh%20custom%20spaced%20repetition%20card%20creation%20tooling.html">t Dwarkesh custom spaced repetition card creation tooling</a>, <a href="../ai/person%20-%20Dwarkesh%20Patel.html">person - Dwarkesh Patel</a> feels that the process of creating the cards is often rote.  In <a href="my%20hacker%20news%20comment%20about%20canned%20prompts.html">my hacker news comment about canned prompts</a> I detail <a href="person%20-%20Andy%20Matuschak.html">person - Andy Matuschak</a> and <a href="person%20-%20Michael%20Nielsen.html">person - Michael Nielsen</a>&#39;s  evolving thoughts on the topic, where they seem to think that the process of generating high quality prompts is <em>so hard to do well</em>, that a person could benefit from having an expert create the cards for them.
+...
+Note: I broke this into it&#39;s own page <a href="do%20you%20need%20to%20write%20your%20own%20spaced%20repetition%20prompts%3F.html">do you need to write your own spaced repetition prompts?</a>
+<a id="block-80a0a14" class="block-anchor"></a></p>
+<p>edit 2025-04-26: as I think about it more <a href="../ai/Wikipedia's%20talk%20pages.html">Wikipedia's talk pages</a> <a href="../ai/exposing%20chains%20of%20thought%20in%20the%20UI.html">exposing chains of thought in the UI</a> and <a href="../ai/meta%20context.html">meta context</a>.  A friend of mine mentioned how <a href="notes%20live%20in%20a%20liminal%20space%20between%20the%20world%20and%20your%20mind.html">notes live in a liminal space between the world and your mind</a>.  That&#39;s true, and these notes that you didn&#39;t write yourself are even further from being truly assimilated. It&#39;s like there&#39;s a spectrum of <a href="dim%20-%20assimilation%20depth.html">dim - assimilation depth</a>.  Going forward I think <a href="tools%20for%20thought.html">tools for thought</a> will need to embrace this <a href="../ai/meta%20context.html">meta context</a> as a first class concern.
+<a id="block-a8c1e07" class="block-anchor"></a></p>
+<p>edit 2025-06-16: I have noticed that a compact conceptual size can alter how I take notes on media as well.  For example, I might take much more dense notes on a short video like <a href="v%20deflationary%20AI.html">v deflationary AI</a> because it doesn&#39;t feel quite as overwhelming as trying to take dense notes for some massively long podcast like <a href="../ai/V%20Dwarkesh%2C%20Sholto%2C%20and%20Trenton%20in%202024.html">V Dwarkesh, Sholto, and Trenton in 2024</a>
+<a id="block-b0f2f06" class="block-anchor"></a></p>
+<p>edit 2026-01-19: The idea of how <a href="you%20need%20mental%20alignment%20when%20working%20with%20coding%20agents.html">you need mental alignment when working with coding agents</a>, and how that&#39;s similar to this concept of needing to <a href="assimilation.html">assimilate</a> the ideas that a <a href="connected%20note.html">connected note</a>s agent puts into your notes.
+<a id="block-055f9a3" class="block-anchor"></a></p>
+<h3>Reflection - why do I do this?</h3>
+<p><a id="block-3971a77" class="block-anchor"></a></p>
+<p>I&#39;m honestly not sure.  I used to <a href="Coke%20can%20collection.html">collect Coke cans as a kid</a>.  Maybe I&#39;m just a <a href="../ai/collector.html">collector</a> at heart.  I like <a href="thinking%20in%20concepts.html">thinking in concepts</a> and collecting and mulling over ideas.  I&#39;ve heard advice that you should <a href="../mdpg_export/keep%20questions%20and%20problems%20in%20mind.html">keep questions and problems in mind</a> so as you learn new things, you can see if they might apply to moving those problems forward.  These small, <a href="../ai/atomic.html">atomic</a>, <a href="densely%20linked.html">densely linked</a> notes feel like a bunch of little problems to keep in mind.
+<a id="block-0cfcf08" class="block-anchor"></a></p>
+<p>But also, I like sharing ideas with people.  I think it&#39;s fun to pull people in to discuss the ideas --- to give scrutiny to ideas in a <a href="../ai/chat%20-%20dialectic.html">chat - dialectic</a> process.  Making concepts into notes, like <a href="../mdpg_export/Andy's%20working%20note%20about%20evergreen%20notes.html">evergreen notes</a> makes them feel more real, and makes me more enthusiastic to embrace <a href="actively%20seeking%20out%20disconfirming%20information.html">actively seeking out disconfirming information</a>, because there&#39;s something I can <em>do</em> with that disconfirming information.  It also makes them easily shareable, as I do in this doc.
+<a id="block-350000e" class="block-anchor"></a></p>
+<p>Stepping <em>way</em> back... maybe externalizing the ideas also insulates me from identifying too closely with them... because I know they&#39;re all up for debate.  Maybe that helps me not get too emotionally attached to anything specific... I&#39;m not sure.  I do know that I tend to get very excited by pushback on the ideas I share, because that pushback helps me move the idea towards something that hopefully maps to reality better.  For example, since I shared this document, originally, I&#39;ve gotten pushback on the idea of <a href="cognitive%20ownership.html">cognitive ownership</a> (can you really <em>own</em> these ideas?) and the role that notes play in <a href="assimilation.html">assimilation</a>... so now that&#39;s one of my open problems.
+<a id="block-1504112" class="block-anchor"></a></p>
+<h3>About this note</h3>
+<p><a id="block-17e16cc" class="block-anchor"></a></p>
+<p>This note (along with all the links in it) was published from Obsidian to a microsite using the nascent &quot;Meadow&quot; framework.  If you&#39;re interested, check out Meadow here: <a href="Introducing%20Meadow.html">Introducing Meadow</a>
+<a id="block-97ef529" class="block-anchor"></a></p>
+<h3>Concepts</h3>
+<p><a id="block-23cff6e" class="block-anchor"></a></p>
+<p><a href="using%20AI%20to%20find%20or%20create%20conceptual%20notes.html">using AI to find or create conceptual notes</a>
+<a id="block-a9c3cfc" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>I&#39;m also getting much more aggressive about using it more broadly, and a little less concerned about whether <em>I</em> wrote the content or not.  A year ago (an eternity) I wrote <span class="highlight-do-not-link">How I use my note processing system - 2025-03</span> and I fretted about whether</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-03-04%20-%20chao.html#block-d0af393"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

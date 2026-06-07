@@ -1,1 +1,0 @@
-^ [[SDLC building block -- design|designing]], [[SDLC building block -- planning|planning]] and [[SDLC building block -- code|coding]] in an [[iterative loop]]

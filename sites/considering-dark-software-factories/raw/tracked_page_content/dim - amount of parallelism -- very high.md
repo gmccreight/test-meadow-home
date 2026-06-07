@@ -1,1 +1,0 @@
-[[dim - amount of parallelism]]

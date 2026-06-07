@@ -24,5 +24,5 @@ I've recently been playing with <span class="link-not-tracked">link not tracked<
 
 <span class="link-not-tracked">link not tracked</span> talks about how if you bump into an unknown during your design and planning work, you can use <span class="link-not-tracked">link not tracked</span> to another agent session where you run <span class="link-not-tracked">link not tracked</span>
 
-<span class="link-not-tracked">link not tracked</span> talks about <span class="link-not-tracked">link not tracked</span>
+[[T article the unreasonable effectiveness of HTML - 2027-05]] talks about <span class="link-not-tracked">link not tracked</span>
 

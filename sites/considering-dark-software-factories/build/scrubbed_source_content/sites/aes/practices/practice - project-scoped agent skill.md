@@ -12,5 +12,5 @@ I use a _lot_ of these for various little workflows.  Like one for releasing the
 
 ### Related
 
-These "skills" sometimes feel like executable context.  Real similar to <span class="link-not-tracked">link not tracked</span>.
+These "skills" sometimes feel like executable context.  Real similar to [[context right in the repo]].
 

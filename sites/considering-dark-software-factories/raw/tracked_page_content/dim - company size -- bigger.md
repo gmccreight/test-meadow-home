@@ -1,3 +1,0 @@
-^ [[dim - company size]] -- bigger
-
----

@@ -1,0 +1,5 @@
+The graph where the markdown originally comes from.
+
+The source graph is represented by a combination of the <span class="link-not-tracked">link not tracked</span> (like a vault in Obsidian, for example) and then an unconstrained expansion of a graph from the <span class="link-not-tracked">link not tracked</span>.  The unconstrained "source graph" is pretty impractical, though, so we don't deal with it much... it's like with the idea of <span class="link-not-tracked">link not tracked</span>.  With no constraints almost everything connects to everything else.  It's impractical to deal with.
+
+So In practice the source graph is never directly considered as a whole.  Rather, what the [[publisher]] interacts with is the <span class="link-not-tracked">link not tracked</span>, which starts from the same point but does <span class="link-not-tracked">link not tracked</span> instead, which often limits its scope significantly.

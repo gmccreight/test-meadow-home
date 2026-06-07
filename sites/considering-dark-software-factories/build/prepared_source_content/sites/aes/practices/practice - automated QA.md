@@ -4,7 +4,7 @@
 
 ### Practice
 
-Automated QA like [[t Ryan Carlson spending $33 a day in Devin on browser testing his product - 2026-05]]
+Automated QA like [[t Ryan Carlson spending $33 a day in Devin on browser testing his product - 2026-05]] or [[b automatic QA - 2026-06]]
 
 ### Status 🟡
 
@@ -16,3 +16,4 @@ I think you could argue that [[practice - custom review tooling]] automates at l
 
 [[t Ryan Carlson spending $33 a day in Devin on browser testing his product - 2026-05]]
 
+[[b automatic QA - 2026-06]]

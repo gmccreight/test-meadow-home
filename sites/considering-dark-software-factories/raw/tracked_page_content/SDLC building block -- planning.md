@@ -1,1 +1,0 @@
-^ [[SDLC building block]] -- planning

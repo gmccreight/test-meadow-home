@@ -1,3 +1,0 @@
-^ [[bottleneck]] - [[human]] who understand
-
----

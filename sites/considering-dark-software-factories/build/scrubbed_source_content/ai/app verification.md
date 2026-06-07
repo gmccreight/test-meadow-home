@@ -1,4 +1,4 @@
-app <span class="link-not-tracked">link not tracked</span>
+app [[verification]]
 
 related to [[app specification]]
 

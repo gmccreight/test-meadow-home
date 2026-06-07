@@ -4,7 +4,7 @@
 
 ### Practice
 
-Automated QA like <span class="link-not-tracked">link not tracked</span>
+Automated QA like <span class="link-not-tracked">link not tracked</span> or <span class="link-not-tracked">link not tracked</span>
 
 ### Status 🟡
 
@@ -16,3 +16,4 @@ I think you could argue that [[practice - custom review tooling]] automates at l
 
 <span class="link-not-tracked">link not tracked</span>
 
+<span class="link-not-tracked">link not tracked</span>

@@ -10,7 +10,7 @@
 <body>
     <header>
         <div id="new-version-pointer" style="display:none"></div>
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="dark%20software%20factory%20--%20key%20media.html" class="breadcrumb-link">dark software factory -- key media</a><span class="breadcrumb-separator">→</span><a href="b%20OpenAI%20harness%20engineering%202026-02.html" class="breadcrumb-link">b OpenAI harness engineering 2026-02</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">git worktree</span></nav>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">git worktree</span></nav>
     </header>
     <main>
         <h1>git worktree</h1>
@@ -28,6 +28,58 @@
                 <a class="backlink-see-in-context" href="b%20OpenAI%20harness%20engineering%202026-02.html#block-633ce82"><i>see in context</i></a>
               </div>
             </li>
+<li class="backlink"><a href="../mwd/mwd development/dev%20tooling%20stress%20test.html">dev tooling stress test</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">git worktree</span>  based <a href="parallel%20development.html">parallel development</a> is challenging.  The systems that run in each worktree need to be fully isolated (partitioned) from each other, despite running on the same physical machine.   This is true for development and also for testing.  In this document we focus primarily on testing.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/dev%20tooling%20stress%20test.html#block-3befcd8"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>To ensure that isolation between the worktrees works properly, we need have stress test tooling that creates multiple <span class="highlight-do-not-link">git worktree</span>s and then (all at the same time), executes the <a href="check%20script.html">check script</a> <code>--e2e</code> and <code>--video</code> in each worktree.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/dev%20tooling%20stress%20test.html#block-0c50963"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Not only do the tests in the <span class="highlight-do-not-link">git worktree</span> run in parallel and fully isolated from each other, but their <a href="../mwd/mwd%20testing/meadow%20e2e%20tests%20--%20test%20suite%20run%20report.html">meadow e2e tests -- test suite run report</a>s are, too. They are partitioned by both the time the report was generated (in the name of the folder... down to the second for a given run) and also by a short worktree identifier.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd development/dev%20tooling%20stress%20test.html#block-f5ed060"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html">example - a code change that introduced cognitive debt</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>To support <a href="parallel%20development.html">parallel development</a> in <span class="highlight-do-not-link">git worktree</span>s, we needed to add <a href="../meadow-internal/meadow-cloud/meadow%20cloud%20--%20local.html">meadow cloud -- local</a>.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html#block-b882a5c"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html">example - describe a desired state and have the coding agent reconcile to it</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>They convinced me that I should adopt true <a href="parallel%20development.html">parallel development</a> with <span class="highlight-do-not-link">git worktree</span>s, a <a href="specialized%20agent%20--%20code%20merge.html">specialized agent -- code merge</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html#block-7a2e762"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="forking%20a%20test%20scenario%20from%20a%20specific%20point.html">forking a test scenario from a specific point</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Using <a href="../mwd/mwd%20testing/meadow%20e2e%20tests%20--%20test%20suite%20run%20report%20review%20tool.html">meadow e2e tests -- test suite run report review tool</a>, you could pick a point in that test code and click &quot;fork&quot; and it creates a new <span class="highlight-do-not-link">git worktree</span> and runs the scenario up to that point then at that point it stops and hands over to you.  At that point it could give you <a href="../ai/agentic%20coding.html">coding agent</a> with some context about the scenario pre-filled, and opens the browser so you can surf around.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="forking%20a%20test%20scenario%20from%20a%20specific%20point.html#block-1f34c6d"><i>see in context</i></a>
+              </div>
+            </li>
 <li class="backlink"><a href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html">free recall - Open AI harness blog post - 2026-02</a>
               <div class="backlink-context-container">
                 <div class="backlink-context">
@@ -37,6 +89,33 @@ They enforce various in <a href="invariant.html">invariant</a>s, such as that a 
 
                 </div>
                 <a class="backlink-see-in-context" href="free%20recall%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02.html#block-9e5c90c"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../mwd/mwd misc/meadow%20parallel%20development.html">meadow parallel development</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Meadow supports <span class="link-not-tracked">link not tracked</span>, where the <a href="../mwd/mwd%20development/developer.html">developer</a> can run different <span class="link-not-tracked">link not tracked</span>s of the meadow development environment in different directories at the same time and they don&#39;t conflict (which supports <span class="highlight-do-not-link">git worktree</span>s, as well).</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd/mwd misc/meadow%20parallel%20development.html#block-30b6260"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../meadow-internal/misc/meadow%20time%20travelable%20application%20state%20data.html">meadow time travelable application state data</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>The equivalent of <code>~/Library/Application Support/Meadow/MeadowHome</code> that is used by the distribution app, but within the <span class="highlight-do-not-link">git worktree</span>, since running in the worktree overrides the configuration so it sticks within the worktree.  That state is already versioned by a <span class="link-not-tracked">link not tracked</span>, so we should take advantage of that.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../meadow-internal/misc/meadow%20time%20travelable%20application%20state%20data.html#block-57bc529"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Written in TypeScript.  &quot;new&quot; creates a <span class="highlight-do-not-link">git worktree</span> and a <a href="tmux%20session.html">tmux session</a> (can attach to independently)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-03-04%20-%20chao.html#block-9943d2f"><i>see in context</i></a>
               </div>
             </li>
 <li class="backlink"><a href="../sites/aes/practices/practice%20-%20git%20worktree%20parallel%20development.html">practice - git worktree parallel development</a>

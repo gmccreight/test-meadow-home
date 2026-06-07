@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t Karpathy LLMs as kernel process of a new OS</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">t Karpathy LLMs as kernel process of a new OS</span></nav>
+    </header>
+    <main>
+        <h1>t Karpathy LLMs as kernel process of a new OS</h1>
+        <p><a href="https://x.com/karpathy/status/1707437820045062561" rel="noreferrer noopener" target="_blank">https://x.com/karpathy/status/1707437820045062561</a>
+<a id="block-adc64f1" class="block-anchor"></a></p>
+<p><a href="../ai/person%20-%20Andrej%20Karpathy.html">person - Andrej Karpathy</a>
+<a id="block-7048074" class="block-anchor"></a></p>
+<p>With many pieces dropping recently, a more complete picture is emerging of LLMs not as a chatbot, but the kernel process of a new Operating System. E.g. today it orchestrates:</p>
+<ul>
+<li>Input &amp; Output across modalities (text, audio, vision)</li>
+<li>Code interpreter, ability to write &amp; run programs</li>
+<li>Browser / internet access</li>
+<li>Embeddings database for files and internal memory storage &amp; retrieval
+...
+<a href="LLM%20OS.html">LLM OS</a></li>
+</ul>
+<p><a id="block-78123f2" class="block-anchor"></a></p>
+<p>A lot of computing concepts carry over. Currently we have single-threaded execution running at ~10Hz (tok/s) and enjoy looking at the assembly-level execution traces stream by. Concepts from computer security carry over, with attacks, defenses and emerging vulnerabilities. I also like the nearest neighbor analogy of &quot;Operating System&quot; because the industry is starting to shape up similar: Windows, OS X, and Linux &lt;-&gt; GPT, PaLM, Claude, and Llama/Mistral(?). An OS comes with default apps but has an app store.
+<a id="block-620b7d1" class="block-anchor"></a></p>
+<p>He also followed up with a more detailed <a href="LLM%20OS.html">LLM OS</a> tweet with specs: <a href="t%20Karpathy%20LLM%20OS%20specs.html">t Karpathy LLM OS specs</a>
+<a id="block-d6f6495" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="agent%20skill%20wrapping%20everything%20is%20the%20LLM%20OS.html">agent skill wrapping everything is the LLM OS</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><a href="../ai/person%20-%20Andrej%20Karpathy.html">person - Andrej Karpathy</a> described LLMs as &quot;the kernel process of a new Operating System&quot; in <span class="highlight-do-not-link">t Karpathy LLMs as kernel process of a new OS</span>. The <a href="LLM%20OS.html">LLM OS</a> handles I/O, code execution, memory, and error recovery so you don&#39;t have to.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="agent%20skill%20wrapping%20everything%20is%20the%20LLM%20OS.html#block-9039acc"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>This pattern has caused me to become a little less excited about the <a href="../mwd/mwd%20development/dev_tools_app.html">dev_tools_app</a> and my CLI tools because it&#39;s not <a href="agent%20skill%20wrapped.html">agent skill wrapped</a>.  When something breaks, <em>I</em> have to tell the agent to fix it.  Even if it doesn&#39;t happen very often, it&#39;s pretty annoying once you become accustomed to agents fixing things for you automatically.
+:
+It feels like there&#39;s some ideal combo here where <em>every</em> command is <a href="agent%20skill%20wrapped.html">agent skill wrapped</a> by a dumb and fast agent that knows <em>just enough</em> to be able to bootstrap a call to a fancier agent if something goes wrong
+...
+<a href="using%20a%20faster%20but%20dumber%20model%20with%20a%20slower%20but%20smarter%20model.html">using a faster but dumber model with a slower but smarter model</a>
+...
+Is <em>this</em> what <a href="../ai/person%20-%20Andrej%20Karpathy.html">person - Andrej Karpathy</a> meant <span class="highlight-do-not-link">t Karpathy LLMs as kernel process of a new OS</span>
+...
+<a href="dim%20-%20agent-pilled%20amount%20--%20more.html">dim - agent-pilled amount -- more</a>
+...
+Using <a href="example%20-%20using%20DeepSearch%20in%20Claude%20Code%20in%20a%20terminal%20in%20Obsidian%20to%20find%20a%20page%20about%20a%20software%20concept.html">example - using DeepSearch in Claude Code in a terminal in Obsidian to find a page about a software concept</a> I had Claude write me this page <a href="agent%20skill%20wrapping%20everything%20is%20the%20LLM%20OS.html">agent skill wrapping everything is the LLM OS</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-03-04%20-%20chao.html#block-0da1591"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="t%20Karpathy%20LLM%20OS%20specs.html">t Karpathy LLM OS specs</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Follow-up to <span class="highlight-do-not-link">t Karpathy LLMs as kernel process of a new OS</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="t%20Karpathy%20LLM%20OS%20specs.html#block-198df42"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

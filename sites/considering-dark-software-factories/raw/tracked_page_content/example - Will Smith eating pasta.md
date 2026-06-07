@@ -1,1 +1,0 @@
-[[person - Will Smith]] eating pasta

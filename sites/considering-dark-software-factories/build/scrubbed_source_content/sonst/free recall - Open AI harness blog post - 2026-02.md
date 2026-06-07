@@ -6,8 +6,8 @@ Notes:
 
 * [[b OpenAI harness engineering 2026-02]]
 * this free recall
-* <span class="link-not-tracked">link not tracked</span>
-* <span class="link-not-tracked">link not tracked</span> (throughout)
+* [[review - Open AI harness blog post - 2026-02-22]]
+* [[to remove - Agentic engineering practices - scorecard 2026-04]] (throughout)
 
 ---
 

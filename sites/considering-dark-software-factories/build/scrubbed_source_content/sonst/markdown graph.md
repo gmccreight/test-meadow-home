@@ -1,1 +1,1 @@
-^ <span class="link-not-tracked">link not tracked</span> graph
+^ [[markdown]] graph

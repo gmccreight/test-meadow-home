@@ -1,1 +1,0 @@
-[[dim - number of agents -- high]]
