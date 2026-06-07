@@ -1,0 +1,1 @@
+[[2026-03 people starting to care much more about design principles and correctness]]
