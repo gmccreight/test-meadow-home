@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meeting - 2026-03-04 - chao</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">meeting - 2026-03-04 - chao</span></nav>
+    </header>
+    <main>
+        <h1>meeting - 2026-03-04 - chao</h1>
+        <h3>Examples</h3>
+<p><a id="block-bc5983f" class="block-anchor"></a></p>
+<p>e2e test videos: <a href="../mwd/mwd%20development/example%20-%20screencast%20-%20videos%20filtered%20by%20scenario%20docs.html">example - screencast - videos filtered by scenario docs</a>
+<a id="block-00e61d0" class="block-anchor"></a></p>
+<p>markdown and claude code: <a href="example%20-%20using%20DeepSearch%20in%20Claude%20Code%20in%20a%20terminal%20in%20Obsidian%20to%20find%20a%20page%20about%20a%20software%20concept.html">example - using DeepSearch in Claude Code in a terminal in Obsidian to find a page about a software concept</a>
+<a id="block-3aed9d8" class="block-anchor"></a></p>
+<p>cognitive debt: <a href="example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html">example - a code change that introduced cognitive debt</a>
+<a id="block-1eac5a9" class="block-anchor"></a></p>
+<p>cognitive debt: <a href="example%20-%20obsidian%20spaced%20repetition%20plugin%20card%20for%20learning%20about%20neural%20networks.html">example - obsidian spaced repetition plugin card for learning about neural networks</a>
+<a id="block-7a5b0b6" class="block-anchor"></a></p>
+<h3>Using AI to find and create conceptual notes</h3>
+<p><a id="block-a52b71e" class="block-anchor"></a></p>
+<p><a href="using%20AI%20to%20find%20or%20create%20conceptual%20notes.html">using AI to find or create conceptual notes</a>
+<a id="block-a9c3cfc" class="block-anchor"></a></p>
+<p>I shared this before, but I&#39;m going to share it again because it&#39;s <em>really</em> good: <a href="example%20-%20using%20DeepSearch%20in%20Claude%20Code%20in%20a%20terminal%20in%20Obsidian%20to%20find%20a%20page%20about%20a%20software%20concept.html">example - using DeepSearch in Claude Code in a terminal in Obsidian to find a page about a software concept</a>
+<a id="block-c6139bf" class="block-anchor"></a></p>
+<p>I&#39;m also getting much more aggressive about using it more broadly, and a little less concerned about whether <em>I</em> wrote the content or not.  A year ago (an eternity) I wrote <a href="How%20I%20use%20my%20note%20processing%20system%20-%202025-03.html">How I use my note processing system - 2025-03</a> and I fretted about whether
+<a id="block-d0af393" class="block-anchor"></a></p>
+<p><a href="how%20someone%20might%20reasonably%20keep%20externally-generated%20notes%20in%20their%20notes.html">how someone might reasonably keep externally-generated notes in their notes</a>
+<a id="block-d0559de" class="block-anchor"></a></p>
+<p>For example, I led it to write about <a href="type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a>
+<a id="block-04c3959" class="block-anchor"></a></p>
+<h3>We talked about since last meeting</h3>
+<p><a id="block-7952778" class="block-anchor"></a></p>
+<p><a href="t%20cursor%20video%20demos.html">t cursor video demos</a>
+<a id="block-de1f74a" class="block-anchor"></a></p>
+<p><a href="t%20open%20source%20projects%20are%20making%20their%20test%20suites%20private%20to%20stop%20slop%20forks.html">t open source projects are making their test suites private to stop slop forks</a>
+<a id="block-8460645" class="block-anchor"></a></p>
+<h1>Dark Software Factory - DSF</h1>
+<p><a id="block-756da23" class="block-anchor"></a></p>
+<p><strong>New site!</strong> <a href="considering%20dark%20software%20factories.html">considering dark software factories</a> (which is also an <em>actual</em> site <a href="https://www.meadow-notes.com/sites/sl4bvpb0ows5-considering-dark-software-factories-v1/considering%20dark%20software%20factories.html" rel="noreferrer noopener" target="_blank">here</a>)
+<a id="block-fe53d5c" class="block-anchor"></a></p>
+<h3>DSF - My company creates two products... a Dark Factory and Meadow</h3>
+<p><a id="block-9f13511" class="block-anchor"></a></p>
+<p>I&#39;ve realized that my software company, Sand Harbor Software, really has <em>two</em> products that are equally important.  <a href="../mwd/mwd%20misc/Meadow.html">Meadow</a> and the &quot;sand harbor&quot; <a href="dark%20software%20factory.html">dark software factory</a>.  Why frame as a separate product?  Realistically, dark factories are on another plane than simply being an embedded feature of a single application.  Also, it&#39;s something project-agnostic that I can start talking with my engineering friends about that&#39;s not just me annoying them about Meadow.
+<a id="block-c82c657" class="block-anchor"></a></p>
+<h3>DSF - agent manager</h3>
+<p><a id="block-f9628c1" class="block-anchor"></a></p>
+<pre><code class="fenced-code">parent tmux (agent manager)                                                
++--------------------------+----------------------------------------------+
+| Agents (sidebar)         | Selected agent: meadow/feature-123           |
+|--------------------------|----------------------------------------------|
+| [*] agent-01 (running)   | right pane: nested tmux session (agent-01)   |
+| [ ] agent-02 (idle)      | +------------------------------------------+ |
+| [ ] agent-03 (error!)    | | agent tmux (inside right pane)           | |
+|                          | | +--------------------------------------+ | |
+| Actions                  | | | Claude Code                          | | |
+|  (n) new agent           | | | (primary conversation / coding UI)   | | |
+|  (r) rename              | | |                                      | | |
+|  (k) kill agent          | | |                                      | | |
+|  (o) open logs           | | |                                      | | |
+|                          | | |                                      | | |
+|                          | | +--------------------------------------+ | |
+|                          | | +--------------------------------------+ | |
+| Status                   | | | $ ./some-command                     | | |
+|  running: 1              | | |                                      | | |
+|  idle:    1              | | +--------------------------------------+ | |
+|                          | +------------------------------------------+ |
++--------------------------+----------------------------------------------+
+</code></pre>
+<p><a id="block-d4bad1a" class="block-anchor"></a></p>
+<p>Written in TypeScript.  &quot;new&quot; creates a <a href="git%20worktree.html">git worktree</a> and a <a href="tmux%20session.html">tmux session</a> (can attach to independently)
+<a id="block-9943d2f" class="block-anchor"></a></p>
+<h3>DSF - Wrapping agent skills</h3>
+<p><a id="block-a3551ba" class="block-anchor"></a></p>
+<p>I&#39;m creating <a href="agent%20skill.html">agent skill</a>s like crazy, in part because I&#39;m adopting a <a href="agent%20skill%20wrapped%20scripts.html">agent skill wrapped scripts</a> pattern, like in <a href="../mwd/mwd%20development/running%20meadow%20e2e%20tests%20wrapped%20by%20an%20agent%20skill.html">running meadow e2e tests wrapped by an agent skill</a>
+<a id="block-8caad3a" class="block-anchor"></a></p>
+<p>This pattern has caused me to become a little less excited about the <a href="../mwd/mwd%20development/dev_tools_app.html">dev_tools_app</a> and my CLI tools because it&#39;s not <a href="agent%20skill%20wrapped.html">agent skill wrapped</a>.  When something breaks, <em>I</em> have to tell the agent to fix it.  Even if it doesn&#39;t happen very often, it&#39;s pretty annoying once you become accustomed to agents fixing things for you automatically.
+:
+It feels like there&#39;s some ideal combo here where <em>every</em> command is <a href="agent%20skill%20wrapped.html">agent skill wrapped</a> by a dumb and fast agent that knows <em>just enough</em> to be able to bootstrap a call to a fancier agent if something goes wrong
+...
+<a href="using%20a%20faster%20but%20dumber%20model%20with%20a%20slower%20but%20smarter%20model.html">using a faster but dumber model with a slower but smarter model</a>
+...
+Is <em>this</em> what <a href="../ai/person%20-%20Andrej%20Karpathy.html">person - Andrej Karpathy</a> meant <a href="t%20Karpathy%20LLMs%20as%20kernel%20process%20of%20a%20new%20OS.html">t Karpathy LLMs as kernel process of a new OS</a>
+...
+<a href="dim%20-%20agent-pilled%20amount%20--%20more.html">dim - agent-pilled amount -- more</a>
+...
+Using <a href="example%20-%20using%20DeepSearch%20in%20Claude%20Code%20in%20a%20terminal%20in%20Obsidian%20to%20find%20a%20page%20about%20a%20software%20concept.html">example - using DeepSearch in Claude Code in a terminal in Obsidian to find a page about a software concept</a> I had Claude write me this page <a href="agent%20skill%20wrapping%20everything%20is%20the%20LLM%20OS.html">agent skill wrapping everything is the LLM OS</a>
+<a id="block-0da1591" class="block-anchor"></a></p>
+<p><a href="../mwd/mwd%20development/dev%20tooling%20stress%20test.html">dev tooling stress test</a>
+<a id="block-28c4c8a" class="block-anchor"></a></p>
+<h3>Apple, tho?</h3>
+<p><a id="block-53af2eb" class="block-anchor"></a></p>
+<p><a href="t%20Apple%20M5%20macbook%20has%20powerful%20AI%20capabilities.html">t Apple M5 macbook has powerful AI capabilities</a>
+<a id="block-2f30500" class="block-anchor"></a></p>
+<h3>How to do system documentation</h3>
+<p><a id="block-e41a171" class="block-anchor"></a></p>
+<p>Not sure I believe this anymore <a href="app%20specification%20will%20be%20done%20with%20agents%20and%20markdown.html">app specification will be done with agents and markdown</a>.  Given my recent work on <a href="../mwd/mwd%20testing/scenario%20doc.html">scenario doc</a>s, I think perhaps a <a href="type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a> might make more sense.
+<a id="block-5f941b6" class="block-anchor"></a></p>
+<p><a href="documentation%20skews%20from%20code.html">documentation skews from code</a>
+<a id="block-10ea186" class="block-anchor"></a></p>
+<p><a href="agent%20skill%20--%20update-skills.html">agent skill -- update-skills</a>
+<a id="block-78dc225" class="block-anchor"></a></p>
+<h3>Evals</h3>
+<p><a id="block-95d1b36" class="block-anchor"></a></p>
+<p><a href="agent%20skill%20--%20eval-skills.html">agent skill -- eval-skills</a>
+<a id="block-b8f1e44" class="block-anchor"></a></p>
+<h3>AGI and ASI</h3>
+<p><a id="block-86cdfe9" class="block-anchor"></a></p>
+<p><a href="v%20sam%20harris%20TED%20talk%20about%20AI%20-%202016.html">v sam harris TED talk about AI - 2016</a> 2016!  Sam just reasoned from first principles and understood we&#39;d be where we are today... and also where we&#39;ll be tomorrow.
+<a id="block-03a120e" class="block-anchor"></a></p>
+<p><a href="AI%20improvement%20--%20recent%20news%2026-02.html">AI improvement -- recent news 26-02</a>
+<a id="block-ed43942" class="block-anchor"></a></p>
+<h3>Coding</h3>
+<p><a id="block-720020b" class="block-anchor"></a></p>
+<p><a href="with%20claude%20remote%20you%20can%20interact%20with%20your%20code%20or%20notes%20from%20your%20phone%2C%20too.html">with claude remote you can interact with your code or notes from your phone, too</a>
+<a id="block-ee0a10e" class="block-anchor"></a></p>
+<p><a href="example%20-%20describe%20a%20desired%20state%20and%20have%20the%20coding%20agent%20reconcile%20to%20it.html">example - describe a desired state and have the coding agent reconcile to it</a>
+<a id="block-47fc2a0" class="block-anchor"></a></p>
+<h3>Cognitive Debt</h3>
+<p><a id="block-3016ebf" class="block-anchor"></a></p>
+<p><a href="cognitive%20debt.html">cognitive debt</a>
+<a id="block-799a41a" class="block-anchor"></a></p>
+<p><a href="example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html">example - a code change that introduced cognitive debt</a>
+<a id="block-a3f0c1a" class="block-anchor"></a></p>
+<p><a href="example%20-%20obsidian%20spaced%20repetition%20plugin%20card%20for%20learning%20about%20neural%20networks.html">example - obsidian spaced repetition plugin card for learning about neural networks</a>
+<a id="block-d486352" class="block-anchor"></a></p>
+<h1>Notes from the meeting</h1>
+<p><a id="block-a9ba257" class="block-anchor"></a></p>
+<p><a href="git%20pre-commit%20hook%20for%20ensuring%20a%20specific%20commit%20prefix.html">git pre-commit hook for ensuring a specific commit prefix</a>
+<a id="block-1e8fbea" class="block-anchor"></a></p>
+<p><a href="if%20you%20can%20ask%20'why%3F'%20of%20your%20connected%20notes%20and%20get%20an%20answer%2C%20then%20they%20are%20not%20well-factored.html">if you can ask 'why?' of your connected notes and get an answer, then they are not well-factored</a>
+<a id="block-17ae484" class="block-anchor"></a></p>
+<p>New idea... <a href="documentation%20context%20graph%20may%20be%20a%20better%20place%20for%20specification%20info%20than%20an%20issue%20tracker.html">documentation context graph may be a better place for specification info than an issue tracker</a> and how it can be part of an <a href="agent%20task%20--%20change%20review%20app.html">agent task -- change review app</a>
+<a id="block-ff0b172" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

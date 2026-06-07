@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kubernetes-glossary</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/considering%20dark%20software%20factories%20--%20working%20area.html" class="breadcrumb-link">considering dark software factories -- working area</a><span class="breadcrumb-separator">→</span><a href="../sonst/weird%20names%20can%20be%20helpful.html" class="breadcrumb-link">weird names can be helpful</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">kubernetes-glossary</span></nav>
+    </header>
+    <main>
+        <h1>kubernetes-glossary</h1>
+        <ul>
+<li>addons<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>API Server<ul>
+<li>AKA apiserver</li>
+<li>TODO - does this run in the cluster itself?</li>
+<li>a RESTful API - has swagger support</li>
+<li>&quot;a number of processes that implement the Kubernetes API&quot; - <span class="link-not-tracked">link not tracked</span></li>
+<li>installed using the <strong>kubelet</strong> - <span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>annotation<ul>
+<li>TODO</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;Update the <strong>annotation</strong>s on a <strong>resource</strong>&quot;</li>
+<li>for non-identifying information... information would not be used for object selection and therefore doesn&#39;t belong in labels</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>autoscale (verb)<ul>
+<li>Things that can be autoscaled: <strong>deployment</strong>, <strong>replica set</strong>, or <strong>replication controller</strong></li>
+</ul>
+</li>
+<li>backend<ul>
+<li>TODO from <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>claim<ul>
+<li>AKA <strong>Persistent Volume Claim</strong></li>
+<li>AKA <strong>PVC</strong></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>cluster<ul>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;A group of <strong>nodes</strong> firewalled from the internet, that are the primary compute resources managed by Kubernetes.&quot;</li>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;a set of physical or virtual machines and other infrastructure resources used by Kubernetes to run your applications. Kubernetes can run anywhere! See the Getting Started Guides for instructions for a variety of services.&quot;</li>
+</ul>
+</li>
+<li>cluster add-on<ul>
+<li>TODO</li>
+</ul>
+</li>
+<li>cluster IP<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>cluster manager<ul>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;<strong>kubectl</strong> controls the Kubernetes <strong>cluster manager</strong>&quot;</li>
+</ul>
+</li>
+<li>cluster network<ul>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;A set of links, logical or physical, that facilitate communication within a cluster according to the Kubernetes networking model. Examples of a Cluster network include Overlays such as flannel or SDNs such as OVS.&quot;</li>
+</ul>
+</li>
+<li>component<ul>
+<li>TODO - unclear</li>
+<li>in <code class="inline-code">kubectl get cs</code> (get component statuses) it gives statuses for <strong>etcd</strong>, the <strong>scheduler</strong>, and the <strong>controller manager</strong></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>config maps<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>control plane<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>controller manager<ul>
+<li>A small binary that lives on the &quot;master side of the house&quot;</li>
+<li>Responsible for doing health maintenance.</li>
+<li>modifies cluster state, and can get a <strong>lease-lock</strong> from the <strong>API Server</strong> to ensure single actor modifying cluster state - <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>CNI - Container Network Interface<ul>
+<li>TODO</li>
+</ul>
+</li>
+<li>daemon set<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>dashboard<ul>
+<li>TODO</li>
+<li><code class="inline-code">kubectl cluster-info</code> gives kubernetes-dashboard is running at <a href="https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/kubernetes-dashboard" rel="noreferrer noopener" target="_blank">https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/kubernetes-dashboard</a></li>
+</ul>
+</li>
+<li>declaritive primitives<ul>
+<li>TODO - Same as the (maybe called templates or manifests) that declare this stuff?</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>deployment<ul>
+<li>includes a <strong>replication controller</strong></li>
+<li>includes the setup for rollouts</li>
+</ul>
+</li>
+<li>definition<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>data volume<ul>
+<li>Independent of the lifespan of the containers</li>
+</ul>
+</li>
+<li>desired state<ul>
+<li>The declarative statement about what you&#39;d like the world to look like</li>
+</ul>
+</li>
+<li>edge router<ul>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;A router that enforces the firewall policy for your cluster. This could be a gateway managed by a cloudprovider or a physical piece of hardware.&quot;</li>
+</ul>
+</li>
+<li>endpoint<ul>
+<li>TODO</li>
+<li>Can be internal or external</li>
+<li>Can also be non-Kubernetes</li>
+</ul>
+</li>
+<li>etcd<ul>
+<li>AKA clustered etcd</li>
+<li>A fault-tolerant key/value datastore.</li>
+<li><strong>Clustered etcd</strong> replicates your storage to all <strong>master</strong> instances in your cluster - <span class="link-not-tracked">link not tracked</span></li>
+<li>Also a lock manager (TODO used that way in Kubernetes?  Was used that way for the CoreOS competitor to Kubernetes)</li>
+<li>can check status with <code class="inline-code">kubectl get cs</code> (component statuses)</li>
+</ul>
+</li>
+<li>expose (verb)<ul>
+<li>Can take a <strong>replication controller</strong>, <strong>service</strong>, <strong>deployment</strong> or <strong>pod</strong> and expose it as a new Kubernetes Service.</li>
+</ul>
+</li>
+<li>extensions resources<ul>
+<li>things like DaemonSets, Deployments, HorizontalPodAutoscalers, Ingress, Jobs and ReplicaSets (are enabled by default)</li>
+</ul>
+</li>
+<li>features<ul>
+<li>TODO - what is this?</li>
+<li>In <span class="link-not-tracked">link not tracked</span> it says: &quot;Set specific features on objects&quot;.  Also, what are <strong>object</strong>s?  Same as <strong>resource</strong>s?</li>
+</ul>
+</li>
+<li>fluentd<ul>
+<li>unified logger</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>frontend<ul>
+<li>TODO from <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>Heapster<ul>
+<li>Container Cluster Monitoring and Performance Analysis</li>
+<li><code class="inline-code">kubectl cluster-info</code> gives &quot;<strong>Heapster</strong> is running at <a href="https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/heapster" rel="noreferrer noopener" target="_blank">https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/heapster</a>&quot;</li>
+</ul>
+</li>
+<li>Init containers<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>Interprocess communication (IPC) namespace<ul>
+<li>TODO - is one way <strong>pod</strong> is isolated</li>
+</ul>
+</li>
+<li>IP addresses<ul>
+<li>From <span class="link-not-tracked">link not tracked</span> - &quot;Each <strong>pod</strong> gets an IP addresses, but it cannot be relied upon to be stable over time.&quot;</li>
+<li>From <span class="link-not-tracked">link not tracked</span>  - Each container in the <strong>pod</strong> shares the same IP address, and considers the other containers to be on localhost.</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>job<ul>
+<li>creates a pod for a specific purpose, then removes that pod when it&#39;s done</li>
+</ul>
+</li>
+<li>kubeadm<ul>
+<li>Installs Kubernetes on bare metal</li>
+</ul>
+</li>
+<li>kubectl<ul>
+<li>The command-line client that talks to the API server</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;<strong>kubectl</strong> controls the Kubernetes <strong>cluster manager</strong>&quot;</li>
+</ul>
+</li>
+<li>KubeDNS<ul>
+<li>DNS is a built-in service launched automatically using the addon manager <strong>cluster add-on</strong></li>
+<li>Kubernetes DNS schedules a DNS Pod and Service on the cluster, and configures the <strong>kubelet</strong>s to tell individual containers to use the DNS Service&#39;s IP to resolve DNS names.</li>
+<li><code class="inline-code">kubectl cluster-info</code> gives &quot;<strong>KubeDNS</strong> is running at <a href="https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/kube-dns" rel="noreferrer noopener" target="_blank">https://172.17.4.99:443/api/v1/proxy/namespaces/kube-system/services/kube-dns</a>&quot;</li>
+</ul>
+</li>
+<li>kubelet<ul>
+<li>A small daemon that lives on the &quot;machines&quot; themselves.</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>is used on each of the <strong>worker</strong> nodes, and can also be used on the <strong>master</strong> node, as described in <span class="link-not-tracked">link not tracked</span></li>
+<li>When the scheduler tells it that its desired state is to be running X containers, it has a reconciliation loop that attempts to get it to that state.</li>
+<li>installs the <strong>API Server</strong></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span> (is pre-installed in the base node OS (TODO what is their name for that?))</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>kube-proxy<ul>
+<li>lives on each node</li>
+<li>core networking component of Kubernetes</li>
+<li>manages the ip tables on each node</li>
+<li>also exposes <strong>service</strong>s</li>
+<li>related to, or possibly the same as <strong>service-proxy</strong> (TODO?)</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>kube-system pods<ul>
+<li>Based on <code class="inline-code">kubectl cluster-info</code>, the following reside at <code class="inline-code">...v1/proxy/namespaces/kube-system/...</code><ul>
+<li><strong>heapster</strong></li>
+<li><strong>KubeDNS</strong></li>
+<li><strong>dashboard</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>label<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>Key/Value pairs that are useful for organizing your things</li>
+<li>form the basis of two API objects that will be talked about in <span class="link-not-tracked">link not tracked</span> after 12 minutes (TODO ensure this gets updated)</li>
+<li>From <span class="link-not-tracked">link not tracked</span> Labels are used to organize and select groups of objects based on key:value pairs.</li>
+<li>associate one kubernetes object with another</li>
+</ul>
+</li>
+<li>label key<ul>
+<li>label keys have two segments: an optional prefix and name</li>
+<li>TODO - I don&#39;t understand what the optional prefix is for</li>
+</ul>
+</li>
+<li>label selector<ul>
+<li>the core grouping primitive in Kubernetes.</li>
+<li>two types of selectors: equality-based and set-based (TODO, what is the difference?)</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>lease-lock<ul>
+<li>provided by the <strong>API Server</strong> to ensure single actor modifying cluster state (like <strong>controller manager</strong> or <strong>scheduler</strong>)</li>
+</ul>
+</li>
+<li>load balancer<ul>
+<li>want one between each layer of your application</li>
+<li>TODO - special names for these load balancers?</li>
+</ul>
+</li>
+<li>manifest<ul>
+<li>The file that&#39;s passed to <code class="inline-code">kubectl create</code> that creates one or many <strong>resource</strong>s, for example.</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>maps<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>master<ul>
+<li>TODO - </li>
+<li>AKA master <strong>node</strong> (or nodes in an HA setup).  Contrast this with <strong>worker</strong></li>
+<li><code class="inline-code">kubectl cluster-info</code> gives &quot;Kubernetes <strong>master</strong> is running at <a href="https://172.17.4.99:443" rel="noreferrer noopener" target="_blank">https://172.17.4.99:443</a>&quot;</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>minikube<ul>
+<li>a tool that makes it easy to run Kubernetes locally.  It runs Kubernetes in a VM on your local machine.</li>
+</ul>
+</li>
+<li>minion<ul>
+<li>the <em>deprecated</em> name for a <strong>node</strong></li>
+</ul>
+</li>
+<li>network namespace<ul>
+<li>TODO - is one way <strong>pod</strong> is isolated</li>
+</ul>
+</li>
+<li>name<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><a href="http://kubernetes.io/docs/user-guide/identifiers/" rel="noreferrer noopener" target="_blank">http://kubernetes.io/docs/user-guide/identifiers/</a></li>
+<li>client-provided.</li>
+<li>only one object of a given kind can have a given name at a time (i.e., they are spatially unique).</li>
+<li>used to refer to an object in a resource URL, such as /api/v1/pods/some-name</li>
+</ul>
+</li>
+<li>naked pod<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>namespaces<ul>
+<li>TODO - there are a bunch of these, but I don&#39;t understand them yet</li>
+<li>by default, everything is in the default namespace</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>From <span class="link-not-tracked">link not tracked</span> - <strong>Process ID (PID) namespace</strong></li>
+<li>From <span class="link-not-tracked">link not tracked</span> - <strong>Network namespace</strong></li>
+<li>From <span class="link-not-tracked">link not tracked</span> - <strong>Interprocess communication (IPC) namespace</strong></li>
+<li>From <span class="link-not-tracked">link not tracked</span> - <strong>Unix Timesharing (UTS) namespace</strong></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>node<ul>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;Update the <strong>taint</strong>s on one or more nodes&quot;</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;A single virtual or physical machine in a Kubernetes cluster.&quot;</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>node affinity<ul>
+<li>TODO - <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>node controller<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span> (TODO - who sends these?)</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>node pools<ul>
+<li>TODO</li>
+</ul>
+</li>
+<li>node port<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>object<ul>
+<li>TODO - same as <strong>resource</strong>?</li>
+<li>seems to be referred to much more often than resources.</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>persistent volume<ul>
+<li>attached to the node prior to running the pod itself on the node</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>Types: <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>pet sets<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>pod<ul>
+<li>The atomic unit of a kubernetes <strong>cluster</strong></li>
+<li>A collection of one of more containers that work well together</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;a colocated group of application containers with shared volumes. They&#39;re the smallest deployable units that can be created, scheduled, and managed with Kubernetes. Pods can be created individually, but it&#39;s recommended that you use a replication controller even if creating a single pod.&quot;</li>
+<li>A set of <strong>data-volume</strong>s</li>
+<li><strong>namespaces</strong></li>
+<li><strong>labels</strong></li>
+<li>The atomic unit of scheduling.  &quot;It doesn&#39;t make any sense for those two containers to land on different machines&quot; <span class="link-not-tracked">link not tracked</span></li>
+<li>can be connected together on localhost (different containers on a pod can all see each other because they share a network namespace)</li>
+<li>From <span class="link-not-tracked">link not tracked</span> - &quot;Each <strong>pod</strong> gets an IP addresses, but it cannot be relied upon to be stable over time.&quot;</li>
+<li>From <span class="link-not-tracked">link not tracked</span> - &quot;Alternative to VM with multiple processes&quot;</li>
+<li>From <span class="link-not-tracked">link not tracked</span> - Each pod is isolated by <strong>Process ID (PID) namespace</strong>, <strong>Network namespace</strong>, <strong>Interprocess communication (IPC) namespace</strong>, <strong>Unix Timesharing (UTS) namespace</strong></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>podmaster<ul>
+<li>TODO</li>
+<li>name from diagram in <span class="link-not-tracked">link not tracked</span> on <strong>master</strong></li>
+</ul>
+</li>
+<li>port name<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>Process ID (PID) namespace<ul>
+<li>TODO - is one way <strong>pod</strong> is isolated</li>
+</ul>
+</li>
+<li>Prometheus<ul>
+<li>A way of monitoring a Kubernetes cluster</li>
+</ul>
+</li>
+<li>resource<ul>
+<li>TODO - seems to be a pretty generic term.  What can it refer to?</li>
+<li><span class="link-not-tracked">link not tracked</span> (In same doc other things are referred to as objects)</li>
+</ul>
+</li>
+<li>reconciliation loop<ul>
+<li>Name from <span class="link-not-tracked">link not tracked</span> at 14:20</li>
+<li>Same loop can be used for create, update, and delete</li>
+</ul>
+</li>
+<li>replica set<ul>
+<li>run X copies of a pod</li>
+<li>handle <strong>pod</strong> failures (health checks) - TODO, what actually does this?</li>
+</ul>
+</li>
+<li>replication controller<ul>
+<li>combination of a <strong>template</strong> (a desired state template), some <strong>labels</strong>, and a number (like I want three)</li>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;manage the lifecycle of pods. They ensure that a specified number of pods are running at any given time, by creating or killing pods as required.&quot;</li>
+</ul>
+</li>
+<li>scheduler<ul>
+<li>A small binary that lives on the &quot;master side of the house&quot;</li>
+<li>Responsible for scheduling pods onto machines</li>
+<li>modifies cluster state, and can get a <strong>lease-lock</strong> from the <strong>API Server</strong> to ensure single actor modifying cluster state - <span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>schedulable<ul>
+<li>A <strong>node</strong>-level attribute that determines whether <strong>pod</strong>s will be scheduled onto the node.</li>
+<li><code class="inline-code">cordon</code> marks a <strong>node</strong> as un<strong>schedulable</strong></li>
+<li><code class="inline-code">uncordon</code> marks a <strong>node</strong> as <strong>schedulable</strong></li>
+<li><code class="inline-code">drain</code> removes <strong>pod</strong>s from a node and marks is as un<strong>schedulable</strong>.</li>
+</ul>
+</li>
+<li>secret<ul>
+<li>exposed by data volume or ENV vars</li>
+<li>managed by the <strong>API Server</strong></li>
+</ul>
+</li>
+<li>selector<ul>
+<li>TODO (it&#39;s in the <strong>spec</strong> section in the yml file - what is that yml file called?)</li>
+<li>same as <strong>label selector</strong>, or are there additional types of selectors?</li>
+</ul>
+</li>
+<li>service<ul>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;Services provide a single, stable name and address for a set of pods. They act as basic load balancers.&quot;</li>
+<li>From <span class="link-not-tracked">link not tracked</span> &quot;A Kubernetes Service is an abstraction which defines a logical set of Pods and a policy by which to access them.&quot;</li>
+<li>Get a known, static, fixed IP address</li>
+<li>They get a DNS entry that&#39;s associated with that known, static, fixed IP address</li>
+<li>The IP address only exists in the routing tables in the machines in the cluster (otherwise it&#39;s fake)</li>
+<li>Has a name, some ports, and a label query.</li>
+<li>The load balancer sends traffic to the dynamic set of pods that match the label query</li>
+<li>TODO in <strong>expose</strong>, it says you can expose a service as a new Kubernetes Service.  What does that mean?</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;A Kubernetes Service that identifies a set of pods using label selectors. Unless mentioned otherwise, Services are assumed to have virtual IPs only routable within the <strong>cluster network</strong>.&quot;</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>simple load balancing including session affinity</li>
+</ul>
+</li>
+<li>service port<ul>
+<li>The port specified in the <strong>spec</strong> of a <strong>service</strong> <strong>manifest</strong>.</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>service proxy<ul>
+<li>that lives on the &quot;machines&quot; themselves</li>
+<li>provides load balancing</li>
+</ul>
+</li>
+<li>spec<ul>
+<li>TODO the spec section within the <strong>manifest</strong>.</li>
+</ul>
+</li>
+<li>Stateful sets<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>storage class<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>storage pools<ul>
+<li>TODO - <span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>subdomain<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>supervisord<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>taint<ul>
+<li>TODO - what is this?</li>
+<li>from <span class="link-not-tracked">link not tracked</span> &quot;Update the <strong>taint</strong>s on one or more nodes&quot;</li>
+</ul>
+</li>
+<li>template<ul>
+<li>TODO</li>
+</ul>
+</li>
+<li>UID<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+<li>UUID<ul>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+<li>In the case of Kubernetes, a UUID is one type of <strong>UID</strong></li>
+</ul>
+</li>
+<li>Unix Timesharing (UTS) namespace<ul>
+<li>TODO - is one way <strong>pod</strong> is isolated</li>
+</ul>
+</li>
+<li>Virtual-IP-Bridge<ul>
+<li>TODO - a way that services can point to non-Kubernetes <strong>endpoint</strong>s.</li>
+</ul>
+</li>
+<li>worker<ul>
+<li>AKA worker node</li>
+<li><span class="link-not-tracked">link not tracked</span></li>
+</ul>
+</li>
+</ul>
+<p><a id="block-edd9e73" class="block-anchor"></a></p>
+<p> <sup class="block-id">^glossary</sup>
+<a id="block-95a8f3c" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1-2" class="block-anchor"></a></p>
+<p><a href="../x-tagpages/tag--pub-to-codedtested.html">tag--pub-to-codedtested</a>
+<a id="block-974a660" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1-3" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1-4" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../sonst/weird%20names%20can%20be%20helpful.html">weird names can be helpful</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Kubernetes is similar.  You needed a <span class="highlight-do-not-link">kubernetes-glossary</span> to keep stuff straight.  Helm?  Charts?  What are these weird things?!?  But that&#39;s just it!  You don&#39;t know, so you better learn their exact definition!  Then you will know!</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/weird%20names%20can%20be%20helpful.html#block-8fbc7a7"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

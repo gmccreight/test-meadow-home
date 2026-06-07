@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b welcome to Gas City - 2026-04</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">b welcome to Gas City - 2026-04</span></nav>
+    </header>
+    <main>
+        <h1>b welcome to Gas City - 2026-04</h1>
+        <p><a href="https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607" rel="noreferrer noopener" target="_blank">https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607</a>
+<a id="block-9948f54" class="block-anchor"></a></p>
+<p>SDK for building your own <a href="../sonst/dark%20artifact%20factory.html">dark artifact factory</a>.
+<a id="block-27fa73f" class="block-anchor"></a></p>
+<p>Gas City has deconstructed the entire Gas Town stack into composable, declarative building blocks called <a href="Term%20--%20pack.html">pack</a>s. You can use these to assemble arbitrary agent topologies, deploy them, sit back, and watch them work from a rich console. <em>(Or tmux, if that floats your boat. That still works in Gas City!)</em>
+:
+<a href="Term%20--%20Gas%20City.html">Gas City</a> is the supervisor plane that connects, manages, and coordinates these deployed mini-factories.
+<a id="block-1947dcc" class="block-anchor"></a></p>
+<p><a href="../sonst/project%20-%20Beads.html">project - Beads</a> all the way down, powered at the base of the stack by a unique git-versioned database called <a href="../sonst/project%20-%20dolt.html">project - dolt</a>.  Dolt was the magic that made our stack run smoothly.
+<a id="block-5bba3d0" class="block-anchor"></a></p>
+<p>Gas City doesn’t aim to solve all your problems. You will need to wire it to your own <a href="../sonst/agent%20sandbox.html">sandboxing</a>, MCP servers, and so on. But it provides you with a rock-solid and easy-to-use foundation to build on: one with a Discord community with thousands of active members.
+<a id="block-26f05de" class="block-anchor"></a></p>
+<p>A dark factory is any system in which coding agents are set up to work autonomously without humans watching. The name is frankly a little bit misleading. It just means background work. It’s only dark inside a dark factory because the work is happening in rooms where there are no humans present. But those rooms are allowed to have windows. Observability is a choice in dark factory design.
+...
+<a href="../sonst/dark%20factories%20have%20windows%20for%20observability.html">dark factories have windows for observability</a>
+<a id="block-28205af" class="block-anchor"></a></p>
+<p>So then is Claude Code a dark factory? The terminology here, with factories and harnesses and so on, is all evolving fast, so there aren’t any reliable definitions yet. But Claude Code did not start life as a dark factory, because you were generally supposed to watch it while it works. It’s making overtures in that direction with subagents and agent teams, but they keep the lights off intentionally, presumably because it’s a consumer-facing product and it keeps it simpler.
+:
+Gas City takes a different approach: all agent workers are equally visible and addressable. The lights are on. Normally for the ephemeral <a href="Term%20--%20Polecats.html">Polecat</a> workers, you don’t bother looking at them. But unlike with coding-agent subagents, if you want to talk to your polecats, you absolutely can.
+......
+<a href="../sonst/Is%20Claude%20Code%20a%20dark%20factory%3F.html">Is Claude Code a dark factory?</a> <a href="../sonst/dim%20-%20observability%20--%20higher.html">dim - observability -- higher</a>
+<a id="block-1faf42e" class="block-anchor"></a></p>
+<p>And so far, Gas City is the only dark factory that has been designed with the goal of creating other factories. The lights are 100% on when you’re working with the Mayor and Crew in Gas City, and you can dial them up as needed in the back rooms with the polecats and dogs. For this reason I have begun to think of Gas City as a Light Factory… or at least, a very well-lit dark one!
+<a id="block-2a5bba6" class="block-anchor"></a></p>
+<p>At first, dark factories were only used for writing code faster. They focused on the software development process, and basically replaced IDEs. And that’s still primarily how they are used today. I do see some shops making good headway into CI/CD pipelines and peripheral business processes. But dark factories are headed towards handling infrastructure, operations, and even core business processes.
+:
+Gas Town users soon realized that you could use Gas Town’s stack to create standalone orchestrators that had nothing to do with writing code. Gene Kim and I have talked to companies that are doing this, and I’ve also started myself. Running my online game Wyvern requires a bunch of routine maintenance that goes way beyond CI/CD.
+...
+<a href="../sonst/dark%20artifact%20factory.html">dark artifact factory</a>s
+<a id="block-e6d2713" class="block-anchor"></a></p>
+<p>In the very near future, devs will become shepherds, tending flocks of agents which do the ground-level work. It’s not really a manager job, because the workers are not humans; a coding agent’s cat doesn’t get sick and need to go to the vet in the middle of a sev-1 outage. But agentic workers do make human-like mistakes, and they respond well to being managed like people, by and large. They don’t need management. But they need guidance. Shepherding. Keeping-on-rails. That’s the new role for human builders and operators.
+<a id="block-671ea45" class="block-anchor"></a></p>
+<p>After you deploy your first real one, you officially have a garden you’re tending. A tiny crew of agents, acting like employees. Your little factory team runs 24x7, which requires maintenance. You now have to keep it running, manage upgrades and patches, rotate the logs, and of course make sure it’s doing its job. But you don’t have to do the work yourself anymore! So it’s still a huge automation improvement… as long as you can keep it reliable.
+...
+<a href="../ai/dim%20-%20reliability.html">dim - reliability</a>
+<a id="block-5a5326d" class="block-anchor"></a></p>
+<p>You should almost never deploy a single-agent pack for a real business process. The reality is that any agent can go temporarily insane, at any time, and make a bad call. No matter how smart they are. We know now that hallucinations and false memories and forgetting are baked mathematically into all memory systems; there’s no avoiding it. So you should never just have one coding agent managing a piece of infrastructure. Not even for a low-stakes part of your business. You should always have at least two or three working together on a little crew.
+...
+<a href="agent%20problem%20-%20a%20single%20agent%20by%20itself%20cannot%20be%20trusted%20to%20reliably%20perform%20its%20job.html">agent problem - a single agent by itself cannot be trusted to reliably perform its job</a>
+:
+This is exactly why <a href="../sonst/dark%20artifact%20factory.html">dark factories</a> are so attractive. With <a href="Term%20--%20Gas%20City.html">Gas City</a> you can build any sort of <a href="adversarial%20group%20structure.html">adversarial group structure</a> you like, for a team of collaborating agents. They can watch over each other. By catching each other’s mistakes, the agent group reaches a far more reliable consensus and outcomes than you can get from a single agent. That’s why we think of deployed orchestration as being fundamentally made of multi-agent teams: factories. Define your <a href="Term%20--%20pack.html">pack</a>, deploy it, et voila — you are officially on the path to being an AI-native shop.
+...
+This helps answer the question: <a href="../ai/what%20is%20an%20AI%20company%3F.html">what is an AI company?</a>
+<a id="block-848b989" class="block-anchor"></a></p>
+<p>For my game’s player custom-image uploader, images are submitted via a website form, so it starts with an agent that wakes up on a <a href="Term%20--%20Hook.html">hook</a> and does the work. Then a second agent checks the first agent’s work. Perhaps the first agent makes a recommendation, and the second agent takes action.
+<a id="block-e650635" class="block-anchor"></a></p>
+<p>A deployed <a href="Term%20--%20Gas%20City.html">Gas City</a> <a href="Term%20--%20pack.html">pack</a> is an <a href="../sonst/AI-native.html">AI-native</a> <a href="../sonst/business%20process%20automation.html">business process automation</a>. Once your pack is running, Gas City’s supervisor agent system will keep it going, even on remote machines.
+:
+At this point, with one deployment, you are officially at Level 9 on the AI Adoption Chart.
+<a id="block-35ac70d" class="block-anchor"></a></p>
+<p>Directly quote from this article in the levels 9-11 in <a href="../sonst/Steve%20Yegge's%20AI%20adoption%20Chart.html">Steve Yegge's AI adoption Chart</a>
+<a id="block-d303b85" class="block-anchor"></a></p>
+<p>Reliability, friends, is a dial. You choose where to set it. More rounds of review, more backstops, more guardrails, more judges, and you can get agentic workers to be as reliable as you need them to be, at least up to some practical ceiling. I wouldn’t use it in situations where you could physically hurt people, e.g. in medical or navigation systems. Not in 2026. But we’ll build our way there, like engineers do, over the next couple of years.
+...
+<a href="../ai/dim%20-%20reliability.html">dim - reliability</a> (yep, it&#39;s a dial)
+...
+<a href="../sonst/mechanisms%20for%20making%20agents%20more%20reliable.html">mechanisms for making agents more reliable</a>
+<a id="block-9e21fb1" class="block-anchor"></a></p>
+<p>SaaS is in kind of a funny position right now. If you look at the pyramid from the top, at the SalesForces of the world, it looks like they’re fine, they just need to pivot to make their SaaS sexy to agents. Benioff did that recently with SF, exposing the whole platform headless and API-first, in exactly that: a bid to make SalesForce sexy to agents. That’s the new game for SaaS.
+:
+People look up there and say, oh it’s gonna be just fine, those are <a href="../sonst/system%20of%20record.html">systems of record</a>, nobody’s going to reimplement them. Nobody wants to pay the tax of maintaining those systems for security, compliance, performance, scalability, etc. Right? This is just the new Buy vs Build.
+:
+<a href="../sonst/Saaspocalypse.html">Saaspocalypse</a> <a href="../mdpg_export/diff%20-%20buy%20vs.%20build.html">diff - buy vs. build</a>
+<a id="block-b486c94" class="block-anchor"></a></p>
+<p>Another interesting thing about SaaS is that it grows to become the superset of all the features for all its customers. Over time, most customers gradually recede to using 20% of the SaaS’s features, while subsidizing the remaining 80% for the other customers.
+...
+<a href="../sonst/Saaspocalypse.html">Saaspocalypse</a>
+<a id="block-dca405e" class="block-anchor"></a></p>
+<p>To replace SaaS, you need the unglamorous stuff: declarative deploys, audit trails, version history, identity, and a memory layer that survives the inevitable agent failures. Those are the primitives that make in-housing tractable.
+...
+Basically you need <a href="../ai/dim%20-%20reliability%20--%20high.html">dim - reliability -- high</a> and <a href="../sonst/dim%20-%20observability%20--%20high.html">dim - observability -- high</a>
+...
+This was what made Gas Town difficult to explain to non-technical people.  It really is like the <a href="../ai/Kubernetes.html">Kubernetes</a> of agents, but if you don&#39;t understand the value prop of Kubernetes, you won&#39;t get the value of Gas Town.  It&#39;s not that it&#39;s a factory that makes your software, it&#39;s that it&#39;s a reliable and observable <em>platform</em> for the factory that makes your software.
+<a id="block-756aa5f" class="block-anchor"></a></p>
+<p>Most other orchestrators I’ve seen have been able to be super high-ambition. Many lean heavily into the idea that agents, when put together, can just figure stuff out. And to a large extent, they can. But they are intentionally low-control systems. And when they fail, they go off-rails with no audit trail.
+...
+<a href="../sonst/dim%20-%20level%20of%20control%20--%20low.html">dim - level of control -- low</a>
+<a id="block-facb620" class="block-anchor"></a></p>
+<p>When you express all your work in the MEOW stack, as Beads and Epics (typically harvested from an upstream system like Obsidian), and your agent actions are all recorded in both a database and version history, you wind up with infinitely more control over the outcomes.
+...
+<a href="../sonst/obsidian.html">obsidian</a>
+<a id="block-d4f49ca" class="block-anchor"></a></p>
+<p>In enterprises, controlling the outcomes is the holy grail. So I personally wouldn’t use any other orchestrator I’ve seen. They don’t have the federatable, versioned, queryable memory system that Dolt provides. They don’t have MEOW.
+...
+<a href="../sonst/dim%20-%20observability%20--%20high.html">dim - observability -- high</a>
+<a id="block-9f88e54" class="block-anchor"></a></p>
+<p>Everyone is suffering from tool overload. There are too many tools out there, and nobody can keep up with all of them. My life is so simple in comparison. I never look deeply at any new technology until it reaches a pretty loud public signal threshold. And I almost never have to, because the Gas Town ecosystem has solved so many of my problems.
+...
+<a href="../sonst/those%20with%20a%20good%20understanding%20can%20rise%20above%20the%20noise.html">those with a good understanding can rise above the noise</a>
+<a id="block-1f4a93d" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../sonst/Steve%20Yegge's%20AI%20adoption%20Chart.html">Steve Yegge's AI adoption Chart</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>These steps are from <span class="highlight-do-not-link">b welcome to Gas City - 2026-04</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/Steve%20Yegge's%20AI%20adoption%20Chart.html#block-18d7a78"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sonst/considering%20dark%20software%20factories%20--%20changelog.html">considering dark software factories -- changelog</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">b welcome to Gas City - 2026-04</span>
+:
+<a href="../sonst/Is%20Claude%20Code%20a%20dark%20factory%3F.html">Is Claude Code a dark factory?</a> .  I hadn&#39;t thought of it that way, before, but with its use of <a href="../ai/subagent.html">subagent</a>s, perhaps yes!  And the darkness is a problem.  You want <a href="../sonst/dim%20-%20observability%20--%20higher.html">high observability</a>.  You want the lights on and you want windows so you can see what&#39;s going on!
+:
+<a href="../sonst/mechanisms%20for%20making%20agents%20more%20reliable.html">mechanisms for making agents more reliable</a>
+:
+Updated <a href="../sonst/Steve%20Yegge's%20AI%20adoption%20Chart.html">Steve Yegge's AI adoption Chart</a> to add several more levels.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/considering%20dark%20software%20factories%20--%20changelog.html#block-afe9aac"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

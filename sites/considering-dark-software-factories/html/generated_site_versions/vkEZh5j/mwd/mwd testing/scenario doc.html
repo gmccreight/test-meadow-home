@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scenario doc</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">scenario doc</span></nav>
+    </header>
+    <main>
+        <h1>scenario doc</h1>
+        <p>^ <a href="../../sonst/type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a> -- scenario doc
+<a id="block-93d182e" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>Scenario docs are TypeScript objects in the meadow codebase that implement a <code class="inline-code">ScenarioDoc</code> interface (id, name, description, slugPrefixes). They organize <a href="../../sonst/e2e%20test.html">e2e test</a>s by feature area — publishing, filters, frontier, call out, etc.
+<a id="block-872f7bb" class="block-anchor"></a></p>
+<p>Tests match to scenario docs via slug prefix matching. They live in <code class="inline-code">~/meadow/e2e-tests/src/scenario-docs/</code>.
+<a id="block-ac3eba9" class="block-anchor"></a></p>
+<p>The key observation: scenario docs are <strong>not markdown</strong>. They are structured, type-safe TypeScript. The <code class="inline-code">ScenarioDoc</code> interface enforces structure that free-form prose cannot — missing fields, invalid types, and inconsistencies are caught at compile time rather than by human review.
+<a id="block-7bbde51" class="block-anchor"></a></p>
+<p>This makes them a concrete, working example of a <a href="../../sonst/type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a>.
+<a id="block-cf37639" class="block-anchor"></a></p>
+<p>See also: <a href="../../ai/app%20specification.html">app specification</a>, <a href="../../sonst/executable%20requirements.html">executable requirements</a>
+<a id="block-f0f83f4" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../mwd development/example%20-%20screencast%20-%20videos%20filtered%20by%20scenario%20docs.html">example - screencast - videos filtered by scenario docs</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>^ <a href="../../sonst/example.html">example</a> - <a href="../../sonst/screencast.html">screencast</a> - <a href="meadow%20e2e%20tests%20--%20system%20test%20scenario%20video.html">meadow e2e tests -- system test scenario video</a> filtered by <span class="highlight-do-not-link">scenario doc</span>s</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../mwd development/example%20-%20screencast%20-%20videos%20filtered%20by%20scenario%20docs.html#block-4b9bff2"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/executable%20requirements.html">executable requirements</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">scenario doc</span>s are a small example: they are TypeScript that the test runner actually uses to organize and match <a href="../../sonst/e2e%20test.html">e2e test</a>s. The spec isn&#39;t separate from the system — it&#39;s part of it.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/executable%20requirements.html#block-31bf3e3"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Not sure I believe this anymore <a href="../../sonst/app%20specification%20will%20be%20done%20with%20agents%20and%20markdown.html">app specification will be done with agents and markdown</a>.  Given my recent work on <span class="highlight-do-not-link">scenario doc</span>s, I think perhaps a <a href="../../sonst/type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a> might make more sense.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html#block-5f941b6"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/type-safe%20specification%20-%202026-02.html">type-safe specification - 2026-02</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">scenario doc</span>s in meadow are a working example: TypeScript interfaces enforce structure that markdown can&#39;t. Fields must exist, types must match, and the compiler <em>quickly</em> catches inconsistencies before anyone reads the document.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/type-safe%20specification%20-%202026-02.html#block-6a51d44"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

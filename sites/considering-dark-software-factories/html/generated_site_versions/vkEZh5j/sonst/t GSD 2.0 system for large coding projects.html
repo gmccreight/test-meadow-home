@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t GSD 2.0 system for large coding projects</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20working%20area.html" class="breadcrumb-link">considering dark software factories -- working area</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">t GSD 2.0 system for large coding projects</span></nav>
+    </header>
+    <main>
+        <h1>t GSD 2.0 system for large coding projects</h1>
+        <p><a href="https://x.com/gsd_foundation/status/2030361888681239003?s=20" rel="noreferrer noopener" target="_blank">https://x.com/gsd_foundation/status/2030361888681239003?s=20</a>
+<a id="block-c44ea49" class="block-anchor"></a></p>
+<p>The rule: If you could write an if-else that handles it correctly every time, it must be deterministic code — not LLM reasoning. Every token the model spends on mechanical operations is a token wasted and a failure mode introduced.
+...
+<a href="determinism%20where%20possible.html">determinism where possible</a>
+<a id="block-026b610" class="block-anchor"></a></p>
+<p>Avoid <a href="../ai/context%20rot.html">context rot</a>
+<a id="block-a49cd1e" class="block-anchor"></a></p>
+<p><a href="agent%20task%20scope%20should%20be%20narrow.html">agent task scope should be narrow</a>
+<a id="block-596e69c" class="block-anchor"></a></p>
+<p>Before a task starts, the system pre-assembles everything the agent needs:</p>
+<ul>
+<li>The task plan (goal, steps, must-haves)</li>
+<li>Compressed summaries from dependency slices</li>
+<li>Milestone-level context and decisions</li>
+<li>Continue-here data if resuming interrupted work
+This is injected automatically. The agent never has to <code class="inline-code">grep</code> for project structure, <code class="inline-code">read</code> state files to figure out where it is, or search for what was built in prior slices. If it does, the <a href="context%20assembly.html">context assembly</a> is broken — that&#39;s a bug, not a workflow.
+:
+The goal is zero discovery calls. Every token the agent spends on &quot;where am I, what exists, what was decided&quot; is a token not spent on actual implementation.
+......
+This would let the agent stay in the <a href="context%20window%20zone%20--%20the%20smart%20zone.html">context window zone -- the smart zone</a> more easily.  But also this feels exactly like <a href="Claude%20Code's%20planning%2C%20then%20context%20clearing%2C%20then%20implementing.html">Claude Code's planning, then context clearing, then implementing</a>.  What&#39;s the difference?  <a href="determinism%20where%20possible.html">determinism where possible</a>... <em>maybe</em>?</li>
+</ul>
+<p><a id="block-943b898" class="block-anchor"></a></p>
+<p>One critical rule: never summarize summaries. Each summary level regenerates from the level below plus actual code state. A slice summary comes from task summaries, not from a compressed version of a prior slice summary. This prevents the compounding information loss you get when you keep compressing compressed text
+<a id="block-c94347b" class="block-anchor"></a></p>
+<p>The output is a <code class="inline-code">context.md</code> file — a structured record of every decision with your reasoning. This file gets injected into all downstream work: planning, execution, verification, everything. When the agent is implementing task 4 of slice 2, it still has your discuss-phase decisions in context. It doesn&#39;t re-debate them. It doesn&#39;t silently make a different choice because it forgot what you said. The decisions are locked and flow through the entire pipeline.
+...
+This feels like one or more <a href="documentation%20context%20graph%20--%20document.html">documentation context graph -- document</a>.  Cool thing is it auto-injects for hierarchically descendent work when you do <a href="decomposing%20work%20into%20narrowly%20scoped%20work.html">decomposing work into narrowly scoped work</a>
+<a id="block-43aedc8" class="block-anchor"></a></p>
+<p>Here&#39;s a question that should bother anyone using AI coding agents: when the agent says &quot;done,&quot; how do you actually know?
+:
+You can read the code. You can check that files exist. But for most people, the real question is: does it actually work the way I asked? Can I go use it and see the thing I was promised?
+:
+GSD generates this automatically. Every time a slice completes, the system produces a User Acceptance Test script — a human-readable document that tells you exactly how to verify what was built. Not as an afterthought. Not as something you have to ask for. It&#39;s baked into the completion flow. Finish a slice, get a test script.
+...
+<a href="User%20Acceptance%20Test%20-%20UAT.html">User Acceptance Test - UAT</a>
+<a id="block-cee3680" class="block-anchor"></a></p>
+<p>Reply says <a href="../ai/agent%20swarm.html">agent swarm</a>s were a hard problem but solved now
+<a id="block-c48f0a8" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="considering%20dark%20software%20factories%20--%20working%20area.html">considering dark software factories -- working area</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">t GSD 2.0 system for large coding projects</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="considering%20dark%20software%20factories%20--%20working%20area.html#block-f2a545e"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focusing on specification and verification in software development</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">focusing on specification and verification in software development</span></nav>
+    </header>
+    <main>
+        <h1>focusing on specification and verification in software development</h1>
+        <p>As <a href="../ai/agentic%20coding.html">agentic coding</a> improves, it is starting to write the majority of application code.  The bottleneck to launching new application features is becoming less about the time it takes to write the code, and more about people&#39;s ability to describe what they want, and to verify that the results are what they expected.  That process takes time, and has (so far) been mostly immune to AI automation.  As AI coding improves, a greater percentage of our time will be devoted to app specification and verification, so I think it makes sense to carefully consider how we can do it better.
+<a id="block-7098fae" class="block-anchor"></a></p>
+<h3>App Specification</h3>
+<p><a id="block-9fd2289" class="block-anchor"></a></p>
+<p><a href="../ai/person%20-%20Bret%20Taylor.html">person - Bret Taylor</a> and <a href="person%20-%20Michael%20Truell.html">person - Michael Truell</a> have talked about the <a href="future%20of%20code.html">future of code</a> having some kind of <a href="pseudo-code%20layer%20on%20top%20of%20the%20code.html">pseudo-code layer on top of the code</a>.  Some way of working at a <a href="../ai/dim%20-%20level%20of%20abstraction%20--%20high.html">high level of abstraction</a>.
+<a id="block-2a9ec07" class="block-anchor"></a></p>
+<p>One thing that might work is <a href="densely%20linked.html">densely linked</a> and carefully structured markdown files that align with the underlying code.
+<a id="block-907f658" class="block-anchor"></a></p>
+<p>It is pretty clear that the coding agents will also start to take over a larger portion of bulldozing the specification layer as well. To do that they need access to the specs, and to work effectively with a person there needs to be a very clear review mechanism. So, I think these high-level specifications will be treated a lot like code, and they will be pushed forward through conversations and simplifying lenses.
+<a id="block-6c21aa2" class="block-anchor"></a></p>
+<h3>App Verification</h3>
+<p><a id="block-cfe4fd4" class="block-anchor"></a></p>
+<p><em><strong>Rough notes that need to be cleaned up</strong></em>
+<a id="block-7614143" class="block-anchor"></a></p>
+<p>What to do about the combinatorial explosion?<br><a id="block-0e30ee6" class="block-anchor"></a></p>
+<p>modifying the <em>real</em> data in place (doesn&#39;t mock things)
+<a id="block-7408493" class="block-anchor"></a></p>
+<p>Selenium is problematic (slow, brittle, combinatorial explosion because so high-level)
+<a id="block-27261d0" class="block-anchor"></a></p>
+<p>I&#39;ve gone back and forth on the amount of test coverage that makes sense.  Especially in <a href="../ai/system%20test.html">system test</a>s you can have a <a href="../ai/combinatorial%20explosion.html">combinatorial explosion</a> of conditional cases.  With AI, it is easier to add tests, but if the tests aren&#39;t very carefully considered, then this is just another case where it is hard to manage the AI generated <em>test</em> code.  So I think the system tests are a <em>very</em> high leverage place to spend your time.
+...
+<a href="../ai/AI-enabled%20coding%20generates%20a%20huge%20amount%20of%20code.html">AI-enabled coding generates a huge amount of code</a>
+<a id="block-fe864cb" class="block-anchor"></a></p>
+<p>But also, <a href="../ai/vibe%20coding.html">vibe coding</a> has dramatically lowered the cost of <a href="custom%20developer%20tooling.html">custom developer tooling</a>, so building custom <a href="../mwd/mwd%20development/QA%20tooling.html">QA tooling</a> that is built to make exploring the space of application conditionals as <em>easy as possible</em> is important.
+<a id="block-d91eea2" class="block-anchor"></a></p>
+<p>It can also be very helpful to spend time and effort on seeing how <em>data</em> changes.
+<a id="block-3e54688" class="block-anchor"></a></p>
+<p>Find myself <a href="../mdpg_export/considering%20testing.html">considering testing</a> all over again.
+<a id="block-8d934d7" class="block-anchor"></a></p>
+<p>Strongly-typed languages help a lot, and the checking is really fast.
+<a id="block-103ef1d" class="block-anchor"></a></p>
+<p>Perhaps <a href="deterministic%20simulation.html">deterministic simulation</a> can help
+<a id="block-a02ca7b" class="block-anchor"></a></p>
+<p>Very carefully setting up example data that exercises edge cases clearly and can be loaded into the app.  This is part of QA tooling, too.
+:
+Given the care given to those examples, they should <em>also</em> power your <a href="../ai/system%20test.html">system test</a>s and perhaps also your <a href="unit%20test.html">unit test</a>s
+<a id="block-116fb3a" class="block-anchor"></a></p>
+<h3>Misc Ideas</h3>
+<p><a id="block-90caa9b" class="block-anchor"></a></p>
+<p>That thing where you should use objects for high level stuff and functional coding for low level stuff... AI is <em>great</em> at the functional low level stuff... but you should be defining your objects (or types)
+...
+Related to <a href="../mdpg_export/functional%20core%2C%20imperative%20shell.html">functional core, imperative shell</a>
+<a id="block-bdd9cc2" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="compound%20engineering%20practices.html">compound engineering practices</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><a href="v%20agents%20need%20more%20than%20chat%20-%202026-04.html">v agents need more than chat - 2026-04</a> <span class="highlight-do-not-link">focusing on specification and verification in software development</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="compound%20engineering%20practices.html#block-87c6d4c"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="meeting%20-%202026-04-29%20-%20Mike%20team%20meeting.html">meeting - 2026-04-29 - Mike team meeting</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><a href="v%20agents%20need%20more%20than%20chat%20-%202026-04.html">v agents need more than chat - 2026-04</a> <span class="highlight-do-not-link">focusing on specification and verification in software development</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="meeting%20-%202026-04-29%20-%20Mike%20team%20meeting.html#block-87c6d4c"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

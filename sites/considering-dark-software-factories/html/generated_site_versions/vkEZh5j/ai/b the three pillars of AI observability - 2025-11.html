@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b the three pillars of AI observability - 2025-11</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/site%20for%20jared%20-%20changelog.html" class="breadcrumb-link">site for jared - changelog</a><span class="breadcrumb-separator">→</span><a href="../sonst/review%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02-22.html" class="breadcrumb-link">review - Open AI harness blog post - 2026-02-22</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">b the three pillars of AI observability - 2025-11</span></nav>
+    </header>
+    <main>
+        <h1>b the three pillars of AI observability - 2025-11</h1>
+        <p><a href="https://www.braintrust.dev/blog/three-pillars-ai-observability" rel="noreferrer noopener" target="_blank">https://www.braintrust.dev/blog/three-pillars-ai-observability</a>
+<a id="block-ba22ada" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span>
+<a id="block-1aa3be5" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1" class="block-anchor"></a></p>
+<p>Probably <span class="link-not-tracked">link not tracked</span>
+<a id="block-e0cad6b" class="block-anchor"></a></p>
+<p>Classical app stacks are deterministic. You instrument code paths, emit metrics, capture logs, and (if needed) follow a trace to a root cause. AI systems are probabilistic and data‑coupled. The same input can produce different outputs. Quality depends on prompts, models, retrieval, tools, context length, and training data. Observability must therefore explain behavior and tie it to measurable outcomes, not just runtime health
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+<span class="link-not-tracked">link not tracked</span>
+<a id="block-0b5eb9f" class="block-anchor"></a></p>
+<p><a href="trace.html">trace</a>s: Reconstruct the full <span class="link-not-tracked">link not tracked</span> for a request, across <span class="link-not-tracked">link not tracked</span>s, <span class="link-not-tracked">link not tracked</span>, <span class="link-not-tracked">link not tracked</span>, and <span class="link-not-tracked">link not tracked</span>
+<a id="block-920dbe4" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>: Quantify performance, both in production (online) and in dev and CI (offline), to understand how well your application works and systematically improve it
+...
+<span class="link-not-tracked">link not tracked</span> (but not really <em>model</em> performance... more like <a href="compound%20system.html">compound system</a> performance)
+<a id="block-79202d6" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>: Create corrective signals for both your application and evaluators, to inject taste and ground results in user expectations.
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+Hmm... what is an <span class="link-not-tracked">link not tracked</span>?
+<a id="block-4c84119" class="block-anchor"></a></p>
+<h3>Pillars</h3>
+<p><a id="block-19e8e7b" class="block-anchor"></a></p>
+<h4>Pillar 1 - Traces</h4>
+<p><a id="block-7c7ac22" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>
+<a id="block-c4ab0f1-2" class="block-anchor"></a></p>
+<p>Traditionally, tracing helps you to understand performance bottlenecks: what functions or APIs are called, how long do they take, and how do they interleave. While this remains relevant in AI, the primary use case for tracing in AI is understanding what happened in the first place. Which tools were called, and why? What context did the LLM have while generating a strange output?
+<a id="block-2abc307" class="block-anchor"></a></p>
+<p>Users also don&#39;t want to jump between three disjointed experiences <span class="link-not-tracked">link not tracked</span> to create a full picture of user behavior, so in AI, these have collapsed into one thing: tracing
+...
+ <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> collapse into <a href="trace.html">trace</a>s
+<a id="block-5598d23" class="block-anchor"></a></p>
+<h4>Pillar 2 - Evals</h4>
+<p><a id="block-ec1593d" class="block-anchor"></a></p>
+<p><span class="link-not-tracked">link not tracked</span>ally improve your product
+<a id="block-7eb54d0" class="block-anchor"></a></p>
+<p>You can&#39;t stare at a prompt and know what&#39;s going to happen. AI systems are inherently non-deterministic, and therefore you must measure their behavior to know how they perform. This process is called &quot;evaluation&quot;, and you can do it both in production (&quot;online&quot;) and in dev and CI (&quot;offline&quot;).
+...
+The process is called <span class="link-not-tracked">link not tracked</span>.  <span class="link-not-tracked">link not tracked</span>  <span class="link-not-tracked">link not tracked</span>
+<a id="block-870ed0b" class="block-anchor"></a></p>
+<p>The core primitive of evaluation is <span class="link-not-tracked">link not tracked</span>. Scoring allows you to look at an entire agent interaction (<a href="trace.html">trace</a>) or turn (<span class="link-not-tracked">link not tracked</span>) and quantify it. Usually, this means producing a number (for example, how factually grounded is the answer?), but it can also be categorical (for example, what type of error is this?). The best teams use online evals to help them discover what to test in dev and CI.
+...
+<span class="link-not-tracked">link not tracked</span>
+<a id="block-75d7d7d" class="block-anchor"></a></p>
+<p>For example, if you discover that your agent is highly repetitive, you can write an evaluator to detect that case, and then capture a handful of real-world examples that you can test on your laptop. While testing, you should use <em>exactly the same</em> tracing that you run in production, and assess how the changes you make affect both the repetition score and other performance indicators that you track. Once you feel confident, you can ship a new iteration, and see how it affects production eval scores.
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+This <em>seems</em> to fly in the face of <a href="person%20-%20Hamel%20Husain.html">person - Hamel Husain</a>&#39;s suggestion <span class="link-not-tracked">link not tracked</span> unless they are actually suggesting a binary score
+<a id="block-c5b3fe2" class="block-anchor"></a></p>
+<h4>Pillar 3 - Annotation</h4>
+<p><a id="block-1e8cc64" class="block-anchor"></a></p>
+<p>In traditional observability, when you notice something is wrong, the next action to take is almost always to update code and try again. However, in AI, incorrect behavior often requires input from an expert (product manager, subject-matter expert, or even a user) who can clarify the behavior. The best workflows for annotation involve curating interesting examples that would benefit from annotation, flagging them for review, and then utilizing the annotated data in evals to improve performance.
+...
+<span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span> <span class="link-not-tracked">link not tracked</span>
+...
+<span class="link-not-tracked">link not tracked</span> to improve <span class="link-not-tracked">link not tracked</span>
+<a id="block-47c2a7f" class="block-anchor"></a></p>
+<p>Once again, this breaks core assumptions in traditional observability. First, traces must be mutable, so that you can save annotations and query them alongside other metadata. Supporting updates on traces at &quot;agent-scale&quot; makes the agent-tracing database problem even more challenging. Second, the users who annotate are rarely developers, and so they benefit from UIs that simplify the data they must annotate into its simplest components.
+...
+<span class="link-not-tracked">link not tracked</span> ... maybe they are <span class="link-not-tracked">link not tracked</span>s... that simplification of the tooling is one reason why <a href="person%20-%20Hamel%20Husain.html">person - Hamel Husain</a> suggests <span class="link-not-tracked">link not tracked</span>.  Because you can build for the other personas.  <span class="link-not-tracked">link not tracked</span>.  Also captured in the ideas that it <span class="link-not-tracked">link not tracked</span>
+<a id="block-e6b48fa" class="block-anchor"></a></p>
+<p>Once you capture annotations, you should save them into <span class="link-not-tracked">link not tracked</span>s which are the basis for <span class="link-not-tracked">link not tracked</span>s. Each time you want to make a change to your application, you should evaluate it against the datasets you&#39;ve accumulated to approximate its impact. Although people often use the term <span class="link-not-tracked">link not tracked</span>, we have seen a shift away from this concept in favor of a more fluid approach called &quot;dataset reconciliation&quot;, where the goal shifts to incrementally and frequently updating datasets to represent real-world behaviors, rather than commissioning one up front.
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+A move away from <span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span>.  <span class="link-not-tracked">link not tracked</span>
+<a id="block-6d02fb0" class="block-anchor"></a></p>
+<h3>Other stuff</h3>
+<p><a id="block-281a3d2" class="block-anchor"></a></p>
+<p>We&#39;ve built annotation tools directly into the trace viewer so product managers, domain experts, and other stakeholders can review traces, flag issues, correct outputs, and build datasets without getting lost in JSON or touching code. These annotations flow directly into your evaluation <span class="link-not-tracked">link not tracked</span>s, creating a continuous improvement loop that leverages expertise across your entire team.
+...
+<span class="link-not-tracked">link not tracked</span> 
+<a id="block-0d2ad59" class="block-anchor"></a></p>
+<p>If you&#39;re building AI that real customers rely on, you need to:</p>
+<ol>
+<li><strong>Trace everything</strong>. <span class="link-not-tracked">link not tracked</span>, and you can&#39;t measure what you can&#39;t see.</li>
+<li><strong>Run evals constantly</strong>. Both online (to catch regressions) and offline (to test improvements) x <span class="link-not-tracked">link not tracked</span></li>
+<li><strong>Build annotation into your workflow</strong>. The best AI systems improve over time by learning from expert feedback.</li>
+</ol>
+<p><a id="block-c3dc356" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../sonst/review%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02-22.html">review - Open AI harness blog post - 2026-02-22</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Codex works on a fully isolated version of that app—including its logs and metrics, which get torn down once that task is complete. Agents can query logs with LogQL and metrics with PromQL. With this context available, prompts like “ensure service startup completes in under 800ms” or “no span in these four critical user journeys exceeds two seconds” become tractable.
+...
+The part I missed was that the agent has specific tools that allow it to interact with the logs and metrics better than just reading the logs and metrics
+...
+Their emphasis on logs and metrics me think about <span class="highlight-do-not-link">b the three pillars of AI observability - 2025-11</span> and <a href="../sonst/b%20AI%20will%20make%20formal%20verification%20go%20mainstream.html">b AI will make formal verification go mainstream</a>.  It also makes me think about one of the specialized tools I wrote for meadow that is a essentially a <a href="../sonst/Terminal%20Ui%20-%20TUI.html">Terminal Ui - TUI</a> that ensures that everything gets cleanly committed as I use the app.  Like <a href="company%20-%20microsoft.html">company - microsoft</a></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/review%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02-22.html#block-6f13e96"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what is the &#x27;spec&#x27; in spec-driven development?</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">what is the 'spec' in spec-driven development?</span></nav>
+    </header>
+    <main>
+        <h1>what is the &#x27;spec&#x27; in spec-driven development?</h1>
+        <p>^ What is the &#39;spec&#39; in <a href="spec-driven%20development%20-%20SDD.html">spec-driven development - SDD</a>?
+<a id="block-6bafde4" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>First, let&#39;s agree that we&#39;re talking about specification of complex features, not one-off tasks.  Ok, good!
+<a id="block-dd2643c" class="block-anchor"></a></p>
+<h3>How much detail?</h3>
+<p><a id="block-f71e7e2" class="block-anchor"></a></p>
+<p>There&#39;s this trending notion that <a href="markdown%20is%20code.html">markdown is code</a> or maybe <a href="specs%20are%20code.html">specs are code</a>.  Indeed they <em>can</em> be, but <a href="markdown%20is%20code%20only%20when%20it%20is%20actually%20thinly%20veiled%20code.html">markdown is code only when it is actually thinly veiled code</a>, as described in <a href="b%20a%20sufficiently%20detailed%20spec%20is%20code.html">b a sufficiently detailed spec is code</a>.
+<a id="block-fc6b304" class="block-anchor"></a></p>
+<p><a href="../ai/what%20people%20mean%20when%20they%20say%20%22spec%22%20is%20unclear.html">what people mean when they say "spec" is unclear</a>, but I&#39;ll take a stab at a definition that <em>I</em> find useful, here.  It may warrant its own name, to disambiguate it from a generic &quot;spec&quot;, but for now I&#39;ll just roll with spec.  I don&#39;t find pre-describing specifications at that deep level of detail to be compelling for the systems that I am building.  Instead, I prefer my specs to be <a href="../ai/dim%20-%20level%20of%20abstraction%20--%20high.html">at a higher level of abstraction</a>.
+<a id="block-93d0eca" class="block-anchor"></a></p>
+<p>So, what&#39;s the right level of detail, then?  Perhaps something more akin to what has traditionally been in an ERD.  <a href="not%20every%20detail%20is%20described%20in%20an%20ERD.html">not every detail is described in an ERD</a>, but many key details are, and I find the level of detail that I&#39;ve seen in ERDs in the past to be quite compelling for guiding and driving agentic development.
+<a id="block-8ef5757" class="block-anchor"></a></p>
+<h3>Don&#39;t you need enough detail to drive development?</h3>
+<p><a id="block-4d9b943" class="block-anchor"></a></p>
+<p>Somewhere in the process, enough context needs to be given to the coding agent for it to successfully complete its work.  But I wonder whether the specs <em>need</em> to completely specify everything up-front so that a developer is completely out of the loop at implementation time?  That feels like <a href="Big%20Design%20Up%20Front%20-%20BDUF.html">Big Design Up Front - BDUF</a> with the primary aim being to feed a <a href="dark%20software%20factory.html">dark software factory</a> that can work without further developer involvement.  But, <a href="Just%20how%20dark%20do%20dark%20software%20factories%20need%20to%20be%3F.html">Just how dark do dark software factories need to be?</a>
+<a id="block-a00cba0" class="block-anchor"></a></p>
+<p>I think that question gets at the heart of the matter.  It&#39;s just not clear what specification actually <em>is</em>.  So far, in my experience doing agentic coding, a reasonable specification has been, essentially, durable and persistent <a href="Engineering%20Requirements%20Doc%20-%20ERD.html">ERD</a>-level artifacts that are decomposed into a <a href="documentation%20context%20graph.html">documentation context graph</a>.  Or, more specifically <a href="the%20'spec'%20part%20of%20a%20documentation%20context%20graph%20should%20be%20at%20a%20PRD%20and%20light%20ERD%20hybrid%20level.html">the 'spec' part of a documentation context graph should be at a PRD and light ERD hybrid level</a>
+<a id="block-a62b069" class="block-anchor"></a></p>
+<p>To actually complete the coding, I start with those specifications then do a more ephemeral, detailed, and interactive planning phase, then work iteratively with the agent to complete the actual coding.  When complete, that process <em>can</em> lead to some updates to the <a href="documentation%20context%20graph.html">documentation context graph</a> as a side-effect of the implementation process, but they tend to be pretty high-level updates.  Perhaps we came up with a better name for a folder, or added some additional high-level constraint.
+<a id="block-05df4ad" class="block-anchor"></a></p>
+<p>In that approach, the specs alone are clearly not enough.  <a href="the%20spec%2C%20the%20exact%20coding%20planning%20phase%2C%20and%20the%20code%20are%20all%20necessary%20context%20for%20development.html">the spec, the exact coding planning phase, and the code are all necessary context for development</a>
+<a id="block-73a027e" class="block-anchor"></a></p>
+<h3>Fire-and-forget tasks</h3>
+<p><a id="block-16bd310" class="block-anchor"></a></p>
+<p>Ok, we&#39;ve been describing complex features, but there are also fire-and-forget tasks, of course.
+<a id="block-e95eead" class="block-anchor"></a></p>
+<p>Those tasks are ideal candidates for a completely dark <a href="dark%20software%20factory.html">dark software factory</a>, and in that case the factory <em>still</em> benefits from the context combo of the ERD-like specification and all the code.  In traditional software development there are <em>a lot</em> of those kind of tasks, so being able to almost completely offload them is no small benefit!  But they need to be pretty bounded to be successful, and knowing what will work in that modality is a bit of a judgement call, still, so developers need to manually route things to that system.  Bug fixes, UI tweaks, performance enhancements are all reasonable candidate areas.
+<a id="block-6d8c105" class="block-anchor"></a></p>
+<h3>How to structure the specification</h3>
+<p><a id="block-d52e097" class="block-anchor"></a></p>
+<p>In the more traditional <a href="software%20development%20lifecycle%20-%20SDLC.html">software development lifecycle</a>, the ERD was a standalone document, though, with one or more references back to the <a href="Product%20Requirements%20Doc%20-%20PRD.html">PRD</a>.  It remained pretty static after the project kicked off, and frequently the code ultimately skewed from both the ERD and the PRD because <a href="implementation%20is%20a%20learning%20process.html">implementation is a learning process</a>.  That skew and the different audience frequently necessitated a completely new set of documentation to be written <em>after</em> the project completion.
+<a id="block-5f79ea5" class="block-anchor"></a></p>
+<p>I believe that a well factored <a href="documentation%20context%20graph.html">documentation context graph</a> is superior way to model that context, and that there are many advantages to storing that <a href="../sites/aes/practices/practice%20-%20context%20right%20in%20the%20repo.html">practice - context right in the repo</a>.  I think that specs for features should be a <a href="a%20PRD-ERD%20hybrid.html">a PRD-ERD hybrid</a> that should be deconstructed into a well-factored <a href="documentation%20context%20graph.html">documentation context graph</a> that can help orient the agents and the humans working with the system.  Basically, <a href="the%20'spec'%20part%20of%20a%20documentation%20context%20graph%20should%20be%20at%20a%20PRD%20and%20light%20ERD%20hybrid%20level.html">the 'spec' part of a documentation context graph should be at a PRD and light ERD hybrid level</a>.
+<a id="block-0bd93f1" class="block-anchor"></a></p>
+<p>If you need a <a href="linear%20narrative.html">linear narrative</a> (like perhaps for a project kickoff meeting) have an agent generate a purpose-specific one for you that you can merge with other project management considerations, like sequencing, milestones, etc in order to facilitate the communication in that meeting, but treat that as an ephemeral point-in-time artifact.
+<a id="block-ef1aede" class="block-anchor"></a></p>
+<p>Good ERDs re-motivate the problem at a high level, then point back to specific sections of the <a href="Product%20Requirements%20Doc%20-%20PRD.html">PRD</a> to motivate portions of the work.  In the <a href="traditional%20SDLC.html">traditional SDLC</a>, pointing to the &quot;why&quot; provided critical context to the team doing the actual implementation.  It allowed them to deviate from the ERD&#39;s plan more easily if a better approach to solving the underlying problem became clear while doing the implementation.  I believe that context is equally important for agentic implementation.
+<a id="block-c7bd6fb" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="considering%20dark%20software%20factories%20--%20changelog.html">considering dark software factories -- changelog</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>My thoughts on <span class="highlight-do-not-link">what is the &#39;spec&#39; in spec-driven development?</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="considering%20dark%20software%20factories%20--%20changelog.html#block-e73cfbe"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

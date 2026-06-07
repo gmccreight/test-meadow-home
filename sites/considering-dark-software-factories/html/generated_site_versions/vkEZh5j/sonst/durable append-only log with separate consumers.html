@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>durable append-only log with separate consumers</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><a href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html" class="breadcrumb-link">b Anthropic scaling managed agents 2026-04</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">durable append-only log with separate consumers</span></nav>
+    </header>
+    <main>
+        <h1>durable append-only log with separate consumers</h1>
+        <p>Like in <span class="link-not-tracked">link not tracked</span> or <span class="link-not-tracked">link not tracked</span>
+<a id="block-1a775ec" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html">b Anthropic scaling managed agents 2026-04</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Recovering from harness failure. The harness also became cattle. Because the session log sits outside the harness, nothing in the harness needs to survive a crash. When one fails, a new one can be rebooted with wake(sessionId), use getSession(id) to get back the event log, and resume from the last event. During the agent loop, the harness writes to the session with emitEvent(id, event) in order to keep a durable record of events.
+...
+<span class="highlight-do-not-link">durable append-only log with separate consumers</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html#block-2cb76ba"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks.
+:
+But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it.
+:
+In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action.
+:
+Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation.
+......
+<span class="highlight-do-not-link">durable append-only log with separate consumers</span>
+......
+This reminds me of how in <a href="../gt/Gas%20Town.html">Gas Town</a> <a href="../gt/Term%20--%20Seance.html">Term -- Seance</a> reaches back into the session log of an earlier session to read the exact contents when the <a href="../gt/Term%20--%20handoff.html">Term -- handoff</a> is fumbled.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="b%20Anthropic%20scaling%20managed%20agents%202026-04.html#block-7136070"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

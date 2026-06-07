@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Term -- Seance</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../sonst/considering%20dark%20software%20factories%20--%20changelog.html" class="breadcrumb-link">considering dark software factories -- changelog</a><span class="breadcrumb-separator">→</span><a href="../sonst/b%20Anthropic%20scaling%20managed%20agents%202026-04.html" class="breadcrumb-link">b Anthropic scaling managed agents 2026-04</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">Term -- Seance</span></nav>
+    </header>
+    <main>
+        <h1>Term -- Seance</h1>
+        <p>^ <a href="Term.html">Term</a> -- Seance
+<a id="block-ec3fff3" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p>When a <a href="Term%20--%20handoff.html">handoff</a> or <a href="Term%20--%20self-handoff.html">self-handoff</a> goes wrong, then a Seance may be required.
+<a id="block-dc55db5" class="block-anchor"></a></p>
+<p>It spins up Claude Code in a subprocess, uses <code class="inline-code">/resume</code> to revive the predecessor session, then asks it where the handoff materials are.
+<a id="block-aac9bb6" class="block-anchor"></a></p>
+<p>This is a solution for the problem: <a href="../sonst/agent%20problem%20-%20sometimes%20agents%20don't%20tie%20up%20their%20work%20properly%20at%20the%20end.html">agent problem - sometimes agents don't tie up their work properly at the end</a>
+<a id="block-8034166" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="Glossary.html">Glossary</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Description</th>
+<th>Kind</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><span class="highlight-do-not-link">Term -- Seance</span></td>
+<td>Recovery process when a <a href="Term%20--%20handoff.html">handoff</a> or <a href="Term%20--%20self-handoff.html">self-handoff</a> goes wrong</td>
+<td><a href="Concepts.html">concept</a></td>
+</tr>
+</tbody></table>
+
+                </div>
+                <a class="backlink-see-in-context" href="Glossary.html#block-124224d"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="Term%20--%20self-handoff.html">Term -- self-handoff</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>If this goes wrong, then a <span class="highlight-do-not-link">Term -- Seance</span> may be required.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="Term%20--%20self-handoff.html#block-d9de147"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../sonst/b%20Anthropic%20scaling%20managed%20agents%202026-04.html">b Anthropic scaling managed agents 2026-04</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Long-horizon tasks often exceed the length of Claude’s context window, and the standard ways to address this all involve irreversible decisions about what to keep. We’ve explored these techniques in prior work on context engineering. For example, compaction lets Claude save a summary of its context window and the memory tool lets Claude write context to files, enabling learning across sessions. This can be paired with context trimming, which selectively removes tokens such as old tool results or thinking blocks.
+:
+But irreversible decisions to selectively retain or discard context can lead to failures. It is difficult to know which tokens the future turns will need. If messages are transformed by a compaction step, the harness removes compacted messages from Claude’s context window, and these are recoverable only if they are stored. Prior work has explored ways to address this by storing context as an object that lives outside the context window. For example, context can be an object in a REPL that the LLM programmatically accesses by writing code to filter or slice it.
+:
+In Managed Agents, the session provides this same benefit, serving as a context object that lives outside Claude’s context window. But rather than be stored within the sandbox or REPL, context is durably stored in the session log. The interface, getEvents(), allows the brain to interrogate context by selecting positional slices of the event stream. The interface can be used flexibly, allowing the brain to pick up from wherever it last stopped reading, rewinding a few events before a specific moment to see the lead up, or rereading context before a specific action.
+:
+Any fetched events can also be transformed in the harness before being passed to Claude’s context window. These transformations can be whatever the harness encodes, including context organization to achieve a high prompt cache hit rate and context engineering. We separated the concerns of recoverable context storage in the session and arbitrary context management in the harness because we can’t predict what specific context engineering will be required in future models. The interfaces push that context management into the harness, and only guarantee that the session is durable and available for interrogation.
+......
+<a href="../sonst/durable%20append-only%20log%20with%20separate%20consumers.html">durable append-only log with separate consumers</a>
+......
+This reminds me of how in <a href="Gas%20Town.html">Gas Town</a> <span class="highlight-do-not-link">Term -- Seance</span> reaches back into the session log of an earlier session to read the exact contents when the <a href="Term%20--%20handoff.html">Term -- handoff</a> is fumbled.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../sonst/b%20Anthropic%20scaling%20managed%20agents%202026-04.html#block-7136070"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="spaced%20repetition%20prompts%20-%20blog%20section%208%20-%20Talking%20to%20your%20Dead%20Ancestors.html">spaced repetition prompts - blog section 8 - Talking to your Dead Ancestors</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>What problem does <span class="highlight-do-not-link">Term -- Seance</span> solve?
+?
+Workers often fail to properly hand off work to successors — the new worker spins up and can&#39;t find what the predecessor left. Manually finding the right old session among dozens was awkward and almost not worth it.</p>
+<!--GUID:984d3e012f2f2-->
+                </div>
+                <a class="backlink-see-in-context" href="spaced%20repetition%20prompts%20-%20blog%20section%208%20-%20Talking%20to%20your%20Dead%20Ancestors.html#block-8e04f50"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>What Claude Code feature does <span class="highlight-do-not-link">Term -- Seance</span> use under the hood?
+?
+<code>/resume</code>, which lets you restart old sessions that were killed.</p>
+<!--GUID:187136c6fa296-->
+                </div>
+                <a class="backlink-see-in-context" href="spaced%20repetition%20prompts%20-%20blog%20section%208%20-%20Talking%20to%20your%20Dead%20Ancestors.html#block-b9fb763"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>What does <span class="highlight-do-not-link">Term -- Seance</span> actually do when invoked?
+?
+It spins up Claude Code in a subprocess, uses <code>/resume</code> to revive the predecessor, and asks it where the handoff materials are.</p>
+<!--GUID:4f1e6929ce382-->
+                </div>
+                <a class="backlink-see-in-context" href="spaced%20repetition%20prompts%20-%20blog%20section%208%20-%20Talking%20to%20your%20Dead%20Ancestors.html#block-8362cd5"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

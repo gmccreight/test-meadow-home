@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book - A philosophy of software design</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="compound%20engineering%20practices.html" class="breadcrumb-link">compound engineering practices</a><span class="breadcrumb-separator">→</span><a href="v%20why%20software%20engineering%20fundamentals%20matter%20more%20with%20AI%20-%202026-04.html" class="breadcrumb-link">v why software engineering fundamentals matter more with AI - 2026-04</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">book - A philosophy of software design</span></nav>
+    </header>
+    <main>
+        <h1>book - A philosophy of software design</h1>
+        <p>page 11 in the conclusion: dependencies, and <span class="link-not-tracked">link not tracked</span> accumulate to cause complexity.  Complexity shows up as change amplification, high cognitive load and (the worst)... unknown unknowns.
+<a id="block-367dd85" class="block-anchor"></a></p>
+<p>Page 20 <a href="deep%20module.html">deep module</a> an interface should be much simpler than the underlying implementation
+<a id="block-4176a5b" class="block-anchor"></a></p>
+<p>Page 29 <a href="information%20hiding.html">information hiding</a>
+<a id="block-24cbd9c" class="block-anchor"></a></p>
+<p>Page 31 <a href="information%20leakage.html">information leakage</a> you can leak through a wide interface, or by two or more classes having information about something. He suggest that maybe you should move all of the functionality into one class in that case, making it, essentially a deeper module.
+...
+Related to <a href="do%20not%20repeat%20yourself%20-%20DRY.html">do not repeat yourself - DRY</a>
+<a id="block-aa50f1b" class="block-anchor"></a></p>
+<p>Page 34 <span class="link-not-tracked">link not tracked</span>
+<a id="block-c728951" class="block-anchor"></a></p>
+<p>Page 41 Arguing for <a href="somewhat%20general%20purpose%20interface.html">somewhat general purpose interface</a>s .  Shows specialist API with text class closely tied to UI leads to <a href="information%20leakage.html">information leakage</a> and when you change UI you also have to make changes to the text class.
+:
+Putting the backspace method in the text class was a <span class="link-not-tracked">link not tracked</span>.  Because the person working on the UI really wants to know exactly what happens when the backspace button is pressed. The fact that they need to go look It up in the text class is an <span class="link-not-tracked">link not tracked</span>
+<a id="block-63fec03" class="block-anchor"></a></p>
+<p>Page 48 separate general purpose and special purpose code. For example there&#39;s a history class for undo. That is a general purpose.  How to actually do undo is special purpose, and embedded in the text class.
+<a id="block-2159b75" class="block-anchor"></a></p>
+<p>Page 108 higher level comments are more difficult to write the lower level comments because you must think about the code in a different way. Ask yourself: what is the code trying to do? What is the simplest thing you can say that explains everything in the code? What is the most important thing about this code?
+...
+<a href="seems%20related.html">seems related</a> to <span class="link-not-tracked">link not tracked</span> but for <span class="link-not-tracked">link not tracked</span>
+<a id="block-0a8d5b3" class="block-anchor"></a></p>
+<p>Page 109 The first sentence is different: it explains (in high-level terms) why the code is executed. Comments of the form &quot;how do we get here&quot; are very helpful for helping people to understand the code.
+...
+<a href="seems%20related.html">seems related</a> to <span class="link-not-tracked">link not tracked</span> where it describes &quot;why was it done?&quot;
+<a id="block-c8b14ee" class="block-anchor"></a></p>
+<p>Page 134 writing comments first is how you arrive at the best design because it helps you identify good abstractions
+...
+<span class="link-not-tracked">link not tracked</span>
+...
+<a href="seems%20related.html">seems related</a> to <span class="link-not-tracked">link not tracked</span>
+<a id="block-073e608" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="v%20why%20software%20engineering%20fundamentals%20matter%20more%20with%20AI%20-%202026-04.html">v why software engineering fundamentals matter more with AI - 2026-04</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>At 2:10 <a href="../ai/highly%20recommended.html">highly recommended</a> <span class="highlight-do-not-link">book - A philosophy of software design</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="v%20why%20software%20engineering%20fundamentals%20matter%20more%20with%20AI%20-%202026-04.html#block-3500c30"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev tooling stress test</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">dev tooling stress test</span></nav>
+    </header>
+    <main>
+        <h1>dev tooling stress test</h1>
+        <p>This is a parallel stress test of the development tooling to ensure the apps in the worktrees are fully isolated from each other
+<a id="block-adef4bc" class="block-anchor"></a></p>
+<h3>Background</h3>
+<p><a id="block-ce30609" class="block-anchor"></a></p>
+<p><a href="../../sonst/git%20worktree.html">git worktree</a>  based <a href="../../sonst/parallel%20development.html">parallel development</a> is challenging.  The systems that run in each worktree need to be fully isolated (partitioned) from each other, despite running on the same physical machine.   This is true for development and also for testing.  In this document we focus primarily on testing.
+<a id="block-3befcd8" class="block-anchor"></a></p>
+<p>We have two types of testing.  Our <a href="../../sonst/check%20script.html">check script</a>s do linting and unit tests for the individual parts of the system.  They also invoke some straightforward integrated <a href="../../ai/system%20test.html">system test</a>s that involve a few parts of the system.  Then we also have our <a href="../mwd%20testing/meadow%20e2e%20tests.html">meadow e2e tests</a> that run <em>everything</em>: the full &quot;app&quot; code and also the interface with <a href="../../meadow-internal/meadow-cloud/meadow%20cloud%20--%20local.html">meadow cloud -- local</a> that act like remote services, but are local  (I could imagine a future version where we allow them to conditionally interface with <a href="../../meadow-internal/meadow-cloud/meadow%20cloud%20--%20remote%20--%20test.html">meadow cloud -- remote -- test</a> but probably from a serially-running <a href="../../ai/CI.html">CI</a> and not from a <a href="../../ai/dim%20-%20amount%20of%20parallelism%20--%20very%20high.html">dim - amount of parallelism -- very high</a> set of worktrees.
+<a id="block-83d7734" class="block-anchor"></a></p>
+<h3>stress testing parallel testing in multiple worktrees</h3>
+<p><a id="block-1eb64ba" class="block-anchor"></a></p>
+<p>To ensure that isolation between the worktrees works properly, we need have stress test tooling that creates multiple <a href="../../sonst/git%20worktree.html">git worktree</a>s and then (all at the same time), executes the <a href="../../sonst/check%20script.html">check script</a> <code class="inline-code">--e2e</code> and <code class="inline-code">--video</code> in each worktree.
+<a id="block-0c50963" class="block-anchor"></a></p>
+<p>The stress test is invoked directly from the <a href="root-level%20check%20script.html">root-level check script</a> as <code class="inline-code">./check --stress -n 5</code> (the number is optional and if omitted is 3)
+<a id="block-00e512a" class="block-anchor"></a></p>
+<h3>Reports work in parallel, too</h3>
+<p><a id="block-82ed282" class="block-anchor"></a></p>
+<p>Not only do the tests in the <a href="../../sonst/git%20worktree.html">git worktree</a> run in parallel and fully isolated from each other, but their <a href="../mwd%20testing/meadow%20e2e%20tests%20--%20test%20suite%20run%20report.html">meadow e2e tests -- test suite run report</a>s are, too. They are partitioned by both the time the report was generated (in the name of the folder... down to the second for a given run) and also by a short worktree identifier.
+<a id="block-f5ed060" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html">meeting - 2026-03-04 - chao</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p><span class="highlight-do-not-link">dev tooling stress test</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html#block-28c4c8a"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

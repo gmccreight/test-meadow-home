@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meadow cloud -- local</title>
+    <link rel="stylesheet" href="../../_mw_assets/style.5202d35d.css">
+    <script src="../../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../sonst/considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="../../sonst/meeting%20-%202026-03-04%20-%20chao.html" class="breadcrumb-link">meeting - 2026-03-04 - chao</a><span class="breadcrumb-separator">→</span><a href="../../sonst/example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html" class="breadcrumb-link">example - a code change that introduced cognitive debt</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">meadow cloud -- local</span></nav>
+    </header>
+    <main>
+        <h1>meadow cloud -- local</h1>
+        <p>^ <span class="link-not-tracked">link not tracked</span> -- local
+<a id="block-dfb1fe5" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="../../mwd/mwd development/dev%20tooling%20stress%20test.html">dev tooling stress test</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>We have two types of testing.  Our <a href="../../sonst/check%20script.html">check script</a>s do linting and unit tests for the individual parts of the system.  They also invoke some straightforward integrated <a href="../../ai/system%20test.html">system test</a>s that involve a few parts of the system.  Then we also have our <a href="../../mwd/mwd%20testing/meadow%20e2e%20tests.html">meadow e2e tests</a> that run <em>everything</em>: the full &quot;app&quot; code and also the interface with <span class="highlight-do-not-link">meadow cloud -- local</span> that act like remote services, but are local  (I could imagine a future version where we allow them to conditionally interface with <a href="meadow%20cloud%20--%20remote%20--%20test.html">meadow cloud -- remote -- test</a> but probably from a serially-running <a href="../../ai/CI.html">CI</a> and not from a <a href="../../ai/dim%20-%20amount%20of%20parallelism%20--%20very%20high.html">dim - amount of parallelism -- very high</a> set of worktrees.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../mwd/mwd development/dev%20tooling%20stress%20test.html#block-83d7734"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html">diff - meadow cloud -- local vs. meadow cloud -- remote</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>^ diff - <span class="highlight-do-not-link">meadow cloud -- local</span> vs. <span class="link-not-tracked">link not tracked</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html#block-3b58c01"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In <span class="highlight-do-not-link">meadow cloud -- local</span> we just sync the files directly to <a href="../../sonst/S3%20Local.html">S3 Local</a>, AKA <a href="../../sonst/project%20-%20MinIO.html">project - MinIO</a>
+:
+In <span class="link-not-tracked">link not tracked</span> the <a href="../../mwd/mwd%20misc/publisher.html">publisher</a> sends their <span class="link-not-tracked">link not tracked</span> to <span class="link-not-tracked">link not tracked</span> and in AWS, it gets an <a href="AWS/AWS%20STS%20-%20assumed%20role.html">AWS STS - assumed role</a>, then returns a set of <span class="link-not-tracked">link not tracked</span> to the <span class="link-not-tracked">link not tracked</span> that the <a href="../../mwd/mwd%20misc/publisher.html">publisher</a> uses to publish their site directly to <span class="link-not-tracked">link not tracked</span> (at <span class="link-not-tracked">link not tracked</span>)</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html#block-8d72bf7"><i>see in context</i></a>
+              </div>
+            
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>In <span class="highlight-do-not-link">meadow cloud -- local</span> we have a <span class="link-not-tracked">link not tracked</span> that the <span class="link-not-tracked">link not tracked</span> runs, which serves the files from <a href="../../sonst/project%20-%20MinIO.html">project - MinIO</a>
+:
+In <span class="link-not-tracked">link not tracked</span> we have <span class="link-not-tracked">link not tracked</span> which fronts <span class="link-not-tracked">link not tracked</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/diff%20-%20meadow%20cloud%20--%20local%20vs.%20meadow%20cloud%20--%20remote.html#block-2c961af"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="../../sonst/example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html">example - a code change that introduced cognitive debt</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>To support <a href="../../sonst/parallel%20development.html">parallel development</a> in <a href="../../sonst/git%20worktree.html">git worktree</a>s, we needed to add <span class="highlight-do-not-link">meadow cloud -- local</span>.</p>
+
+                </div>
+                <a class="backlink-see-in-context" href="../../sonst/example%20-%20a%20code%20change%20that%20introduced%20cognitive%20debt.html#block-b882a5c"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>

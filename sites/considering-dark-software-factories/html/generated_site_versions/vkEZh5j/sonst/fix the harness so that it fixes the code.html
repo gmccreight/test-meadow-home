@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fix the harness so that it fixes the code</title>
+    <link rel="stylesheet" href="../_mw_assets/style.5202d35d.css">
+    <script src="../_mw_assets/javascript.83e0f441.js"></script>
+</head>
+<body>
+    <header>
+        <div id="new-version-pointer" style="display:none"></div>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="considering%20dark%20software%20factories.html" class="breadcrumb-link">considering dark software factories</a><span class="breadcrumb-separator">→</span><a href="dark%20software%20factory%20--%20key%20media.html" class="breadcrumb-link">dark software factory -- key media</a><span class="breadcrumb-separator">→</span><a href="b%20OpenAI%20harness%20engineering%202026-02.html" class="breadcrumb-link">b OpenAI harness engineering 2026-02</a><span class="breadcrumb-separator">→</span><span class="breadcrumb-current">fix the harness so that it fixes the code</span></nav>
+    </header>
+    <main>
+        <h1>fix the harness so that it fixes the code</h1>
+        <p>^ fix the <a href="agent%20harness.html">agent harness</a> so that it fixes the <a href="code.html">code</a>
+<a id="block-f05a69a" class="block-anchor"></a></p>
+<hr>
+<p><a id="block-58b63e2" class="block-anchor"></a></p>
+<p><strong>fix the harness so that it fixes the code</strong> means treating bad <span class="link-not-tracked">link not tracked</span> as evidence of a missing capability in the <a href="agent%20harness.html">agent harness</a>, not as a one-off patch target.
+<a id="block-24d7a9a" class="block-anchor"></a></p>
+<p>When a <a href="../ai/agentic%20coding.html">coding agent</a> forgets a unit test, drifts architecturally, or misses a verification step, the durable fix is usually a <a href="mechanisms%20for%20making%20agents%20more%20reliable.html">mechanism</a>: a better prompt, <a href="agent%20skill.html">agent skill</a>, <a href="custom%20linting%20rule.html">custom linting rule</a>, <a href="validation%20script.html">validation script</a>, reviewer agent, CI check, or observability hook. The point is to convert the failure into a repeatable constraint or <a href="feedback%20loop.html">feedback loop</a> so future generated code improves automatically.
+<a id="block-da68fe7" class="block-anchor"></a></p>
+<p>This is a core implication of <a href="no%20human%20--%20coding.html">no human -- coding</a> and <a href="harness%20engineering.html">harness engineering</a>: human engineers move upstream from editing output to designing the environment that produces acceptable output.
+<a id="block-cbb9406" class="block-anchor"></a></p>
+<p>Related: <span class="link-not-tracked">link not tracked</span>, <span class="link-not-tracked">link not tracked</span>, <a href="../sites/aes/practices/practice%20-%20custom%20linting%20rules%20that%20inject%20in-repo%20documentation%20as%20context.html">practice - custom linting rules that inject in-repo documentation as context</a>
+<a id="block-4df7450" class="block-anchor"></a></p>
+
+    </main>
+    <footer>
+        <h2>Backlinks</h2>
+<ul>
+<li class="backlink"><a href="b%20OpenAI%20harness%20engineering%202026-02.html">b OpenAI harness engineering 2026-02</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <p>Because the only way to make progress was to get Codex to do the work, human engineers always stepped into the task and asked: “what capability is missing, and how do we make it both legible and enforceable for the agent?” X <span class="highlight-do-not-link">fix the harness so that it fixes the code</span></p>
+
+                </div>
+                <a class="backlink-see-in-context" href="b%20OpenAI%20harness%20engineering%202026-02.html#block-2f09211"><i>see in context</i></a>
+              </div>
+            </li>
+<li class="backlink"><a href="review%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02-22.html">review - Open AI harness blog post - 2026-02-22</a>
+              <div class="backlink-context-container">
+                <div class="backlink-context">
+                  <ul>
+<li>I was unclear on what &quot;enforceability&quot; meant.  I now think it means being able to run the gamut of <a href="validation%20script.html">validation script</a>s that are applied at every <a href="SDLC%20building%20block.html">SDLC building block</a><ul>
+<li>These validation scripts run as <a href="../sites/aes/practices/practice%20-%20background%20check.html">practice - background check</a>s</li>
+<li>Could be similar to <a href="behavioral%20guardrail.html">behavioral guardrail</a>s?</li>
+</ul>
+</li>
+<li>They put a lot of effort into automating their <a href="code%20review.html">code review</a>, including it basically having its own <a href="project%20-%20ralph%20wiggum.html">project - ralph wiggum</a> loop.</li>
+<li>It&#39;s not just <a href="no%20human%20--%20coding.html">no human -- coding</a>, <a href="no%20human%20--%20code%20review.html">no human -- code review</a>, and <a href="no%20human%20--%20app%20verification.html">no human -- app verification</a>.  Within things like coding, it&#39;s about not needing to give <em>any</em> feedback.  You shouldn&#39;t have to tell it &quot;hey, you forgot a unit test... please add and TDD&quot;.  That&#39;s far too involved, even if you aren&#39;t directly writing the code.  Instead you need to try force that into the automated process.  This is <span class="highlight-do-not-link">fix the harness so that it fixes the code</span>.  This feels like <a href="Kent%20Beck%20thought%20about%20what%20he%20did%20and%20distilled%20principles%20and%20practices%20into%20the%20Extreme%20Programming%20book.html">Kent Beck thought about what he did and distilled principles and practices into the Extreme Programming book</a>, but these guys are doing it for agents, instead</li>
+<li><a href="The%20onboarding%20a%20new%20teammate%20lens%20to%20agent%20context%20engineering.html">The onboarding a new teammate lens to agent context engineering</a>.  A <a href="Moc%20framing.html">Moc framing</a></li>
+</ul>
+
+                </div>
+                <a class="backlink-see-in-context" href="review%20-%20Open%20AI%20harness%20blog%20post%20-%202026-02-22.html#block-1a05d7e"><i>see in context</i></a>
+              </div>
+            </li>
+</ul>
+
+    </footer>
+</body>
+</html>
