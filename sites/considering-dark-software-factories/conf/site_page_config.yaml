@@ -4333,6 +4333,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: Stoked about MarkAgent and Meadow
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: storing all your company documentation in git
     tracked: true
   - fileType: md
