@@ -2986,6 +2986,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: meeting - 2026-04-29 - Mike team meeting
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: mental model drift
     tracked: true
   - fileType: md
