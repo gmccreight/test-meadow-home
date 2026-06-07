@@ -2605,6 +2605,11 @@ pages:
   - fileType: md
     listType: whitelist
     sourceGraphSubdirectory: sonst
+    title: jared chat 2026-05-15
+    tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
     title: jared walk 2026-05-27
     tracked: true
   - fileType: md
