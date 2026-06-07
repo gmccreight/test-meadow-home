@@ -4903,6 +4903,11 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: to remove - Agentic engineering practices - scorecard 2026-04
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: ai
     title: token budget
     tracked: true
