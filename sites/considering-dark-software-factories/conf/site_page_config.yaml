@@ -2604,6 +2604,11 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: jared walk 2026-05-27
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: ai
     title: JSON
     tracked: true
