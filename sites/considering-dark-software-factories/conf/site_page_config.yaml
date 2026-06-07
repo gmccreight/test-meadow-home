@@ -2803,6 +2803,11 @@ pages:
     sourceGraphSubdirectory: mwd/mwd app area/site/curation
     title: managing changes in the source graph structure over time
     tracked: true
+  - fileType: md
+    listType: whitelist
+    sourceGraphSubdirectory: sonst
+    title: MarkAgent
+    tracked: true
   - fileType: png
     listType: whitelist
     sourceGraphSubdirectory: sonst
