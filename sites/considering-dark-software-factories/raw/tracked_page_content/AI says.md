@@ -1,0 +1,1 @@
+For when I copy exactly what AI wrote into my notes (or paraphrase it without completely understanding it myself)

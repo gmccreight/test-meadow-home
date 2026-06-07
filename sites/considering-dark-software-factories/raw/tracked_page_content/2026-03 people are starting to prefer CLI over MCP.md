@@ -1,0 +1,1 @@
+^ people are starting to prefer [[command line interface - CLI]] over [[model context protocol - MCP]]

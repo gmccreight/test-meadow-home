@@ -1,0 +1,1 @@
+[[computer use]] of the browser type

@@ -1,0 +1,1 @@
+You can describe this desired state with a [[declarative specification]]

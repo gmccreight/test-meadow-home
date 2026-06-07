@@ -1,0 +1,6 @@
+^ keeping [[externally-generated material]] in your notes
+
+---
+
+Having something that was externally written feels like [[task delegation]].  Can I assume [[cognitive ownership]] over the material that was written?  Can I get [[dim - assimilation depth -- high]]?  Perhaps yes: [[how someone might reasonably keep externally-generated notes in their notes]]
+

@@ -1,0 +1,1 @@
+^ An AI with [[dim - model performance -- same]] as a [[human]], but [[dim - speed -- faster]] is [[Artificial Super Intelligence - ASI]]

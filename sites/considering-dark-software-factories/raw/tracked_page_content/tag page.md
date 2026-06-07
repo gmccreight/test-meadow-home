@@ -1,0 +1,1 @@
+Like [[AI says]] or [[seems related]].  Basically used the same as tags.

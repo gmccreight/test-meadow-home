@@ -1,0 +1,2 @@
+[[dim - number of agents]]
+
