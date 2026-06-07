@@ -4428,6 +4428,11 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: myhealth
+    title: supplement table -- 2026-03-09
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: sonst
     title: Symphony spec
     tracked: true
