@@ -2960,6 +2960,12 @@ pages:
     tracked: true
   - fileType: md
     listType: whitelist
+    sourceGraphSubdirectory: meadow-internal/misc
+    title: meadow-related recent changes in the environment and "why now" in early
+      2026?
+    tracked: true
+  - fileType: md
+    listType: whitelist
     sourceGraphSubdirectory: sonst
     title: mechanisms for making agents more reliable
     tracked: true
